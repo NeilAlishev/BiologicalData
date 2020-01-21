@@ -1,8 +1,0 @@
-# Jalview Launch File
-# Please install the Jalview Desktop and then try to open this file again
-jalview.apparg=-open
-jalview.apparg=http://www.uniprot.org/align/A20191121216DA2B77BFBD2E6699CA9B6D1C41EB205C5BCS.aln
-jalview.apparg=-features
-jalview.apparg=http://www.uniprot.org/uniprot/?query=job:A20191121216DA2B77BFBD2E6699CA9B6D1C41EB205C5BCS&sort=score&format=gff
-jalview.apparg=-tree
-jalview.apparg=http://www.uniprot.org/align/A20191121216DA2B77BFBD2E6699CA9B6D1C41EB205C5BCS.dnd
