@@ -1,0 +1,1722 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ../MSA_uniprot_model.hmm
+# target sequence database:        ./uniprotPF00018proteins.fasta
+# per-seq hits tabular output:     hmmsearch_results/MSA_uniprot_modelPF00018.hmmer_tblout
+# per-dom hits tabular output:     hmmsearch_results/MSA_uniprot_modelPF00018.hmmer_domtblout
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       MSA_uniprot_edited  [M=91]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+    2.3e-55  177.1  15.7    6.6e-12   37.8   0.3    5.7  5  sp|Q15811|ITSN1_HUMAN  Intersectin-1 OS=Homo sapiens OX=9606 
+    1.6e-54  174.4  13.5    5.3e-13   41.3   0.1    5.6  5  sp|Q9NZM3|ITSN2_HUMAN  Intersectin-2 OS=Homo sapiens OX=9606 
+    7.7e-53  169.0  21.2    2.1e-16   52.2   0.4    5.5  5  sp|Q5TCZ1|SPD2A_HUMAN  SH3 and PX domain-containing protein 2
+    1.2e-48  155.6  17.3    8.4e-16   50.3   0.9    4.8  4  sp|A1X283|SPD2B_HUMAN  SH3 and PX domain-containing protein 2
+    6.1e-48  153.3   0.0      4e-13   41.7   0.0    4.5  4  sp|Q7Z6J0|SH3R1_HUMAN  E3 ubiquitin-protein ligase SH3RF1 OS=
+    2.2e-46  148.3   0.0    9.1e-13   40.6   0.0    4.5  4  sp|Q8TEJ3|SH3R3_HUMAN  E3 ubiquitin-protein ligase SH3RF3 OS=
+    3.4e-42  134.9   0.0    2.3e-13   42.5   0.0    5.9  5  sp|Q5HYK7|SH319_HUMAN  SH3 domain-containing protein 19 OS=Ho
+    9.6e-40  127.0   0.0    2.5e-09   29.6   0.3    6.5  6  sp|Q6XZF7|DNMBP_HUMAN  Dynamin-binding protein OS=Homo sapien
+    6.7e-39  124.3   0.4    3.6e-16   51.5   0.1    4.1  3  sp|O94875|SRBS2_HUMAN  Sorbin and SH3 domain-containing prote
+    3.5e-37  118.8   0.1    4.6e-14   44.7   0.0    3.7  3  sp|O60504|VINEX_HUMAN  Vinexin OS=Homo sapiens OX=9606 GN=SOR
+    5.3e-37  118.2   1.7    5.7e-14   44.4   0.0    3.3  3  sp|P16333|NCK1_HUMAN   Cytoplasmic protein NCK1 OS=Homo sapie
+    1.7e-35  113.5   0.0    6.3e-13   41.1   0.0    4.3  3  sp|Q9BX66|SRBS1_HUMAN  Sorbin and SH3 domain-containing prote
+    3.2e-35  112.5   6.8    4.3e-14   44.8   0.0    3.9  3  sp|Q9Y5K6|CD2AP_HUMAN  CD2-associated protein OS=Homo sapiens
+    1.3e-33  107.4   2.6    6.6e-12   37.8   0.0    3.4  3  sp|O43639|NCK2_HUMAN   Cytoplasmic protein NCK2 OS=Homo sapie
+    1.9e-26   84.4   7.2      2e-18   58.7   0.2    3.2  2  sp|A8MVU1|NCF1C_HUMAN  Putative neutrophil cytosol factor 1C 
+    6.5e-26   82.7   6.1    1.5e-17   55.9   0.2    3.2  2  sp|P14598|NCF1_HUMAN   Neutrophil cytosol factor 1 OS=Homo sa
+    1.7e-25   81.4   7.1    1.6e-17   55.8   0.2    3.1  2  sp|A6NI72|NCF1B_HUMAN  Putative neutrophil cytosol factor 1B 
+    4.7e-25   80.0   0.0    4.7e-10   31.9   0.0    3.5  3  sp|Q8TEC5|SH3R2_HUMAN  E3 ubiquitin-protein ligase SH3RF2 OS=
+    3.4e-24   77.2   0.0    4.4e-12   38.4   0.0    2.2  2  sp|P62993|GRB2_HUMAN   Growth factor receptor-bound protein 2
+    2.6e-22   71.2   0.0    4.8e-11   35.1   0.0    2.2  2  sp|Q13588|GRAP_HUMAN   GRB2-related adapter protein OS=Homo s
+    3.1e-22   70.9   1.1    1.6e-11   36.6   0.0    2.9  3  sp|O75791|GRAP2_HUMAN  GRB2-related adapter protein 2 OS=Homo
+    3.6e-22   70.7   0.6    2.6e-15   48.7   0.1    2.4  2  sp|P15498|VAV_HUMAN    Proto-oncogene vav OS=Homo sapiens OX=
+    1.4e-21   68.8   0.0    1.1e-16   53.1   0.0    2.4  2  sp|P46109|CRKL_HUMAN   Crk-like protein OS=Homo sapiens OX=96
+    4.8e-21   67.1   0.0      1e-10   34.0   0.0    2.6  2  sp|P19878|NCF2_HUMAN   Neutrophil cytosol factor 2 OS=Homo sa
+    5.4e-20   63.7   0.2    6.6e-16   50.7   0.0    2.7  2  sp|P46108|CRK_HUMAN    Adapter molecule crk OS=Homo sapiens O
+    3.8e-18   57.8   0.1    1.1e-17   56.3   0.1    1.9  1  sp|Q12965|MYO1E_HUMAN  Unconventional myosin-Ie OS=Homo sapie
+    3.9e-18   57.8   0.0    2.5e-09   29.6   0.0    2.6  2  sp|O94868|FCSD2_HUMAN  F-BAR and double SH3 domains protein 2
+    3.7e-17   54.6   0.6      1e-16   53.2   0.6    1.7  1  sp|O15259|NPHP1_HUMAN  Nephrocystin-1 OS=Homo sapiens OX=9606
+      7e-17   53.8   0.0      2e-16   52.3   0.0    1.8  1  sp|Q5T0N5|FBP1L_HUMAN  Formin-binding protein 1-like OS=Homo 
+    1.8e-16   52.4   0.0    7.4e-13   40.9   0.0    2.6  2  sp|Q99469|STAC_HUMAN   SH3 and cysteine-rich domain-containin
+      2e-16   52.3   0.1    4.8e-16   51.1   0.1    1.5  1  sp|P12931|SRC_HUMAN    Proto-oncogene tyrosine-protein kinase
+      3e-16   51.7   0.0    4.8e-16   51.1   0.0    1.2  1  sp|Q92882|OSTF1_HUMAN  Osteoclast-stimulating factor 1 OS=Hom
+    2.1e-15   49.0   0.1    5.3e-15   47.8   0.1    1.6  1  sp|Q13813|SPTN1_HUMAN  Spectrin alpha chain, non-erythrocytic
+    3.6e-15   48.3   0.5    8.8e-15   47.0   0.5    1.6  1  sp|Q06187|BTK_HUMAN    Tyrosine-protein kinase BTK OS=Homo sa
+    5.5e-15   47.7   0.0    9.1e-08   24.6   0.0    2.3  2  sp|Q8NFA2|NOXO1_HUMAN  NADPH oxidase organizer 1 OS=Homo sapi
+    5.7e-15   47.6   0.1    1.4e-14   46.4   0.1    1.6  1  sp|P00519|ABL1_HUMAN   Tyrosine-protein kinase ABL1 OS=Homo s
+    1.5e-14   46.3   0.1    3.8e-14   45.0   0.1    1.6  1  sp|P42684|ABL2_HUMAN   Tyrosine-protein kinase ABL2 OS=Homo s
+    1.6e-14   46.2   0.2    3.3e-14   45.2   0.2    1.4  1  sp|P06241|FYN_HUMAN    Tyrosine-protein kinase Fyn OS=Homo sa
+    1.7e-14   46.2   0.1    3.3e-14   45.2   0.1    1.4  1  sp|P08631|HCK_HUMAN    Tyrosine-protein kinase HCK OS=Homo sa
+      2e-14   45.9   0.2    1.2e-13   43.4   0.1    2.4  1  sp|Q8N157|AHI1_HUMAN   Jouberin OS=Homo sapiens OX=9606 GN=AH
+    2.2e-14   45.8   0.2    4.8e-14   44.7   0.2    1.5  1  sp|P07947|YES_HUMAN    Tyrosine-protein kinase Yes OS=Homo sa
+    3.6e-14   45.1   0.0    3.6e-14   45.1   0.0    1.8  1  sp|Q9Y5X1|SNX9_HUMAN   Sorting nexin-9 OS=Homo sapiens OX=960
+    4.1e-14   44.9   0.3    8.4e-14   43.9   0.3    1.4  1  sp|P07948|LYN_HUMAN    Tyrosine-protein kinase Lyn OS=Homo sa
+    6.8e-14   44.2   0.8      9e-08   24.6   0.0    3.4  3  sp|Q96MF2|STAC3_HUMAN  SH3 and cysteine-rich domain-containin
+    8.6e-14   43.9   0.0    2.2e-13   42.5   0.0    1.7  1  sp|Q9UNF0|PACN2_HUMAN  Protein kinase C and casein kinase sub
+    1.3e-13   43.3   0.0    4.8e-13   41.5   0.0    2.0  1  sp|P02549|SPTA1_HUMAN  Spectrin alpha chain, erythrocytic 1 O
+    1.4e-13   43.2   0.1    2.8e-13   42.2   0.1    1.4  1  sp|P09769|FGR_HUMAN    Tyrosine-protein kinase Fgr OS=Homo sa
+    1.5e-13   43.1   0.0    3.9e-13   41.8   0.0    1.7  1  sp|Q9NZQ3|SPN90_HUMAN  NCK-interacting protein with SH3 domai
+    2.9e-13   42.2   0.0    9.8e-13   40.5   0.0    1.9  1  sp|Q92783|STAM1_HUMAN  Signal transducing adapter molecule 1 
+    4.3e-13   41.6   0.3    8.3e-13   40.7   0.3    1.4  1  sp|Q13882|PTK6_HUMAN   Protein-tyrosine kinase 6 OS=Homo sapi
+      5e-13   41.4   0.0      1e-12   40.4   0.0    1.5  1  sp|P51451|BLK_HUMAN    Tyrosine-protein kinase Blk OS=Homo sa
+    5.1e-13   41.4   0.0    9.8e-13   40.5   0.0    1.5  1  sp|Q99961|SH3G1_HUMAN  Endophilin-A2 OS=Homo sapiens OX=9606 
+    6.7e-13   41.0   0.1    1.9e-12   39.6   0.1    1.7  1  sp|P42680|TEC_HUMAN    Tyrosine-protein kinase Tec OS=Homo sa
+    8.1e-13   40.7   0.0    2.4e-12   39.2   0.0    1.9  1  sp|Q12929|EPS8_HUMAN   Epidermal growth factor receptor kinas
+    8.4e-13   40.7   0.0    2.2e-12   39.3   0.0    1.7  1  sp|O75886|STAM2_HUMAN  Signal transducing adapter molecule 2 
+    1.6e-12   39.8   0.1    3.1e-12   38.9   0.1    1.5  1  sp|P41240|CSK_HUMAN    Tyrosine-protein kinase CSK OS=Homo sa
+    1.7e-12   39.7   0.1    3.7e-12   38.6   0.1    1.5  1  sp|P19174|PLCG1_HUMAN  1-phosphatidylinositol 4,5-bisphosphat
+    2.7e-12   39.1   0.0    6.6e-12   37.8   0.0    1.6  1  sp|Q8TE67|ES8L3_HUMAN  Epidermal growth factor receptor kinas
+    5.8e-12   38.0   0.1    1.2e-11   37.0   0.1    1.5  1  sp|P16885|PLCG2_HUMAN  1-phosphatidylinositol 4,5-bisphosphat
+    7.6e-12   37.6   0.0    2.7e-11   35.8   0.0    2.0  1  sp|Q15642|CIP4_HUMAN   Cdc42-interacting protein 4 OS=Homo sa
+    8.1e-12   37.5   0.2    1.9e-11   36.3   0.2    1.6  1  sp|Q08881|ITK_HUMAN    Tyrosine-protein kinase ITK/TSK OS=Hom
+    9.8e-12   37.3   3.5    1.2e-11   37.0   0.2    3.0  1  sp|Q8IZP0|ABI1_HUMAN   Abl interactor 1 OS=Homo sapiens OX=96
+    1.1e-11   37.2   0.4    2.4e-11   36.0   0.4    1.5  1  sp|O43307|ARHG9_HUMAN  Rho guanine nucleotide exchange factor
+    1.1e-11   37.1   0.0    2.7e-11   35.8   0.0    1.6  1  sp|P42685|FRK_HUMAN    Tyrosine-protein kinase FRK OS=Homo sa
+    1.1e-11   37.1   0.0    3.3e-11   35.6   0.0    1.7  1  sp|Q8N5V2|NGEF_HUMAN   Ephexin-1 OS=Homo sapiens OX=9606 GN=N
+    1.2e-11   37.0   0.0    3.7e-08   25.8   0.0    2.4  2  sp|A1IGU5|ARH37_HUMAN  Rho guanine nucleotide exchange factor
+    1.3e-11   36.9   0.3    2.9e-11   35.8   0.3    1.5  1  sp|O75563|SKAP2_HUMAN  Src kinase-associated phosphoprotein 2
+    1.7e-11   36.5   0.0    1.4e-10   33.5   0.0    2.4  2  sp|P56945|BCAR1_HUMAN  Breast cancer anti-estrogen resistance
+    1.8e-11   36.4   0.0    2.9e-11   35.8   0.0    1.3  1  sp|Q8TC17|GRAPL_HUMAN  GRB2-related adapter protein-like OS=H
+    2.1e-11   36.2   0.5    4.7e-11   35.1   0.5    1.5  1  sp|Q96N96|SPT13_HUMAN  Spermatogenesis-associated protein 13 
+    2.6e-11   35.9   0.5    2.3e-10   32.9   0.0    2.8  1  sp|P14317|HCLS1_HUMAN  Hematopoietic lineage cell-specific pr
+      3e-11   35.7   0.0    7.6e-11   34.4   0.0    1.6  1  sp|P42681|TXK_HUMAN    Tyrosine-protein kinase TXK OS=Homo sa
+    5.4e-11   34.9   0.1    1.3e-10   33.7   0.1    1.7  1  sp|Q8TE68|ES8L1_HUMAN  Epidermal growth factor receptor kinas
+      6e-11   34.8   0.1    1.5e-10   33.5   0.1    1.6  1  sp|Q9H6S3|ES8L2_HUMAN  Epidermal growth factor receptor kinas
+    6.1e-11   34.7   0.1    2.5e-10   32.7   0.1    2.1  1  sp|Q13625|ASPP2_HUMAN  Apoptosis-stimulating of p53 protein 2
+      1e-10   34.0   0.1    2.3e-10   32.9   0.1    1.5  1  sp|Q9NR80|ARHG4_HUMAN  Rho guanine nucleotide exchange factor
+      1e-10   34.0   0.0    2.8e-10   32.6   0.0    1.6  1  sp|Q9BRR9|RHG09_HUMAN  Rho GTPase-activating protein 9 OS=Hom
+    1.1e-10   33.9   0.0    2.4e-10   32.8   0.0    1.5  1  sp|Q96HU1|SGSM3_HUMAN  Small G protein signaling modulator 3 
+    2.5e-10   32.8   0.0    4.5e-10   31.9   0.0    1.4  1  sp|P06239|LCK_HUMAN    Tyrosine-protein kinase Lck OS=Homo sa
+    2.5e-10   32.7   0.0      5e-10   31.8   0.0    1.4  1  sp|Q15080|NCF4_HUMAN   Neutrophil cytosol factor 4 OS=Homo sa
+    2.8e-10   32.6   0.0    6.6e-10   31.4   0.0    1.6  1  sp|Q96HL8|SH3Y1_HUMAN  SH3 domain-containing YSC84-like prote
+    6.4e-10   31.5   0.1    2.4e-09   29.6   0.1    2.0  1  sp|Q9H7D0|DOCK5_HUMAN  Dedicator of cytokinesis protein 5 OS=
+    9.8e-10   30.9   0.2    2.3e-09   29.6   0.2    1.6  1  sp|Q86WV1|SKAP1_HUMAN  Src kinase-associated phosphoprotein 1
+    3.6e-09   29.0   0.0    8.4e-09   27.9   0.0    1.6  1  sp|P98171|RHG04_HUMAN  Rho GTPase-activating protein 4 OS=Hom
+    4.5e-09   28.7   0.0    1.3e-08   27.3   0.0    1.7  1  sp|O75044|SRGP2_HUMAN  SLIT-ROBO Rho GTPase-activating protei
+    6.6e-09   28.2   0.0    1.8e-08   26.8   0.0    1.7  1  sp|Q7Z6B7|SRGP1_HUMAN  SLIT-ROBO Rho GTPase-activating protei
+    6.9e-09   28.2   0.1    1.8e-08   26.8   0.1    1.7  1  sp|P55345|ANM2_HUMAN   Protein arginine N-methyltransferase 2
+    1.1e-08   27.5   0.0    2.7e-08   26.3   0.0    1.6  1  sp|O43295|SRGP3_HUMAN  SLIT-ROBO Rho GTPase-activating protei
+    2.1e-08   26.6   0.0    4.3e-08   25.6   0.0    1.4  1  sp|P20936|RASA1_HUMAN  Ras GTPase-activating protein 1 OS=Hom
+    2.3e-08   26.5   0.0    6.5e-08   25.0   0.0    1.8  1  sp|Q9ULH1|ASAP1_HUMAN  Arf-GAP with SH3 domain, ANK repeat an
+    2.3e-06   20.0   0.0    4.6e-06   19.1   0.0    1.4  1  sp|P42679|MATK_HUMAN   Megakaryocyte-associated tyrosine-prot
+    1.2e-05   17.7   0.0    3.6e-05   16.2   0.0    1.8  1  sp|Q12959|DLG1_HUMAN   Disks large homolog 1 OS=Homo sapiens 
+    1.5e-05   17.4   0.0    2.7e-05   16.6   0.0    1.4  1  sp|Q9H6Q3|SLAP2_HUMAN  Src-like-adapter 2 OS=Homo sapiens OX=
+    1.9e-05   17.1   0.0    4.2e-05   16.0   0.0    1.5  1  sp|P78352|DLG4_HUMAN   Disks large homolog 4 OS=Homo sapiens 
+    5.3e-05   15.7   0.0    0.00013   14.5   0.0    1.6  1  sp|Q92796|DLG3_HUMAN   Disks large homolog 3 OS=Homo sapiens 
+    0.00034   13.1   0.3     0.0011   11.5   0.0    1.9  1  sp|Q8TF17|S3TC2_HUMAN  SH3 domain and tetratricopeptide repea
+
+
+Domain annotation for each sequence (and alignments):
+>> sp|Q15811|ITSN1_HUMAN  Intersectin-1 OS=Homo sapiens OX=9606 GN=ITSN1 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.8   0.3   6.3e-12   6.6e-12       4      85 ..     736     821 ..     733     826 .. 0.77
+   2 !   37.3   0.3   8.8e-12   9.3e-12      10      77 ..     915     978 ..     909     990 .. 0.82
+   3 !   36.7   0.1   1.4e-11   1.5e-11       2      72 ..     996    1062 ..     995    1077 .. 0.85
+   4 !   36.9   0.1   1.3e-11   1.3e-11      13      84 ..    1079    1152 ..    1070    1157 .. 0.78
+   5 !   36.5   0.2   1.6e-11   1.7e-11       6      71 ..    1153    1215 ..    1148    1224 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 37.8 bits;  conditional E-value: 6.3e-12
+     MSA_uniprot_edited   4 paakpkeptykAlYdFegssseseLplkkgdvvli.......lqkegnGWslakkldgskeGWvPtaYleevkesssapappapspaa 84 
+                            ++++ k  +y+AlY+Fe++s + e++++ gd+v++       +q+ + GW+ ++ +  +k+GW P++Y e++ e++ +++ ++ ++ +
+  sp|Q15811|ITSN1_HUMAN 736 AQENVKVVYYRALYPFESRS-HDEITIQPGDIVMVkgewvdeSQTGEPGWLGGELK--GKTGWFPANYAEKIPENEVPAPVKPVTDST 820
+                            567788899**********7.7************9433333335567799988886..59************9988877766666555 PP
+
+     MSA_uniprot_edited  85 a 85 
+                            +
+  sp|Q15811|ITSN1_HUMAN 821 S 821
+                            4 PP
+
+  == domain 2  score: 37.3 bits;  conditional E-value: 8.8e-12
+     MSA_uniprot_edited  10 eptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapap 77 
+                              +++AlY++  ++ +++L+++k+dv+++l++ ++ W++++ +   ++GW P++Y++ ++ +  ++++
+  sp|Q15811|ITSN1_HUMAN 915 GLQAQALYPWRAKK-DNHLNFNKNDVITVLEQ-QDMWWFGEVQG--QKGWFPKSYVKLISGPIRKSTS 978
+                            56899********7.7**************66.889*****965..9**********99987665554 PP
+
+  == domain 3  score: 36.7 bits;  conditional E-value: 1.4e-11
+     MSA_uniprot_edited    2 papaakpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkess 72  
+                             pa+++  + +++ A+Y +e+s+ ++ L++++gdv+l+++k +  W+ ++  d  k G  P++Y++  +++ 
+  sp|Q15811|ITSN1_HUMAN  996 PAAKPVVSGEEFIAMYTYESSE-QGDLTFQQGDVILVTKK-DGDWWTGTVGD--KAGVFPSNYVRLKDSEG 1062
+                             56677788999**********7.6**************77.667*****998..99********9776655 PP
+
+  == domain 4  score: 36.9 bits;  conditional E-value: 1.3e-11
+     MSA_uniprot_edited   13 ykAlYdFegssseseLplkkgdvvlilqkegnGWslakkld...gskeGWvPtaYleevkesssapappapspaa 84  
+                             ++++  ++ ++ +++L+l+ g+++li +k++ GW+ ++ +    +++ GW P++Y++ +++ +s+ +p++p++ +
+  sp|Q15811|ITSN1_HUMAN 1079 AQVIASYTATG-PEQLTLAPGQLILIRKKNPGGWWEGELQArgkKRQIGWFPANYVKLLSPGTSKITPTEPPKST 1152
+                             45556677776.799********************9998762214556************999887777766554 PP
+
+  == domain 5  score: 36.5 bits;  conditional E-value: 1.6e-11
+     MSA_uniprot_edited    6 akpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkes 71  
+                             a  +  ++  +Yd++ ++ + eL ++kg+++ +l+ke+  W+ ++ +   + G  P++Y++  ++ 
+  sp|Q15811|ITSN1_HUMAN 1153 ALAAVCQVIGMYDYTAQN-DDELAFNKGQIINVLNKEDPDWWKGEVNG--QVGLFPSNYVKLTTDM 1215
+                             55566778889******8.7************************9975..9*********987764 PP
+
+>> sp|Q9NZM3|ITSN2_HUMAN  Intersectin-2 OS=Homo sapiens OX=9606 GN=ITSN2 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.3   0.1   5.1e-13   5.3e-13       9      83 ..     758     831 ..     750     837 .. 0.84
+   2 !   30.6   0.2   1.2e-09   1.2e-09      11      80 ..     901     966 ..     894     977 .. 0.81
+   3 !   36.3   0.2   1.8e-11   1.9e-11       3      85 ..     976    1054 ..     974    1060 .. 0.84
+   4 !   35.6   0.1   3.1e-11   3.3e-11       9      77 ..    1056    1124 ..    1047    1133 .. 0.74
+   5 !   38.1   0.1   5.3e-12   5.6e-12      10      74 ..    1129    1190 ..    1121    1203 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 41.3 bits;  conditional E-value: 5.1e-13
+     MSA_uniprot_edited   9 keptykAlYdFegssseseLplkkgdvvlilqk..egnGWslakkldgskeGWvPtaYleevkesssapappapspa 83 
+                                y+AlY+Fe ++ + e++++ gd++ + +k   + GW+ ++ +   + GW P +Y+e++ +s++++a +++++ 
+  sp|Q9NZM3|ITSN2_HUMAN 758 VLVNYRALYPFEARN-HDEMSFNSGDIIQVDEKtvGEPGWLYGSFQG--NFGWFPCNYVEKMPSSENEKAVSPKKAL 831
+                            55689*********8.6***************987789*****9865..89***********999988877776654 PP
+
+  == domain 2  score: 30.6 bits;  conditional E-value: 1.2e-09
+     MSA_uniprot_edited  11 ptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappap 80 
+                             +++Al  ++ ++ +++L+++k d++++l++ ++ W++++      +GW P++Y++ +  s+ ++++p++
+  sp|Q9NZM3|ITSN2_HUMAN 901 LKAQALCSWTAKK-DNHLNFSKHDIITVLEQ-QENWWFGEVHG--GRGWFPKSYVKIIPGSEVKREEPEA 966
+                            5778899999997.7**************77.777*****976..68***********998877666544 PP
+
+  == domain 3  score: 36.3 bits;  conditional E-value: 1.8e-11
+     MSA_uniprot_edited    3 apaakpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappapspaaa 85  
+                              +aa +  ++y AlY++++ + ++ L++++g+ +l++qk+   W+ ++  d  ++G  P++Y++  +++s  +a+++ +++++
+  sp|Q9NZM3|ITSN2_HUMAN  976 TSAAYSVGEEYIALYPYSSVE-PGDLTFTEGEEILVTQKD-GEWWTGSIGD--RSGIFPSNYVKPKDQESFGSASKSGASNKK 1054
+                             5677788899*********96.9**************995.56*****998..89***********99988777766655544 PP
+
+  == domain 4  score: 35.6 bits;  conditional E-value: 3.1e-11
+     MSA_uniprot_edited    9 keptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkld...gskeGWvPtaYleevkesssapap 77  
+                             +    ++   ++ s+s ++L+l+ g+++lil+k+++GW+ ++ +    ++++GW P+++++ + +ss++++p
+  sp|Q9NZM3|ITSN2_HUMAN 1056 EIA--QVTSAYVASGS-EQLSLAPGQLILILKKNTSGWWQGELQArgkKRQKGWFPASHVKLLGPSSERATP 1124
+                             333..44445566764.89********************9987653226789**********9987776554 PP
+
+  == domain 5  score: 38.1 bits;  conditional E-value: 5.3e-12
+     MSA_uniprot_edited   10 eptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssa 74  
+                               ++ A+Yd++ ++ e eL+++kg+++ + +k++  W+ ++ +    +G  P++Y+++ ++s+++
+  sp|Q9NZM3|ITSN2_HUMAN 1129 VCQVIAMYDYAANN-EDELSFSKGQLINVMNKDDPDWWQGEING--VTGLFPSNYVKMTTDSDPS 1190
+                             56789********7.7*************************975..99*********99887654 PP
+
+>> sp|Q5TCZ1|SPD2A_HUMAN  SH3 and PX domain-containing protein 2A OS=Homo sapiens OX=9606 GN=SH3PXD2A PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.2   0.4     2e-16   2.1e-16       8      77 ..     166     232 ..     159     245 .. 0.84
+   2 !   38.9   0.2   2.9e-12     3e-12       6      76 ..     264     331 ..     260     340 .. 0.87
+   3 !   29.0   0.4   3.6e-09   3.8e-09       3      83 ..     443     520 ..     441     530 .. 0.80
+   4 !   30.5   0.3   1.2e-09   1.3e-09      20      85 ..     852     914 ..     839     920 .. 0.84
+   5 !   30.7   0.2   1.1e-09   1.1e-09      11      67 ..    1075    1131 ..    1069    1133 .] 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 52.2 bits;  conditional E-value: 2e-16
+     MSA_uniprot_edited   8 pkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapap 77 
+                               ++y ++ +++ ++ +seL+l++g+vv +++k+++GW+++++ +  ++GWvP++Yle+ + +++++  
+  sp|Q5TCZ1|SPD2A_HUMAN 166 MILEQYVVVSNYKKQE-NSELSLQAGEVVDVIEKNESGWWFVSTSE--EQGWVPATYLEAQNGTRDDSDI 232
+                            55678999999**997.6*************************976..9***********9987776554 PP
+
+  == domain 2  score: 38.9 bits;  conditional E-value: 2.9e-12
+     MSA_uniprot_edited   6 akpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapa 76 
+                            ++++e++y  + +++++s + e+ ++kg  v++++k+ +GW+  + l   keGW+P++Yl++ k++ ++++
+  sp|Q5TCZ1|SPD2A_HUMAN 264 QHSREEKYVTVQPYTSQS-KDEIGFEKGVTVEVIRKNLEGWWYIRYLG--KEGWAPASYLKKAKDDLPTRK 331
+                            6788999999*******7.7***************************7..9***********998765544 PP
+
+  == domain 3  score: 29.0 bits;  conditional E-value: 3.6e-09
+     MSA_uniprot_edited   3 apaakpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappapspa 83 
+                            +p++++ e +y  + +F++  s   ++++ g+  +++ k++ GW+ ++  +  keGW+P++Y+ + k+++ ++ +++ +++
+  sp|Q5TCZ1|SPD2A_HUMAN 443 PPEPPSVEVEYYTIAEFQSCIS-DGISFRGGQKAEVIDKNSGGWWYVQIGE--KEGWAPASYIDKRKKPNLSRRTSTLTRP 520
+                            5556666778888899999986.889**********************965..9************998877666555543 PP
+
+  == domain 4  score: 30.5 bits;  conditional E-value: 1.2e-09
+     MSA_uniprot_edited  20 egssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappapspaaa 85 
+                            +  + +se+++ +g  v +l+k+++GW+ ++  +   eGW+P+ Yl+  ++++++p+ ++ ++++a
+  sp|Q5TCZ1|SPD2A_HUMAN 852 QKVQ-DSEISFPAGVEVQVLEKQESGWWYVRFGE--LEGWAPSHYLVLDENEQPDPSGKELDTVPA 914
+                            5443.69************************965..9**********9999999888877776665 PP
+
+  == domain 5  score: 30.7 bits;  conditional E-value: 1.1e-09
+     MSA_uniprot_edited   11 ptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgsk..eGWvPtaYlee 67  
+                             + y  + d+eg++  ++  +++g  +++l+ ++nGW+ ++ ldg k  +GWvP++Yle+
+  sp|Q5TCZ1|SPD2A_HUMAN 1075 DVYVSIADYEGDE--ETAGFQEGVSMEVLERNPNGWWYCQILDGVKpfKGWVPSNYLEK 1131
+                             6788899****96..6889************************887669********97 PP
+
+>> sp|A1X283|SPD2B_HUMAN  SH3 and PX domain-containing protein 2B OS=Homo sapiens OX=9606 GN=SH3PXD2B PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.7   0.4   3.8e-13     4e-13      11      78 ..     155     219 ..     147     223 .. 0.86
+   2 !   50.3   0.9     8e-16   8.4e-16       7      81 ..     220     291 ..     215     297 .. 0.86
+   3 !   35.1   0.4   4.4e-11   4.6e-11       3      82 ..     363     439 ..     361     446 .. 0.86
+   4 !   38.3   0.2   4.4e-12   4.6e-12       7      66 ..     849     908 ..     843     910 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 41.7 bits;  conditional E-value: 3.8e-13
+     MSA_uniprot_edited  11 ptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapapp 78 
+                            ++y ++ +++ ++s se++l+ g+vv i++k+++GW+++++++  ++GWvP++ le  +  +++ + +
+  sp|A1X283|SPD2B_HUMAN 155 EQYVVVANYQKQES-SEISLSVGQVVDIIEKNESGWWFVSTAE--EQGWVPATCLEGQDGVQDEFSLQ 219
+                            6899999*****85.**************************98..9******9999888777766555 PP
+
+  == domain 2  score: 50.3 bits;  conditional E-value: 8e-16
+     MSA_uniprot_edited   7 kpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappaps 81 
+                            +++e++y ++Y+++ ++ + e++l++g vv+++qk+ +GW+  + +   keGW+P++Yl++ + ++ +p+p + s
+  sp|A1X283|SPD2B_HUMAN 220 PEEEEKYTVIYPYTARD-QDEMNLERGAVVEVIQKNLEGWWKIRYQG--KEGWAPASYLKKNSGEPLPPKPGPGS 291
+                            57899***********8.6*************************965..9***********99987766655544 PP
+
+  == domain 3  score: 35.1 bits;  conditional E-value: 4.4e-11
+     MSA_uniprot_edited   3 apaakpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappapsp 82 
+                            +p +++ e++y  + +F+ +  +  +++++g  v++++k+ +GW+  +  d  keGW+P++++ ++k++s+a+ p+  +p
+  sp|A1X283|SPD2B_HUMAN 363 PPIPPQVEEEYYTIAEFQTTI-PDGISFQAGLKVEVIEKNLSGWWYIQIED--KEGWAPATFIDKYKKTSNASRPNFLAP 439
+                            556677788899999****96.899************************99..9**************998887765555 PP
+
+  == domain 4  score: 38.3 bits;  conditional E-value: 4.4e-12
+     MSA_uniprot_edited   7 kpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldg..skeGWvPtaYle 66 
+                              k+  y A+ dFeg+++  + ++++g+v+++ +k+++GW++++ l+g  s eGW+P++Yl+
+  sp|A1X283|SPD2B_HUMAN 849 GLKDSLYVAVADFEGDKD--TSSFQEGTVFEVREKNSSGWWFCQVLSGapSWEGWIPSNYLR 908
+                            567889**********85..669*********************999634789*******97 PP
+
+>> sp|Q7Z6J0|SH3R1_HUMAN  E3 ubiquitin-protein ligase SH3RF1 OS=Homo sapiens OX=9606 GN=SH3RF1 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.1   0.0   5.2e-12   5.5e-12       7      75 ..     133     198 ..     127     201 .. 0.88
+   2 !   33.3   0.0   1.6e-10   1.7e-10       8      71 ..     196     260 ..     192     274 .. 0.83
+   3 !   41.7   0.0   3.8e-13     4e-13       7      81 ..     444     517 ..     439     525 .. 0.86
+   4 !   36.9   0.0   1.3e-11   1.3e-11      13      67 ..     834     887 ..     824     888 .] 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 38.1 bits;  conditional E-value: 5.2e-12
+     MSA_uniprot_edited   7 kpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssap 75 
+                             p+ p +kAlY++eg++ ++ L+++kgd++++ ++ ++ W  ++ +     G+ Pt++++ +k+ +++p
+  sp|Q7Z6J0|SH3R1_HUMAN 133 IPQLPCAKALYNYEGKE-PGDLKFSKGDIIILRRQVDENWYHGEVNG--IHGFFPTNFVQIIKPLPQPP 198
+                            588999**********7.9************************9975..89***********9866544 PP
+
+  == domain 2  score: 33.3 bits;  conditional E-value: 1.6e-10
+     MSA_uniprot_edited   8 pkeptykAlYdFe...gssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkes 71 
+                            +  p++kAlYdFe    + ++  Lp++k+dv+++++  ++ W+ +  +d  k G  P +Y+e  +++
+  sp|Q7Z6J0|SH3R1_HUMAN 196 QPPPQCKALYDFEvkdKEADKDCLPFAKDDVLTVIRRVDENWAEGMLAD--KIGIFPISYVEFNSAA 260
+                            5679*********5443444788*************************9..99********976654 PP
+
+  == domain 3  score: 41.7 bits;  conditional E-value: 3.8e-13
+     MSA_uniprot_edited   7 kpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappaps 81 
+                            + +   y A+Y+++ ++ e eL+l+kg+++l+ +  ++GW  ++++++sk G  P +Y++ v+ + +++++++ +
+  sp|Q7Z6J0|SH3R1_HUMAN 444 QTRPSVYVAIYPYTPRK-EDELELRKGEMFLVFERCQDGWFKGTSMHTSKIGVFPGNYVAPVTRAVTNASQAKVP 517
+                            5566789*********7.7*******************************************9977766555444 PP
+
+  == domain 4  score: 36.9 bits;  conditional E-value: 1.3e-11
+     MSA_uniprot_edited  13 ykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYlee 67 
+                            ++++  ++ +s e eL+lk+gd+v++++k ++GW  ++ + ++k+G  P +++e+
+  sp|Q7Z6J0|SH3R1_HUMAN 834 HRVVVSYPPQS-EAELELKEGDIVFVHKKREDGWFKGTLQRNGKTGLFPGSFVEN 887
+                            56667789996.7***************************************996 PP
+
+>> sp|Q8TEJ3|SH3R3_HUMAN  E3 ubiquitin-protein ligase SH3RF3 OS=Homo sapiens OX=9606 GN=SH3RF3 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.6   0.0   8.6e-13   9.1e-13       7      76 ..     193     259 ..     187     261 .. 0.87
+   2 !   28.5   0.0     5e-09   5.3e-09       9      80 ..     257     329 ..     252     339 .. 0.81
+   3 !   39.3   0.0   2.2e-12   2.3e-12       5      79 ..     461     534 ..     458     541 .. 0.87
+   4 !   35.8   0.0   2.7e-11   2.8e-11       9      66 ..     824     880 ..     817     882 .] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 40.6 bits;  conditional E-value: 8.6e-13
+     MSA_uniprot_edited   7 kpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapa 76 
+                            +   p+ kAlY +eg++ ++ L+++kgd++++ +k ++ W  ++     ++G++P++Y++ +++ ++ap+
+  sp|Q8TEJ3|SH3R3_HUMAN 193 PCLLPYGKALYSYEGKE-PGDLKFNKGDIIVLRRKVDEQWYHGELHG--TQGFLPASYIQCIQPLPHAPP 259
+                            5557889*********7.9*************************975..8************99776654 PP
+
+  == domain 2  score: 28.5 bits;  conditional E-value: 5e-09
+     MSA_uniprot_edited   9 keptykAlYdFe...gssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappap 80 
+                            + p+ kAlYdFe    ++++  L+++k++++++l+  ++ W+ +   d  k G  P  Y+e  +++++  +  +p
+  sp|Q8TEJ3|SH3R3_HUMAN 257 APPQGKALYDFEmkdKDQDKDCLTFTKDEILTVLRRVDENWAEGMLGD--KIGIFPLLYVELNDSAKQLIEMDKP 329
+                            56899*******6664445789***********************998..99*********99887765554444 PP
+
+  == domain 3  score: 39.3 bits;  conditional E-value: 2.2e-12
+     MSA_uniprot_edited   5 aakpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappa 79 
+                            + +   + y AlY ++ ++s  eL+l kg++  +l+k ++GW  + +l ++ +G  P +Y++ v+  ++  a p+
+  sp|Q8TEJ3|SH3R3_HUMAN 461 KVQLPLNVYLALYAYKPQKS-DELELHKGEMYRVLEKCQDGWFKGASLRTGVSGVFPGNYVTPVSRVPAGGAGPP 534
+                            55566789**********86.******************************************998776655554 PP
+
+  == domain 4  score: 35.8 bits;  conditional E-value: 2.7e-11
+     MSA_uniprot_edited   9 keptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYle 66 
+                             +++y+++  ++ +s e e++lk+gd+v++++k ++GW  ++ + ++++G  P +++e
+  sp|Q8TEJ3|SH3R3_HUMAN 824 PRERYRVVVSYPPQS-EAEIELKEGDIVFVHKKREDGWYKGTLQRNGRTGLFPGSFVE 880
+                            567899999*****6.7**************************************998 PP
+
+>> sp|Q5HYK7|SH319_HUMAN  SH3 domain-containing protein 19 OS=Homo sapiens OX=9606 GN=SH3D19 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.8   0.0     0.014     0.015      22      53 ..     428     459 ..     417     492 .. 0.83
+   2 !   23.5   0.0   1.8e-07   1.9e-07       6      68 ..     493     552 ..     485     562 .. 0.88
+   3 !   26.4   0.0   2.3e-08   2.4e-08       9      78 ..     572     638 ..     566     650 .. 0.84
+   4 !   27.1   0.0   1.4e-08   1.4e-08      12      73 ..     665     723 ..     655     731 .. 0.89
+   5 !   42.5   0.0   2.2e-13   2.3e-13       7      67 ..     729     786 ..     723     790 .] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 7.8 bits;  conditional E-value: 0.014
+     MSA_uniprot_edited  22 ssseseLplkkgdvvlilqkegnGWslakkld 53 
+                            s++++eL+ k+gdv+++l++ +n  + ++k +
+  sp|Q5HYK7|SH319_HUMAN 428 SQNPGELSCKRGDVLVMLKQTENNYLECQKGE 459
+                            4469****************999888777654 PP
+
+  == domain 2  score: 23.5 bits;  conditional E-value: 1.8e-07
+     MSA_uniprot_edited   6 akpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleev 68 
+                              +  p++ +l dF+ ++    L+l+ g++v++l+k +  W  ++  +  + G  P++Y++ +
+  sp|Q5HYK7|SH319_HUMAN 493 VDSGAPHAVVLHDFPAEQ-VDDLNLTSGEIVYLLEKIDTDWYRGNCRN--QIGIFPANYVKVI 552
+                            556679999********7.69***********************9987..89********976 PP
+
+  == domain 3  score: 26.4 bits;  conditional E-value: 2.3e-08
+     MSA_uniprot_edited   9 keptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapapp 78 
+                            k  ++ A +++ g++ + eL++++g+++++++  ++ W+ ++     ++G  P +++e v++ +++ a+ 
+  sp|Q5HYK7|SH319_HUMAN 572 KGSRCVARFEYIGEQ-KDELSFSEGEIIILKEYVNEEWARGEVRG--RTGIFPLNFVEPVEDYPTSGANV 638
+                            5678999*******7.6************************9865..9************9987766554 PP
+
+  == domain 4  score: 27.1 bits;  conditional E-value: 1.4e-08
+     MSA_uniprot_edited  12 tykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesss 73 
+                             ++Al  F+ ++s   L++k+gd + il+  ++ W+ ++ +d  +eG  P+ +++ + ++++
+  sp|Q5HYK7|SH319_HUMAN 665 WCEALHSFTAETS-DDLSFKRGDRIQILERLDSDWCRGRLQD--REGIFPAVFVRPCPAEAK 723
+                            689********86.99************************99..9***********988765 PP
+
+  == domain 5  score: 42.5 bits;  conditional E-value: 2.2e-13
+     MSA_uniprot_edited   7 kpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYlee 67 
+                             pk  ++kAlYdF g++ e eL++k+gd+++ l++ ++ W+ ++ +   k+G  P++Y++ 
+  sp|Q5HYK7|SH319_HUMAN 729 VPKGRKAKALYDFRGEN-EDELSFKAGDIITELESVDDDWMSGELMG--KSGIFPKNYIQF 786
+                            588899**********8.7**************************97..99********86 PP
+
+>> sp|Q6XZF7|DNMBP_HUMAN  Dynamin-binding protein OS=Homo sapiens OX=9606 GN=DNMBP PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.0   0.0   1.5e-08   1.6e-08      12      71 ..       6      62 ..       2      69 .. 0.90
+   2 !   16.4   0.0     3e-05   3.2e-05      11      76 ..      69     132 ..      62     145 .. 0.82
+   3 !   14.2   0.0   0.00015   0.00016      20      71 ..     157     205 ..     141     219 .. 0.81
+   4 !   24.1   0.0   1.2e-07   1.2e-07       8      77 ..     243     309 ..     237     320 .. 0.83
+   5 ?    6.8   0.0      0.03     0.032       6      78 ..    1283    1356 ..    1279    1367 .. 0.75
+   6 !   29.6   0.3   2.4e-09   2.5e-09       5      68 ..    1510    1574 ..    1506    1577 .] 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 27.0 bits;  conditional E-value: 1.5e-08
+     MSA_uniprot_edited 12 tykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkes 71
+                            ++A++dF  s s +eLpl  gd++++l   ++ W+l+kk d   +G  P++++e v+ +
+  sp|Q6XZF7|DNMBP_HUMAN  6 VVRAIFDFCPSVS-EELPLFVGDIIEVLAVVDEFWLLGKKED--VTGQFPSSFVEIVTIP 62
+                           689********86.**************************99..89*********98765 PP
+
+  == domain 2  score: 16.4 bits;  conditional E-value: 3e-05
+     MSA_uniprot_edited  11 ptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapa 76 
+                              + ++ +F++++   +Lpl +gd+v++    + GW+ +++   +++G+ P++ ++e+  ss++++
+  sp|Q6XZF7|DNMBP_HUMAN  69 RLFVCICEFTSQE-LDNLPLHRGDLVILDGIPTAGWLQGRSCW-GARGFFPSSCVRELCLSSQSRQ 132
+                            5677788999997.699************************98.79*******9999876655544 PP
+
+  == domain 3  score: 14.2 bits;  conditional E-value: 0.00015
+     MSA_uniprot_edited  20 egssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkes 71 
+                            + +  ++eL +++gdv++i+   + GW  ++    +++G  P+ ++e + + 
+  sp|Q6XZF7|DNMBP_HUMAN 157 SAQL-DEELDFREGDVITIIGVPEPGWFEGELE--GRRGIFPEGFVELLGPL 205
+                            5554.69************************96..59********9987665 PP
+
+  == domain 4  score: 24.1 bits;  conditional E-value: 1.2e-07
+     MSA_uniprot_edited   8 pkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapap 77 
+                            +   +  AlY F+  + ++eL ++ gd + il + ++GW+ ++ +   ++G  P  +++ + +++ +++ 
+  sp|Q6XZF7|DNMBP_HUMAN 243 EPGTYGVALYRFQALE-PNELDFEVGDKIRILATLEDGWLEGSLKG--RTGIFPYRFVKLCPDTRVEETM 309
+                            5556678********6.9************************9975..9***********9887765554 PP
+
+  == domain 5  score: 6.8 bits;  conditional E-value: 0.03
+     MSA_uniprot_edited    6 akpkeptykAlYdFegssseseLplkkgdvvlilqk.egnG...WslakkldgskeGWvPtaYleevkesssapapp 78  
+                             + p e+ ++A  +F+  + +  ++l +gd+v +++k ++ G    +l  +  g ++G+v +++l+ +++++s + ++
+  sp|Q6XZF7|DNMBP_HUMAN 1283 RYPPEKLFQAERNFNAAQ-DLDVSLLEGDLVGVIKKkDPMGsqnRWLIDN--GVTKGFVYSSFLKPYNPRRSHSDAS 1356
+                             6789999********997.69**********9888856655222344444..3479**********99988766554 PP
+
+  == domain 6  score: 29.6 bits;  conditional E-value: 2.4e-09
+     MSA_uniprot_edited    5 aakpkeptykAlYdFegssseseLplkkgdvvlilqk....egnGWslakkldgskeGWvPtaYleev 68  
+                             ++++ ++ y A+Y F+ ++ ++eL++++++ + il+      +  W+la+ +   k+G+vP++Y+++ 
+  sp|Q6XZF7|DNMBP_HUMAN 1510 SEAEGNQVYFAVYTFKARN-PNELSVSANQKLKILEFkdvtGNTEWWLAEVNG--KKGYVPSNYIRKT 1574
+                             56777899**********7.9*********999987422225678*****975..9*********986 PP
+
+>> sp|O94875|SRBS2_HUMAN  Sorbin and SH3 domain-containing protein 2 OS=Homo sapiens OX=9606 GN=SORBS2 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.5   0.1   3.5e-16   3.6e-16      10      84 ..     865     936 ..     857     940 .. 0.86
+   2 !   40.9   0.0   6.9e-13   7.2e-13       1      83 [.     931    1012 ..     930    1018 .. 0.87
+   3 !   29.9   0.0   1.8e-09   1.9e-09      13      67 ..    1046    1099 ..    1040    1100 .] 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 51.5 bits;  conditional E-value: 3.5e-16
+     MSA_uniprot_edited  10 eptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappapspaa 84 
+                            +  +kA+YdF+ ++s +eL++kkgd v+il+k ++ W  +++    + G  P +Y+e+++++++a+++ +p+pa+
+  sp|O94875|SRBS2_HUMAN 865 KLPAKAVYDFKAQTS-KELSFKKGDTVYILRKIDQNWYEGEHHG--RVGIFPISYVEKLTPPEKAQPARPPPPAQ 936
+                            44589********86.*************************965..9**************99988877777654 PP
+
+  == domain 2  score: 40.9 bits;  conditional E-value: 6.9e-13
+     MSA_uniprot_edited    1 ppapaakpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappapspa 83  
+                             pp+pa++ +  ++ A Y+F+ ++ + eL+l+kgd v++l+  ++ W  +k   ++++G  P +Y+e vk++++ ++  + +p 
+  sp|O94875|SRBS2_HUMAN  931 PPPPAQPGEIGEAIAKYNFNADT-NVELSLRKGDRVILLKRVDQNWYEGKIPGTNRQGIFPVSYVEVVKKNTKGAEDYPDPPI 1012
+                             56677777888999********8.6********************************************98887666555554 PP
+
+  == domain 3  score: 29.9 bits;  conditional E-value: 1.8e-09
+     MSA_uniprot_edited   13 ykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYlee 67  
+                             ++AlY+++ ++ e eL+l++ dv+ + +k ++GW ++++  ++  G  P +Y++ 
+  sp|O94875|SRBS2_HUMAN 1046 FQALYNYTPRN-EDELELRESDVIDVMEKCDDGWFVGTSRRTKFFGTFPGNYVKR 1099
+                             89********8.7***************************************985 PP
+
+>> sp|O60504|VINEX_HUMAN  Vinexin OS=Homo sapiens OX=9606 GN=SORBS3 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.7   0.0   4.4e-14   4.6e-14       2      81 ..     374     450 ..     373     457 .. 0.86
+   2 !   32.7   0.0   2.6e-10   2.7e-10      12      71 ..     458     516 ..     447     534 .. 0.88
+   3 !   37.6   0.0   7.1e-12   7.5e-12       5      67 ..     609     670 ..     605     671 .] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 44.7 bits;  conditional E-value: 4.4e-14
+     MSA_uniprot_edited   2 papaakpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappaps 81 
+                            pa+ +++k++ ++  +dF+ +s ++eL+l+kgd+v+i+++ ++ W+ +++    + G  P++Y+e + +++ +++ ++p+
+  sp|O60504|VINEX_HUMAN 374 PARREEKKRKAARLKFDFQAQS-PKELTLQKGDIVYIHKEVDKNWLEGEHHG--RLGIFPANYVEVLPADEIPKPIKPPT 450
+                            567788899999999******6.9*************************965..9**********998877665555544 PP
+
+  == domain 2  score: 32.7 bits;  conditional E-value: 2.6e-10
+     MSA_uniprot_edited  12 tykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkes 71 
+                            ++ A Y F+g+  e eL+++kg+ + +++k ++ W  ++   ++++G  P++Y++  +e+
+  sp|O60504|VINEX_HUMAN 458 EAVAQYTFKGDL-EVELSFRKGEHICLIRKVNENWYEGRITGTGRQGIFPASYVQVSREP 516
+                            6789*******7.7****************************************987765 PP
+
+  == domain 3  score: 37.6 bits;  conditional E-value: 7.1e-12
+     MSA_uniprot_edited   5 aakpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYlee 67 
+                             ++  +  y+A+Y +  ++ e eL+l++gd v + q+ ++GW ++ +  ++k G  P +Y++ 
+  sp|O60504|VINEX_HUMAN 609 TSQIHWTPYRAMYQYRPQN-EDELELREGDRVDVMQQCDDGWFVGVSRRTQKFGTFPGNYVAP 670
+                            56778899**********8.7***************************************986 PP
+
+>> sp|P16333|NCK1_HUMAN  Cytoplasmic protein NCK1 OS=Homo sapiens OX=9606 GN=NCK1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.6   0.1   1.5e-11   1.6e-11      11      75 ..       5      66 ..       1      76 [. 0.85
+   2 !   34.9   0.1   5.2e-11   5.4e-11      17      71 ..     115     166 ..     107     181 .. 0.85
+   3 !   44.4   0.0   5.4e-14   5.7e-14      11      83 ..     193     265 ..     185     272 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 36.6 bits;  conditional E-value: 1.5e-11
+    MSA_uniprot_edited 11 ptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssap 75
+                            + A +d++ ++ e+eL +kk++ + +l ++++ W+ +++   +k+G+vP++Y+e  +++++a+
+  sp|P16333|NCK1_HUMAN  5 VVVVAKFDYVAQQ-EQELDIKKNERLWLL-DDSKSWWRVRNSM-NKTGFVPSNYVERKNSARKAS 66
+                          56789*******7.7**************.67999******98.89**********988877655 PP
+
+  == domain 2  score: 34.9 bits;  conditional E-value: 5.2e-11
+    MSA_uniprot_edited  17 YdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkes 71 
+                           +++  +  e eL+l kg+ v++ +k ++GW+ ++ +   + GW P++Y++e  +s
+  sp|P16333|NCK1_HUMAN 115 FNYMAER-EDELSLIKGTKVIVMEKCSDGWWRGSYNG--QVGWFPSNYVTEEGDS 166
+                           5666675.79***********************9975..9*********998665 PP
+
+  == domain 3  score: 44.4 bits;  conditional E-value: 5.4e-14
+    MSA_uniprot_edited  11 ptykAlYdFegssseseLplkkgdvvlilqk..egnGWslakkldgskeGWvPtaYleevkesssapappapspa 83 
+                           + ++AlY+F++s+ ++eL+++kgdv+ +++k  ++  W+ ++k + +  G vP++Y++ +++++ ++  ++++p+
+  sp|P16333|NCK1_HUMAN 193 HVVQALYPFSSSN-DEELNFEKGDVMDVIEKpeNDPEWWKCRKIN-GMVGLVPKNYVTVMQNNPLTSGLEPSPPQ 265
+                           6789********7.7***************9634447*******9.78************999888777776665 PP
+
+>> sp|Q9BX66|SRBS1_HUMAN  Sorbin and SH3 domain-containing protein 1 OS=Homo sapiens OX=9606 GN=SORBS1 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.1   0.0     6e-13   6.3e-13      11      81 ..     796     862 ..     787     870 .. 0.84
+   2 !   30.4   0.0   1.3e-09   1.4e-09      13      72 ..     872     930 ..     863     946 .. 0.89
+   3 !   36.5   0.0   1.6e-11   1.7e-11       6      67 ..    1229    1289 ..    1224    1291 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 41.1 bits;  conditional E-value: 6e-13
+     MSA_uniprot_edited  11 ptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappaps 81 
+                              ++A +dF+ ++  +eLpl+kgd+v+i ++ ++ W  +++    + G  P +Y+e + ++++a+++ + +
+  sp|Q9BX66|SRBS1_HUMAN 796 RPARAKFDFKAQT-LKELPLQKGDIVYIYKQIDQNWYEGEHHG--RVGIFPRTYIELLPPAEKAQPK-KLT 862
+                            5689********8.6*************************965..9************987776544.443 PP
+
+  == domain 2  score: 30.4 bits;  conditional E-value: 1.3e-09
+     MSA_uniprot_edited  13 ykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkess 72 
+                            + A ++F+g++ + e++++kg+ +++l++ ++ W  ++   +s++G  P +Y+  +k + 
+  sp|Q9BX66|SRBS1_HUMAN 872 AIAKFNFNGDT-QVEMSFRKGERITLLRQVDENWYEGRIPGTSRQGIFPITYVDVIKRPL 930
+                            6799******8.6****************************************9998764 PP
+
+  == domain 3  score: 36.5 bits;  conditional E-value: 1.6e-11
+     MSA_uniprot_edited    6 akpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYlee 67  
+                             +++    y+AlY +  ++ + eL+l+ gd+v + +k ++GW ++++  +++ G  P +Y++ 
+  sp|Q9BX66|SRBS1_HUMAN 1229 TSQDLFSYQALYSYIPQN-DDELELRDGDIVDVMEKCDDGWFVGTSRRTKQFGTFPGNYVKP 1289
+                             5566778**********8.7****************************************86 PP
+
+>> sp|Q9Y5K6|CD2AP_HUMAN  CD2-associated protein OS=Homo sapiens OX=9606 GN=CD2AP PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.3   0.0     3e-09   3.1e-09      13      74 ..       4      63 ..       2      76 .. 0.86
+   2 !   44.8   0.0   4.1e-14   4.3e-14       5      81 ..     105     178 ..     101     185 .. 0.88
+   3 !   40.1   0.1   1.2e-12   1.2e-12       9      86 ..     270     346 ..     264     352 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 29.3 bits;  conditional E-value: 3e-09
+     MSA_uniprot_edited 13 ykAlYdFegssseseLplkkgdvvlilqk.egnGWslakkldgskeGWvPtaYleevkesssa 74
+                           y + Yd++  + + eL+++ g+++  ++k +++GW+ ++ +   ++G  P ++++e+k +++ 
+  sp|Q9Y5K6|CD2AP_HUMAN  4 YIVEYDYDAVH-DDELTIRVGEIIRNVKKlQEEGWLEGELNG--RRGMFPDNFVKEIKRETEF 63
+                           6688******7.7************99999*********975..9************997754 PP
+
+  == domain 2  score: 44.8 bits;  conditional E-value: 4.1e-14
+     MSA_uniprot_edited   5 aakpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappaps 81 
+                            ++k k+ ++k+l+++  ++ e eL+lk gd++ i ++ ++GW+ ++ ++  k G  P+++++e++ +++ ++++a++
+  sp|Q9Y5K6|CD2AP_HUMAN 105 KKKTKKRQCKVLFEYIPQN-EDELELKVGDIIDINEEVEEGWWSGTLNN--KLGLFPSNFVKELEVTDDGETHEAQD 178
+                            678999************8.7*************************987..99***********9988777666555 PP
+
+  == domain 3  score: 40.1 bits;  conditional E-value: 1.2e-12
+     MSA_uniprot_edited   9 keptykAlYdFegssseseLplkkgdvvlilqk..egnGWslakkldgskeGWvPtaYleevkesssapappapspaaap 86 
+                            ++++++ l+ +eg++ e eL++k+g+++ +++k   + GW+ ++ +   keG  P ++ ++++e +++ ++p+++p++a+
+  sp|Q9Y5K6|CD2AP_HUMAN 270 AKEYCRTLFAYEGTN-EDELTFKEGEIIHLISKetGEAGWWRGELNG--KEGVFPDNFAVQINELDKDFPKPKKPPPPAK 346
+                            577899********8.7***********9998834468******975..9*********999998887777666665543 PP
+
+>> sp|O43639|NCK2_HUMAN  Cytoplasmic protein NCK2 OS=Homo sapiens OX=9606 GN=NCK2 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.9   0.2   2.2e-10   2.3e-10      13      71 ..       7      62 ..       2      75 .. 0.86
+   2 !   34.7   0.0   5.7e-11     6e-11      17      77 ..     120     177 ..     112     186 .. 0.82
+   3 !   37.8   0.0   6.3e-12   6.6e-12      12      80 ..     199     267 ..     192     275 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 32.9 bits;  conditional E-value: 2.2e-10
+    MSA_uniprot_edited 13 ykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkes 71
+                          + A +d++ ++ ++eL +kk++ + +l ++++ W+ ++++  +++G+vP++Y+e  ++ 
+  sp|O43639|NCK2_HUMAN  7 VIAKWDYTAQQ-DQELDIKKNERLWLL-DDSKTWWRVRNAA-NRTGYVPSNYVERKNSL 62
+                          6799******7.7**************.7799*******98.89*********987665 PP
+
+  == domain 2  score: 34.7 bits;  conditional E-value: 5.7e-11
+    MSA_uniprot_edited  17 YdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapap 77 
+                           + ++ +  e eL+l kg  v++ +k ++GW+ ++ +   + GW P++Y+ e  ++++a++p
+  sp|O43639|NCK2_HUMAN 120 FAYVAER-EDELSLVKGSRVTVMEKCSDGWWRGSYNG--QIGWFPSNYVLEEVDEAAAESP 177
+                           4555665.79***********************9975..99*******9777766655544 PP
+
+  == domain 3  score: 37.8 bits;  conditional E-value: 6.3e-12
+    MSA_uniprot_edited  12 tykAlYdFegssseseLplkkgdvvlilqk..egnGWslakkldgskeGWvPtaYleevkesssapappap 80 
+                            ++ lY+F++ + e+eL+++kg+ +++++k  ++  W+ +k++  ++ G vP++Y++ +++ ++ ++++ap
+  sp|O43639|NCK2_HUMAN 199 VVQTLYPFSSVT-EEELNFEKGETMEVIEKpeNDPEWWKCKNAR-GQVGLVPKNYVVVLSDGPALHPAHAP 267
+                           6789*****997.7****************634447******99.79**********99887665554443 PP
+
+>> sp|A8MVU1|NCF1C_HUMAN  Putative neutrophil cytosol factor 1C OS=Homo sapiens OX=9606 GN=NCF1C PE=5 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.7   0.2   1.9e-18     2e-18      11      80 ..     135     201 ..     129     209 .. 0.89
+   2 !   29.6   0.1   2.3e-09   2.5e-09      13      80 ..     207     271 ..     196     281 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 58.7 bits;  conditional E-value: 1.9e-18
+     MSA_uniprot_edited  11 ptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappap 80 
+                            +ty+A+ d+e +s  se+ l+ gdvv++++k ++GW++++ +   k+GW+P+++le ++++++++ p+++
+  sp|A8MVU1|NCF1C_HUMAN 135 QTYRAIADYEKTS-GSEMALSTGDVVEVVEKSESGWWFCQMKA--KRGWIPASFLEPLDSPDETEDPEPN 201
+                            89**********7.6*************************987..9*************98887666554 PP
+
+  == domain 2  score: 29.6 bits;  conditional E-value: 2.3e-09
+     MSA_uniprot_edited  13 ykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappap 80 
+                            y A+  ++  +   e++l +g+ v+++ k  +GW++ +k d   +G+ P+ Yl++  ++ s+++++ +
+  sp|A8MVU1|NCF1C_HUMAN 207 YVAIKAYTAVE-GDEVSLLEGEAVEVIHKLLDGWWVIRKDD--VTGYFPSMYLQKSGQDVSQAQRQIK 271
+                            66777777775.59*************************98..89**********9998877655444 PP
+
+>> sp|P14598|NCF1_HUMAN  Neutrophil cytosol factor 1 OS=Homo sapiens OX=9606 GN=NCF1 PE=1 SV=4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.9   0.2   1.4e-17   1.5e-17      11      80 ..     159     225 ..     153     233 .. 0.89
+   2 !   29.4   0.1   2.6e-09   2.7e-09      13      80 ..     231     295 ..     220     305 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 55.9 bits;  conditional E-value: 1.4e-17
+    MSA_uniprot_edited  11 ptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappap 80 
+                           +ty+A+ ++e +s  se+ l+ gdvv++++k ++GW++++ +   k+GW+P+++le ++++++++ p+++
+  sp|P14598|NCF1_HUMAN 159 QTYRAIANYEKTS-GSEMALSTGDVVEVVEKSESGWWFCQMKA--KRGWIPASFLEPLDSPDETEDPEPN 225
+                           89**********7.6*************************987..9*************98887666554 PP
+
+  == domain 2  score: 29.4 bits;  conditional E-value: 2.6e-09
+    MSA_uniprot_edited  13 ykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappap 80 
+                           y A+  ++  +   e++l +g+ v+++ k  +GW++ +k d   +G+ P+ Yl++  ++ s+++++ +
+  sp|P14598|NCF1_HUMAN 231 YVAIKAYTAVE-GDEVSLLEGEAVEVIHKLLDGWWVIRKDD--VTGYFPSMYLQKSGQDVSQAQRQIK 295
+                           66777777775.59*************************98..89**********9998877655444 PP
+
+>> sp|A6NI72|NCF1B_HUMAN  Putative neutrophil cytosol factor 1B OS=Homo sapiens OX=9606 GN=NCF1B PE=5 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.8   0.2   1.5e-17   1.6e-17      11      79 ..     160     225 ..     154     232 .. 0.89
+   2 !   28.7   0.0   4.3e-09   4.5e-09      17      79 ..     236     295 ..     228     305 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 55.8 bits;  conditional E-value: 1.5e-17
+     MSA_uniprot_edited  11 ptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappa 79 
+                            +ty+A+ ++e +s  se+ l+ gdvv++++k ++GW++++ +   k+GW+P+++le ++++++++ p++
+  sp|A6NI72|NCF1B_HUMAN 160 QTYRAIANYEKTS-GSEMALSTGDVVEVVEKSESGWWFCQMKA--KRGWIPASFLEPLDSPDETEDPEP 225
+                            89**********7.6*************************987..9*************9888766655 PP
+
+  == domain 2  score: 28.7 bits;  conditional E-value: 4.3e-09
+     MSA_uniprot_edited  17 YdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappa 79 
+                              ++  +   e++l +g+ v+++ k  +GW++ +k d   +G+ P+ Yl++  ++ s+++++ 
+  sp|A6NI72|NCF1B_HUMAN 236 KAYTAVE-GDEVSLLEGEAVEVIHKLLDGWWVIRKDD--VTGYFPSMYLQKSGQDVSQAQRQI 295
+                            5566664.589************************98..89**********999887765544 PP
+
+>> sp|Q8TEC5|SH3R2_HUMAN  E3 ubiquitin-protein ligase SH3RF2 OS=Homo sapiens OX=9606 GN=SH3RF2 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.0   0.0   1.1e-06   1.2e-06      10      74 ..     127     188 ..     121     192 .. 0.87
+   2 !   24.1   0.0   1.2e-07   1.2e-07       9      69 ..     188     251 ..     181     270 .. 0.83
+   3 !   31.9   0.0   4.5e-10   4.7e-10       7      78 ..     379     449 ..     374     457 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 21.0 bits;  conditional E-value: 1.1e-06
+     MSA_uniprot_edited  10 eptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssa 74 
+                             p++kAl ++ g++ ++ L ++kgd++l+ ++ ++ W  ++ +    +G  P++ +e +k+ +++
+  sp|Q8TEC5|SH3R2_HUMAN 127 VPRAKALCNYRGQN-PGDLRFNKGDIILLRRQLDENWYQGEING--ISGNFPASSVEVIKQLPQP 188
+                            6899*********7.9************************9865..7899999999999886554 PP
+
+  == domain 2  score: 24.1 bits;  conditional E-value: 1.2e-07
+     MSA_uniprot_edited   9 keptykAlYdFe.....gssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevk 69 
+                              p ++AlY+F+      s+++  L++ k+d++++++  ++ W+ +k  d  k G  P  ++e   
+  sp|Q8TEC5|SH3R2_HUMAN 188 PPPLCRALYNFDlrgkdKSENQDCLTFLKDDIITVISRVDENWAEGKLGD--KVGIFPILFVEPNL 251
+                            56889*******998876667889************************99..9*****99998755 PP
+
+  == domain 3  score: 31.9 bits;  conditional E-value: 4.5e-10
+     MSA_uniprot_edited   7 kpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapapp 78 
+                            + + +++ Al  ++  + + eL l+kg+ v +l k ++GW+ + +l +++ G  P++Y+  +  ++s+ + +
+  sp|Q8TEC5|SH3R2_HUMAN 379 HLSANMFVALHSYSAHG-PDELDLQKGEGVRVLGKCQDGWLRGVSLVTGRVGIFPNNYVIPIFRKTSSFPDS 449
+                            557799**********8.8****************************************9998877765554 PP
+
+>> sp|P62993|GRB2_HUMAN  Growth factor receptor-bound protein 2 OS=Homo sapiens OX=9606 GN=GRB2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.4   0.0   4.2e-12   4.4e-12      14      67 ..       4      55 ..       1      76 [. 0.87
+   2 !   36.9   0.0   1.2e-11   1.3e-11       6      70 ..     153     215 ..     149     217 .] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 38.4 bits;  conditional E-value: 4.2e-12
+    MSA_uniprot_edited 14 kAlYdFegssseseLplkkgdvvlilqk.egnGWslakkldgskeGWvPtaYlee 67
+                           A YdF+ +  + eL++k+gd++ +l++  ++ W  a+ +   k G++P++Y+e+
+  sp|P62993|GRB2_HUMAN  4 IAKYDFKATA-DDELSFKRGDILKVLNEeCDQNWYKAELNG--KDGFIPKNYIEM 55
+                          699******6.7**************994588999999875..9*********97 PP
+
+  == domain 2  score: 36.9 bits;  conditional E-value: 1.2e-11
+    MSA_uniprot_edited   6 akpkepty.kAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevke 70 
+                           + p++pty +Al+dF+ ++ ++eL +++gd + +  + +  W+ +     +++G  P +Y++ v+ 
+  sp|P62993|GRB2_HUMAN 153 QVPQQPTYvQALFDFDPQE-DGELGFRRGDFIHVMDNSDPNWWKGACH--GQTGMFPRNYVTPVNR 215
+                           4566666538********7.7**********************99986..599********99875 PP
+
+>> sp|Q13588|GRAP_HUMAN  GRB2-related adapter protein OS=Homo sapiens OX=9606 GN=GRAP PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.9   0.1   1.1e-10   1.1e-10      14      66 ..       4      54 ..       2      64 .. 0.89
+   2 !   35.1   0.0   4.6e-11   4.8e-11      10      68 ..     160     215 ..     153     217 .] 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 33.9 bits;  conditional E-value: 1.1e-10
+    MSA_uniprot_edited 14 kAlYdFegssseseLplkkgdvvlilqk.egnGWslakkldgskeGWvPtaYle 66
+                           AlY F+ ++s  eL ++kgd + il+  +++ W  a+      eG++P++Y++
+  sp|Q13588|GRAP_HUMAN  4 VALYSFQATES-DELAFNKGDTLKILNMeDDQNWYKAELRG--VEGFIPKNYIR 54
+                          69*******86.**************986788999999865..9********96 PP
+
+  == domain 2  score: 35.1 bits;  conditional E-value: 4.6e-11
+    MSA_uniprot_edited  10 eptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleev 68 
+                              ++A +dF+ ++ +s+L++++gd++++l+  +  W+ +++    + G+ P +Y++ v
+  sp|Q13588|GRAP_HUMAN 160 ACFAQAQFDFSAQD-PSQLSFRRGDIIEVLERPDPHWWRGRSCG--RVGFFPRSYVQPV 215
+                           56689********7.9**************************86..9*********987 PP
+
+>> sp|O75791|GRAP2_HUMAN  GRB2-related adapter protein 2 OS=Homo sapiens OX=9606 GN=GRAP2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.9   0.0   4.4e-10   4.7e-10      13      66 ..       3      52 ..       1      64 [. 0.90
+   2 ?   -1.1   0.1       8.7       9.2       3       4 ..     212     213 ..     192     243 .. 0.57
+   3 !   36.6   0.0   1.5e-11   1.6e-11      10      68 ..     273     328 ..     264     330 .] 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 31.9 bits;  conditional E-value: 4.4e-10
+     MSA_uniprot_edited 13 ykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYle 66
+                           + A +dF+ s+ e eL++  gdv+ il++ ++ W  a+    s+eG+vP++++ 
+  sp|O75791|GRAP2_HUMAN  3 AVAKFDFTASG-EDELSFHTGDVLKILSN-QEEWFKAELG--SQEGYVPKNFID 52
+                           6799******9.6**************66.889****995..69*******996 PP
+
+  == domain 2  score: -1.1 bits;  conditional E-value: 8.7
+     MSA_uniprot_edited   3 ap 4  
+                            ++
+  sp|O75791|GRAP2_HUMAN 212 QQ 213
+                            22 PP
+
+  == domain 3  score: 36.6 bits;  conditional E-value: 1.5e-11
+     MSA_uniprot_edited  10 eptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleev 68 
+                               ++AlYdFe  + + eL +  g+vv++l + +  W+ ++  +  k G  P++Y++ +
+  sp|O75791|GRAP2_HUMAN 273 VRWARALYDFEALE-DDELGFHSGEVVEVLDSSNPSWWTGRLHN--KLGLFPANYVAPM 328
+                            56689********7.7*************************987..99********876 PP
+
+>> sp|P15498|VAV_HUMAN  Proto-oncogene vav OS=Homo sapiens OX=9606 GN=VAV1 PE=1 SV=4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.8   0.0   2.7e-06   2.9e-06      28      72 ..     617     662 ..     612     670 .. 0.87
+   2 !   48.7   0.1   2.5e-15   2.6e-15      12      67 ..     786     839 ..     776     843 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 19.8 bits;  conditional E-value: 2.7e-06
+   MSA_uniprot_edited  28 Lplkkgdvvlilqk.egnGWslakkldgskeGWvPtaYleevkess 72 
+                          L l+ gd+v++++   ++ W+ +++ ++++ GW P + ++ + + +
+  sp|P15498|VAV_HUMAN 617 LRLNPGDIVELTKAeAEQNWWEGRNTSTNEIGWFPCNRVKPYVHGP 662
+                          78999********956899****************99998887654 PP
+
+  == domain 2  score: 48.7 bits;  conditional E-value: 2.5e-15
+   MSA_uniprot_edited  12 tykAlYdFegssseseLplkkgdvvlilqk.egnGWslakkldgskeGWvPtaYlee 67 
+                          t+kA YdF  ++  seL+lk+gd++ il+k  ++GW+ ++     + GW P++Y+ee
+  sp|P15498|VAV_HUMAN 786 TAKARYDFCARD-RSELSLKEGDIIKILNKkGQQGWWRGEIYG--RVGWFPANYVEE 839
+                          89*********8.6*************9986899******986..9*********98 PP
+
+>> sp|P46109|CRKL_HUMAN  Crk-like protein OS=Homo sapiens OX=9606 GN=CRKL PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.1   0.0   1.1e-16   1.1e-16       4      76 ..     119     189 ..     116     201 .. 0.87
+   2 !   13.4   0.0   0.00027   0.00028      25      74 ..     253     300 ..     244     303 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 53.1 bits;  conditional E-value: 1.1e-16
+    MSA_uniprot_edited   4 paakpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapa 76 
+                           p a+ + ++++ lYdF+g++ ++ Lp+kkg++++i++k ++ W+ a+++d ++ G +P  Y+e++  ss+  +
+  sp|P46109|CRKL_HUMAN 119 PTAEDNLEYVRTLYDFPGND-AEDLPFKKGEILVIIEKPEEQWWSARNKD-GRVGMIPVPYVEKLVRSSPHGK 189
+                           6677888999*********8.69***************************.79***********998776544 PP
+
+  == domain 2  score: 13.4 bits;  conditional E-value: 0.00027
+    MSA_uniprot_edited  25 eseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssa 74 
+                           ++ L l+ gd+v +++ + nG + ++ +   ++G  P ++++  ++++++
+  sp|P46109|CRKL_HUMAN 253 KTALALEVGDIVKVTRMNINGQWEGEVNG--RKGLFPFTHVKIFDPQNPD 300
+                           4689*********************9865..9**********99998765 PP
+
+>> sp|P19878|NCF2_HUMAN  Neutrophil cytosol factor 2 OS=Homo sapiens OX=9606 GN=NCF2 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.0   0.0   9.6e-11     1e-10      11      84 ..     243     313 ..     225     321 .. 0.83
+   2 !   30.5   0.0   1.2e-09   1.3e-09       5      72 ..     454     518 ..     450     525 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 34.0 bits;  conditional E-value: 9.6e-11
+    MSA_uniprot_edited  11 ptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappapspaa 84 
+                           + +++l+ F+ ++ ++eL++  g++v++l+k ++ W+ +  +  +++G vP +Yle v+ + +++++p++++ +
+  sp|P19878|NCF2_HUMAN 243 EAHRVLFGFVPET-KEELQVMPGNIVFVLKKGNDNWATVMFN--GQKGLVPCNYLEPVELRIHPQQQPQEESSP 313
+                           567899******8.6**********************99986..59************9876655555444433 PP
+
+  == domain 2  score: 30.5 bits;  conditional E-value: 1.2e-09
+    MSA_uniprot_edited   5 aakpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkess 72 
+                           ++ +k  +++Al+ +e ++ ++ L++++gd++l+l+k ++ W+ ++ +   k G  P+ ++e +++++
+  sp|P19878|NCF2_HUMAN 454 PQLKKGSQVEALFSYEATQ-PEDLEFQEGDIILVLSKVNEEWLEGECKG--KVGIFPKVFVEDCATTD 518
+                           66778899**********6.9************************9975..9***********98765 PP
+
+>> sp|P46108|CRK_HUMAN  Adapter molecule crk OS=Homo sapiens OX=9606 GN=CRK PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.7   0.0   6.3e-16   6.6e-16       7      74 ..     131     196 ..     128     204 .. 0.91
+   2 !   10.2   0.0    0.0026    0.0027      25      73 ..     253     299 ..     248     303 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 50.7 bits;  conditional E-value: 6.3e-16
+   MSA_uniprot_edited   7 kpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssa 74 
+                          +++ ++++Al+dF+g++ e+ Lp+kkgd++ i  k ++ W+ a+  + +k+G +P  Y+e+++++s++
+  sp|P46108|CRK_HUMAN 131 QEEAEYVRALFDFNGND-EEDLPFKKGDILRIRDKPEEQWWNAEDSE-GKRGMIPVPYVEKYRPASAS 196
+                          5677899*********8.6**************************87.89************997764 PP
+
+  == domain 2  score: 10.2 bits;  conditional E-value: 0.0026
+   MSA_uniprot_edited  25 eseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesss 73 
+                          ++ L l+ g++v +++ + +G + ++ +   k+G  P ++++ ++++++
+  sp|P46108|CRK_HUMAN 253 KTALALEVGELVKVTKINVSGQWEGECNG--KRGHFPFTHVRLLDQQNP 299
+                          5789*********************9975..9**********9999775 PP
+
+>> sp|Q12965|MYO1E_HUMAN  Unconventional myosin-Ie OS=Homo sapiens OX=9606 GN=MYO1E PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.3   0.1   1.1e-17   1.1e-17       2      67 ..    1045    1107 ..    1044    1108 .] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 56.3 bits;  conditional E-value: 1.1e-17
+     MSA_uniprot_edited    2 papaakpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYlee 67  
+                             p+p++kp+ p++kAlY ++ ++ + eL+++++d++ i++++++GW+ ++     k+G  P++Y+++
+  sp|Q12965|MYO1E_HUMAN 1045 PQPKPKPQVPQCKALYAYDAQD-TDELSFNANDIIDIIKEDPSGWWTGRLRG--KQGLFPNNYVTK 1107
+                             7899*****************8.7*************************975..9*********87 PP
+
+>> sp|O94868|FCSD2_HUMAN  F-BAR and double SH3 domains protein 2 OS=Homo sapiens OX=9606 GN=FCHSD2 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.6   0.0   2.4e-09   2.5e-09      12      67 ..     473     527 ..     468     548 .. 0.89
+   2 !   25.3   0.0   5.1e-08   5.4e-08      12      75 ..     571     634 ..     565     649 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 29.6 bits;  conditional E-value: 2.4e-09
+     MSA_uniprot_edited  12 tykAlYdFegssseseLplkkgdvvlilqk.egnGWslakkldgskeGWvPtaYlee 67 
+                            t+k++Y ++ s+ + eL++++ +v++++++ + + W+ a+++  ++ G+vP++Yl+ 
+  sp|O94868|FCSD2_HUMAN 473 TCKVVYSYKASQ-PDELTIEEHEVLEVIEDgDMEDWVKARNKV-GQVGYVPEKYLQF 527
+                            789********6.9***************9999********98.79********986 PP
+
+  == domain 2  score: 25.3 bits;  conditional E-value: 5.1e-08
+     MSA_uniprot_edited  12 tykAlYdFegssseseLplkkgdvvlilqk...egnGWslakkldgskeGWvPtaYleevkesssap 75 
+                             +kAlYd+eg++ + eL++ +g ++ il+k   +++G + ++ +   + G  P+  +ee+++s++  
+  sp|O94868|FCSD2_HUMAN 571 FVKALYDYEGQT-DDELSFPEGAIIRILNKenqDDDGFWEGEFNG--RIGVFPSVLVEELSASENGD 634
+                            589********8.7**************99333457999999864..89999999999998877654 PP
+
+>> sp|O15259|NPHP1_HUMAN  Nephrocystin-1 OS=Homo sapiens OX=9606 GN=NPHP1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.2   0.6   9.8e-17     1e-16      10      79 ..     154     221 ..     145     230 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 53.2 bits;  conditional E-value: 9.8e-17
+     MSA_uniprot_edited  10 eptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappa 79 
+                             ++y A+ dF+ ++  + L++kkg+++l+++k+++GW+ ak ++ ++eG vP +Yle ++e+++ +++++
+  sp|O15259|NPHP1_HUMAN 154 GEEYIAVGDFTAQQ-VGDLTFKKGEILLVIEKKPDGWWIAKDAK-GNEGLVPRTYLEPYSEEEEGQESSE 221
+                            57899999*****7.6**************************98.79*************9887665544 PP
+
+>> sp|Q5T0N5|FBP1L_HUMAN  Formin-binding protein 1-like OS=Homo sapiens OX=9606 GN=FNBP1L PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.3   0.0   1.9e-16     2e-16       8      70 ..     538     599 ..     532     605 .] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 52.3 bits;  conditional E-value: 1.9e-16
+     MSA_uniprot_edited   8 pkeptykAlYdFegssseseLplkkgdvvlilqk.egnGWslakkldgskeGWvPtaYleevke 70 
+                            p+  ++kA+Y+F+g + e++L +k+g+v++i+++ +g+GW+ a++++ ++eG+vPt+Y+    e
+  sp|Q5T0N5|FBP1L_HUMAN 538 PAIGHCKAIYPFDGHN-EGTLAMKEGEVLYIIEEdKGDGWTRARRQN-GEEGYVPTSYIDVTLE 599
+                            566789*********8.7************9998799********98.79********986655 PP
+
+>> sp|Q99469|STAC_HUMAN  SH3 and cysteine-rich domain-containing protein OS=Homo sapiens OX=9606 GN=STAC PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.9   0.0   7.1e-13   7.4e-13       9      73 ..     286     347 ..     280     351 .. 0.92
+   2 !   10.8   0.0    0.0017    0.0018       8      65 ..     344     399 ..     341     402 .] 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 40.9 bits;  conditional E-value: 7.1e-13
+    MSA_uniprot_edited   9 keptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesss 73 
+                           + +ty AlY F+ ++ ++ L+++ gd++++l++ ++ W+ +k +d  + G+ P+++++ ++++++
+  sp|Q99469|STAC_HUMAN 286 QMNTYVALYKFVPQE-NEDLEMRPGDIITLLEDSNEDWWKGKIQD--RIGFFPANFVQRLQQNEK 347
+                           6799**********8.699************************99..99***********99875 PP
+
+  == domain 2  score: 10.8 bits;  conditional E-value: 0.0017
+    MSA_uniprot_edited   8 pkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYl 65 
+                           ++e+ ++++  F g +++++++lk++++ + +++e++G + +  l+g+k+G +P + l
+  sp|Q99469|STAC_HUMAN 344 QNEKIFRCVRTFIGCKEQGQITLKENQICVSSEEEQDGFIRV--LSGKKKGLIPLDVL 399
+                           6778889999999*99**********************8766..55679*****7655 PP
+
+>> sp|P12931|SRC_HUMAN  Proto-oncogene tyrosine-protein kinase Src OS=Homo sapiens OX=9606 GN=SRC PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.1   0.1   4.6e-16   4.8e-16      11      70 ..      87     145 ..      80     151 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 51.1 bits;  conditional E-value: 4.6e-16
+   MSA_uniprot_edited  11 ptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevke 70 
+                           t+ AlYd+e+++ e+ L++kkg+ + i+++ +  W+la++l+++++G++P++Y++  ++
+  sp|P12931|SRC_HUMAN  87 TTFVALYDYESRT-ETDLSFKKGERLQIVNNTEGDWWLAHSLSTGQTGYIPSNYVAPSDS 145
+                          689*********8.7****************************************98765 PP
+
+>> sp|Q92882|OSTF1_HUMAN  Osteoclast-stimulating factor 1 OS=Homo sapiens OX=9606 GN=OSTF1 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.1   0.0   4.6e-16   4.8e-16       1      79 [.       5      80 ..       4      86 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 51.1 bits;  conditional E-value: 4.6e-16
+     MSA_uniprot_edited  1 ppapaakpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappa 79
+                           pp+p ++ + + ++AlY Fe ++ + eL +++gd+++i+   +  W+ ++++   ++G +P++Y++e +es ++p ++a
+  sp|Q92882|OSTF1_HUMAN  5 PPKPVKPGQVKVFRALYTFEPRT-PDELYFEEGDIIYITDMSDTNWWKGTSKG--RTGLIPSNYVAEQAESIDNPLHEA 80
+                           566777778999**********7.9************************9975..9***********999887766554 PP
+
+>> sp|Q13813|SPTN1_HUMAN  Spectrin alpha chain, non-erythrocytic 1 OS=Homo sapiens OX=9606 GN=SPTAN1 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.8   0.1     5e-15   5.3e-15       8      77 ..     967    1033 ..     960    1043 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 47.8 bits;  conditional E-value: 5e-15
+     MSA_uniprot_edited    8 pkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapap 77  
+                               ++ + AlYd++ +s ++e+++kkgd++++l++ ++ W+ ++ +d  ++G+vP+aY++++++++sa+ +
+  sp|Q13813|SPTN1_HUMAN  967 TGKELVLALYDYQEKS-PREVTMKKGDILTLLNSTNKDWWKVEVND--RQGFVPAAYVKKLDPAQSASRE 1033
+                             5566788********5.9**************************99..9*************99987665 PP
+
+>> sp|Q06187|BTK_HUMAN  Tyrosine-protein kinase BTK OS=Homo sapiens OX=9606 GN=BTK PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.0   0.5   8.4e-15   8.8e-15       3      72 ..     209     276 ..     206     293 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 47.0 bits;  conditional E-value: 8.4e-15
+   MSA_uniprot_edited   3 apaakpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkess 72 
+                          ap ++++ +++ AlYd+   + ++ L+l+kgd  +il++ +  W+ a+ ++ ++eG++P++Y++e ++s 
+  sp|Q06187|BTK_HUMAN 209 APVSTSELKKVVALYDYMPMN-ANDLQLRKGDEYFILEESNLPWWRARDKN-GQEGYIPSNYVTEAEDSI 276
+                          567788999***********8.6**************************98.79***********98865 PP
+
+>> sp|Q8NFA2|NOXO1_HUMAN  NADPH oxidase organizer 1 OS=Homo sapiens OX=9606 GN=NOXO1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.6   0.0   8.6e-08   9.1e-08      27      72 ..     183     227 ..     161     235 .. 0.78
+   2 !   20.8   0.0   1.3e-06   1.3e-06       9      62 ..     238     288 ..     232     294 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 24.6 bits;  conditional E-value: 8.6e-08
+     MSA_uniprot_edited  27 eLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkess 72 
+                             ++ ++ + + +l  +++GW+l+++ d +++ W P+ Ylee ++ +
+  sp|Q8NFA2|NOXO1_HUMAN 183 PFQAQAQESLDVLLRHPSGWWLVENED-RQTAWFPAPYLEEAAPGQ 227
+                            556677888999999***********9.899**********98765 PP
+
+  == domain 2  score: 20.8 bits;  conditional E-value: 1.3e-06
+     MSA_uniprot_edited   9 keptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPt 62 
+                            + p++ A   +e+s  + eL++ +g  v +l++ + GW+l++  d  + G +P+
+  sp|Q8NFA2|NOXO1_HUMAN 238 SGPQFCASRAYESSR-ADELSVPAGARVRVLETSDRGWWLCRYGD--RAGLLPA 288
+                            568888888999997.6**************************98..8999997 PP
+
+>> sp|P00519|ABL1_HUMAN  Tyrosine-protein kinase ABL1 OS=Homo sapiens OX=9606 GN=ABL1 PE=1 SV=4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.4   0.1   1.3e-14   1.4e-14       7      73 ..      60     124 ..      55     137 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 46.4 bits;  conditional E-value: 1.3e-14
+    MSA_uniprot_edited   7 kpkeptykAlYdFegssseseLplkkgdvvlilqk.egnGWslakkldgskeGWvPtaYleevkesss 73 
+                           +   + + AlYdF+ s+ +++L+++kg+ + +l   ++  W+ a++++   +GWvP++Y++ v++ ++
+  sp|P00519|ABL1_HUMAN  60 ENDPNLFVALYDFVASG-DNTLSITKGEKLRVLGYnHNGEWCEAQTKN--GQGWVPSNYITPVNSLEK 124
+                           5566789*********9.6**************994555599999988..69*********9987654 PP
+
+>> sp|P42684|ABL2_HUMAN  Tyrosine-protein kinase ABL2 OS=Homo sapiens OX=9606 GN=ABL2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.0   0.1   3.6e-14   3.8e-14       8      73 ..     107     170 ..     102     183 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 45.0 bits;  conditional E-value: 3.6e-14
+    MSA_uniprot_edited   8 pkeptykAlYdFegssseseLplkkgdvvlilqkegnG.WslakkldgskeGWvPtaYleevkesss 73 
+                           +  + + AlYdF+ s+ +++L+++kg+ + +l  ++nG Ws +++++   +GWvP++Y++ v++ ++
+  sp|P42684|ABL2_HUMAN 107 SDPNLFVALYDFVASG-DNTLSITKGEKLRVLGYNQNGeWSEVRSKN--GQGWVPSNYITPVNSLEK 170
+                           5567899********9.6****************8887699999987..69*********9987654 PP
+
+>> sp|P06241|FYN_HUMAN  Tyrosine-protein kinase Fyn OS=Homo sapiens OX=9606 GN=FYN PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.2   0.2   3.1e-14   3.3e-14      13      71 ..      87     144 ..      82     149 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 45.2 bits;  conditional E-value: 3.1e-14
+   MSA_uniprot_edited  13 ykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkes 71 
+                          + AlYd+e ++ e  L++ kg+ + il++ +  W+ a++l+++++G++P++Y++ v++ 
+  sp|P06241|FYN_HUMAN  87 FVALYDYEART-EDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNYVAPVDSI 144
+                          89********8.6*****************************************99875 PP
+
+>> sp|P08631|HCK_HUMAN  Tyrosine-protein kinase HCK OS=Homo sapiens OX=9606 GN=HCK PE=1 SV=5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.2   0.1   3.2e-14   3.3e-14       9      71 ..      79     139 ..      72     144 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 45.2 bits;  conditional E-value: 3.2e-14
+   MSA_uniprot_edited   9 keptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkes 71 
+                          ++  + AlYd+e  + ++ L+++kgd +++l +e+  W+ a++l ++keG++P++Y++ v++ 
+  sp|P08631|HCK_HUMAN  79 EDIIVVALYDYEAIH-HEDLSFQKGDQMVVL-EESGEWWKARSLATRKEGYIPSNYVARVDSL 139
+                          566789********7.69*************.66888********************999875 PP
+
+>> sp|Q8N157|AHI1_HUMAN  Jouberin OS=Homo sapiens OX=9606 GN=AHI1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.4   0.1   1.1e-13   1.2e-13       6      79 ..    1049    1120 ..    1044    1133 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 43.4 bits;  conditional E-value: 1.1e-13
+    MSA_uniprot_edited    6 akpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappa 79  
+                            +  + pt+ AlYd++ + s  eL++ +gd++ +  k+++ W+ ++  + ++eG+ P+++++  +  ++ p++ +
+  sp|Q8N157|AHI1_HUMAN 1049 QVDTAPTVVALYDYTANRS-DELTIHRGDIIRVFFKDNEDWWYGSIGK-GQEGYFPANHVASETLYQELPPEIK 1120
+                            66789************86.*************************988.79*********98776555544433 PP
+
+>> sp|P07947|YES_HUMAN  Tyrosine-protein kinase Yes OS=Homo sapiens OX=9606 GN=YES1 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.7   0.2   4.6e-14   4.8e-14      12      70 ..      95     152 ..      91     158 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 44.7 bits;  conditional E-value: 4.6e-14
+   MSA_uniprot_edited  12 tykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevke 70 
+                           + AlYd+e ++ ++ L++kkg+ + i+++ +  W+ a++  ++k+G++P++Y++  ++
+  sp|P07947|YES_HUMAN  95 IFVALYDYEART-TEDLSFKKGERFQIINNTEGDWWEARSIATGKNGYIPSNYVAPADS 152
+                          589********8.69***************************************98876 PP
+
+>> sp|Q9Y5X1|SNX9_HUMAN  Sorting nexin-9 OS=Homo sapiens OX=9606 GN=SNX9 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.1   0.0   3.4e-14   3.6e-14      12      71 ..       4      63 ..       2      76 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 45.1 bits;  conditional E-value: 3.4e-14
+    MSA_uniprot_edited 12 tykAlYdFegssseseLplkkgdvvlilqk.egnGWslakkldgskeGWvPtaYleevkes 71
+                          +++++YdF+ +  ++eL++++g++++i++   g GW+ +++ + +++G vPt+Y+e + ++
+  sp|Q9Y5X1|SNX9_HUMAN  4 KARVMYDFAAEPGNNELTVNEGEIITITNPdVGGGWLEGRNIK-GERGLVPTDYVEILPSD 63
+                          7899************************9868999******98.79**********98765 PP
+
+>> sp|P07948|LYN_HUMAN  Tyrosine-protein kinase Lyn OS=Homo sapiens OX=9606 GN=LYN PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.9   0.3     8e-14   8.4e-14       6      70 ..      61     123 ..      57     132 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 43.9 bits;  conditional E-value: 8e-14
+   MSA_uniprot_edited   6 akpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevke 70 
+                          ++++ + + AlY+++g + +  L++kkg+ + +l++    W+ ak+l ++keG++P++Y++++++
+  sp|P07948|LYN_HUMAN  61 PEEQGDIVVALYPYDGIH-PDDLSFKKGEKMKVLEE-HGEWWKAKSLLTKKEGFIPSNYVAKLNT 123
+                          566778899********7.9**************55.667********************99876 PP
+
+>> sp|Q96MF2|STAC3_HUMAN  SH3 and cysteine-rich domain-containing protein 3 OS=Homo sapiens OX=9606 GN=STAC3 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.2   0.4       1.7       1.8      61      85 ..      59      83 ..      52      89 .. 0.70
+   2 !   24.6   0.0   8.6e-08     9e-08       8      70 ..     247     306 ..     240     316 .. 0.87
+   3 !   15.1   0.0   7.8e-05   8.2e-05      17      68 ..     315     364 .]     306     364 .] 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 1.2 bits;  conditional E-value: 1.7
+     MSA_uniprot_edited 61 PtaYleevkesssapappapspaaa 85
+                           P  Y+ e +e+++++++++p+++++
+  sp|Q96MF2|STAC3_HUMAN 59 PIYYIYEEEEEEEEEEEEPPPEPPK 83
+                           7778888888777776666665554 PP
+
+  == domain 2  score: 24.6 bits;  conditional E-value: 8.6e-08
+     MSA_uniprot_edited   8 pkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevke 70 
+                            ++ +++ AlY F+  + +  L +  g+ ++++ + ++ W+ +k  +  k G+ P +++  v++
+  sp|Q96MF2|STAC3_HUMAN 247 QQSHYFVALYRFKALE-KDDLDFPPGEKITVIDDSNEEWWRGKIGE--KVGFFPPNFIIRVRA 306
+                            67889**********7.69************************965..9********988776 PP
+
+  == domain 3  score: 15.1 bits;  conditional E-value: 7.8e-05
+     MSA_uniprot_edited  17 YdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleev 68 
+                              F+g+ + ++++lkk+++v+ + +e  G + + +  g+k G  Pt++lee+
+  sp|Q96MF2|STAC3_HUMAN 315 RSFVGNREIGQITLKKDQIVVQKGDEAGGYVKVYT--GRKVGLFPTDFLEEI 364
+                            579999999************99999999988877..569*********996 PP
+
+>> sp|Q9UNF0|PACN2_HUMAN  Protein kinase C and casein kinase substrate in neurons protein 2 OS=Homo sapiens OX=9606 GN=P
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.5   0.0   2.1e-13   2.2e-13       9      68 ..     427     485 ..     420     486 .] 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 42.5 bits;  conditional E-value: 2.1e-13
+     MSA_uniprot_edited   9 keptykAlYdFegssseseLplkkgdvvlilqk.egnGWslakkldgskeGWvPtaYleev 68 
+                            +e +++AlYd+eg++ + eL++k+gd ++  ++ +++GW+ ++  d+++ G  P++Y+e++
+  sp|Q9UNF0|PACN2_HUMAN 427 TEVRVRALYDYEGQE-HDELSFKAGDELTKMEDeDEQGWCKGRL-DNGQVGLYPANYVEAI 485
+                            67789*********7.6*********99988876899****997.6699*********987 PP
+
+>> sp|P02549|SPTA1_HUMAN  Spectrin alpha chain, erythrocytic 1 OS=Homo sapiens OX=9606 GN=SPTA1 PE=1 SV=5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.5   0.0   4.5e-13   4.8e-13      10      79 ..     979    1045 ..     970    1056 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 41.5 bits;  conditional E-value: 4.5e-13
+     MSA_uniprot_edited   10 eptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappa 79  
+                             e+++ AlYdF+ +s ++e+++kkgdv+++l++ ++ W+ ++ +d   +G vP+ Y++ +++++ +  p++
+  sp|P02549|SPTA1_HUMAN  979 EQRVMALYDFQARS-PREVTMKKGDVLTLLSSINKDWWKVEAAD--HQGIVPAVYVRRLAHDEFPMLPQR 1045
+                             78999********6.9***************************9..89*********9998776555544 PP
+
+>> sp|P09769|FGR_HUMAN  Tyrosine-protein kinase Fgr OS=Homo sapiens OX=9606 GN=FGR PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.2   0.1   2.7e-13   2.8e-13      13      71 ..      82     139 ..      77     144 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 42.2 bits;  conditional E-value: 2.7e-13
+   MSA_uniprot_edited  13 ykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkes 71 
+                          + AlYd+e ++ e  L+++kg+ + il++ +  W+ a++l+++k+G +P++Y++ v++ 
+  sp|P09769|FGR_HUMAN  82 FIALYDYEART-EDDLTFTKGEKFHILNNTEGDWWEARSLSSGKTGCIPSNYVAPVDSI 139
+                          78********8.6*****************************************99875 PP
+
+>> sp|Q9NZQ3|SPN90_HUMAN  NCK-interacting protein with SH3 domain OS=Homo sapiens OX=9606 GN=NCKIPSD PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.8   0.0   3.7e-13   3.9e-13      12      73 ..       1      61 [.       1      76 [. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 41.8 bits;  conditional E-value: 3.7e-13
+     MSA_uniprot_edited 12 tykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesss 73
+                           +y+AlY F + + ++ L +++g+ +l+l+  +  W+la ++ ++++G+vP aYl+ ++  ++
+  sp|Q9NZQ3|SPN90_HUMAN  1 MYRALYAFRSAE-PNALAFAAGETFLVLERSSAHWWLAARARSGETGYVPPAYLRRLQGLEQ 61
+                           59*********6.9****************************************99887555 PP
+
+>> sp|Q92783|STAM1_HUMAN  Signal transducing adapter molecule 1 OS=Homo sapiens OX=9606 GN=STAM PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.5   0.0   9.3e-13   9.8e-13       6      70 ..     208     269 ..     204     289 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 40.5 bits;  conditional E-value: 9.3e-13
+     MSA_uniprot_edited   6 akpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevke 70 
+                            ++ +  +++A+YdFe  + ++eL++k+g+++++l + +  W+ +++ +    G  P++++++  +
+  sp|Q92783|STAM1_HUMAN 208 HQHEGRKVRAIYDFEAAE-DNELTFKAGEIITVLDDSDPNWWKGETHQ--GIGLFPSNFVTADLT 269
+                            5677889**********7.7**************************98..57*******986433 PP
+
+>> sp|Q13882|PTK6_HUMAN  Protein-tyrosine kinase 6 OS=Homo sapiens OX=9606 GN=PTK6 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.7   0.3   7.9e-13   8.3e-13       7      73 ..       7      75 ..       2      78 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 40.7 bits;  conditional E-value: 7.9e-13
+    MSA_uniprot_edited  7 kpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgs....keGWvPtaYleevkesss 73
+                          +   p+y  l+dF++++ ++eL++++gdv+ + +ke+  W+ a+ ld+     ++G+vP +Yl+e ++ +s
+  sp|Q13882|PTK6_HUMAN  7 AHLGPKYVGLWDFKSRT-DEELSFRAGDVFHVARKEE-QWWWATLLDEAggavAQGYVPHNYLAERETVES 75
+                          556799**********8.7**************9965.6888999996434448**********9887665 PP
+
+>> sp|P51451|BLK_HUMAN  Tyrosine-protein kinase Blk OS=Homo sapiens OX=9606 GN=BLK PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.4   0.0     1e-12     1e-12       7      73 ..      57     121 ..      49     134 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 40.4 bits;  conditional E-value: 1e-12
+   MSA_uniprot_edited   7 kpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesss 73 
+                           + ++ + AlYd++  + ++ L++ kg+ + +l k +  W+la++l +++eG+vP+++++ v++ ++
+  sp|P51451|BLK_HUMAN  57 DEDKHFVVALYDYTAMN-DRDLQMLKGEKLQVL-KGTGDWWLARSLVTGREGYVPSNFVARVESLEM 121
+                          55677789********7.7**************.67999*********************9988665 PP
+
+>> sp|Q99961|SH3G1_HUMAN  Endophilin-A2 OS=Homo sapiens OX=9606 GN=SH3GL1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.5   0.0   9.4e-13   9.8e-13       7      68 ..     305     363 ..     299     368 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 40.5 bits;  conditional E-value: 9.4e-13
+     MSA_uniprot_edited   7 kpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleev 68 
+                            +  +p +kAlYdFe ++ ++eL + +gdv++++++ ++ W  +   d +++G+ P +Y+e +
+  sp|Q99961|SH3G1_HUMAN 305 PLDQPSCKALYDFEPEN-DGELGFHEGDVITLTNQIDENWYEGML-D-GQSGFFPLSYVEVL 363
+                            55789***********8.7***********************997.5.589********976 PP
+
+>> sp|P42680|TEC_HUMAN  Tyrosine-protein kinase Tec OS=Homo sapiens OX=9606 GN=TEC PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.6   0.1   1.8e-12   1.9e-12       4      70 ..     175     239 ..     172     255 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 39.6 bits;  conditional E-value: 1.8e-12
+   MSA_uniprot_edited   4 paakpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevke 70 
+                          +++  +e+ + A+YdF+  +  + L l++g+  lil+k++  W+ a+ +  ++eG++P++Y++  k+
+  sp|P42680|TEC_HUMAN 175 EEEDNSEEIVVAMYDFQAAE-GHDLRLERGQEYLILEKNDVHWWRARDKY-GNEGYIPSNYVTGKKS 239
+                          567788999**********7.6**************************98.79*********87665 PP
+
+>> sp|Q12929|EPS8_HUMAN  Epidermal growth factor receptor kinase substrate 8 OS=Homo sapiens OX=9606 GN=EPS8 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.2   0.0   2.3e-12   2.4e-12       5      81 ..     528     601 ..     524     611 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 39.2 bits;  conditional E-value: 2.3e-12
+    MSA_uniprot_edited   5 aakpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappaps 81 
+                            +++ ++++k  YdF+ ++ +seL++ k+d+++il ++ + W+ +++++ + +G+vP++ l  v++++s   ++ p+
+  sp|Q12929|EPS8_HUMAN 528 LKTQPKKYAKSKYDFVARN-NSELSVLKDDILEIL-DDRKQWWKVRNAS-GDSGFVPNNILDIVRPPESGLGRADPP 601
+                           56788999**********8.6**************.77999******98.78*********9999988765554444 PP
+
+>> sp|O75886|STAM2_HUMAN  Signal transducing adapter molecule 2 OS=Homo sapiens OX=9606 GN=STAM2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.3   0.0   2.1e-12   2.2e-12      10      67 ..     204     258 ..     197     276 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 39.3 bits;  conditional E-value: 2.1e-12
+     MSA_uniprot_edited  10 eptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYlee 67 
+                              +++AlYdFe  + ++eL++k g+++++l + +  W+ +++      G  P+++++ 
+  sp|O75886|STAM2_HUMAN 204 ARKVRALYDFEAVE-DNELTFKHGEIIIVLDDSDANWWKGENHR--GIGLFPSNFVTT 258
+                            5789*********7.7**************************98..57*******986 PP
+
+>> sp|P41240|CSK_HUMAN  Tyrosine-protein kinase CSK OS=Homo sapiens OX=9606 GN=CSK PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.9   0.1     3e-12   3.1e-12       5      72 ..       6      72 ..       2      82 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 38.9 bits;  conditional E-value: 3e-12
+   MSA_uniprot_edited  5 aakpkeptykAlYdFegssseseLplkkgdvvlilqk.egnGWslakkldgskeGWvPtaYleevkess 72
+                         aa p+  ++ A Y+F+g+  e+ Lp+ kgdv++i+   ++  W  ak++  ++eG +P++Y+++ +  +
+  sp|P41240|CSK_HUMAN  6 AAWPSGTECIAKYNFHGTA-EQDLPFCKGDVLTIVAVtKDPNWYKAKNKV-GREGIIPANYVQKREGVK 72
+                         5668888999********7.7*************99868889******98.79**********987655 PP
+
+>> sp|P19174|PLCG1_HUMAN  1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-1 OS=Homo sapiens OX=9606 GN=P
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.6   0.1   3.5e-12   3.7e-12       5      77 ..     788     858 ..     784     867 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 38.6 bits;  conditional E-value: 3.5e-12
+     MSA_uniprot_edited   5 aakpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapap 77 
+                            + +  +  +kAl+d++ +  e eL++ k  ++  ++k++ GW+ +    g+k+ W P++Y+ee+ ++ + +++
+  sp|P19174|PLCG1_HUMAN 788 PMPTFKCAVKALFDYKAQR-EDELTFIKSAIIQNVEKQEGGWWRGDYG-GKKQLWFPSNYVEEMVNPVALEPE 858
+                            556678899*********7.7************************997.59*************987765544 PP
+
+>> sp|Q8TE67|ES8L3_HUMAN  Epidermal growth factor receptor kinase substrate 8-like protein 3 OS=Homo sapiens OX=9606 GN=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.8   0.0   6.3e-12   6.6e-12       3      82 ..     445     521 ..     443     527 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 37.8 bits;  conditional E-value: 6.3e-12
+     MSA_uniprot_edited   3 apaakpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappapsp 82 
+                            +p++++   ++++lY+Fe ++ ++eL++ +g+ +++l ++++ W+l+k+   +++G++P++ le +++ ++ ++ ++ps+
+  sp|Q8TE67|ES8L3_HUMAN 445 SPKPAQPALKMQVLYEFEARN-PRELTVVQGEKLEVL-DHSKRWWLVKNEA-GRSGYIPSNILEPLQPGTPGTQGQSPSR 521
+                            56777778899*********7.9**************.89*********98.79************99887766666654 PP
+
+>> sp|P16885|PLCG2_HUMAN  1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-2 OS=Homo sapiens OX=9606 GN=P
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.0   0.1   1.2e-11   1.2e-11       5      75 ..     766     834 ..     762     844 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 37.0 bits;  conditional E-value: 1.2e-11
+     MSA_uniprot_edited   5 aakpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssap 75 
+                            +++  + t+kAlYd++ + s  eL++ +g ++  ++ke+ GW+ +   + + + + P++Y+e +++++ ++
+  sp|P16885|PLCG2_HUMAN 766 NPSMPQRTVKALYDYKAKRS-DELSFCRGALIHNVSKEPGGWWKGDYGT-RIQQYFPSNYVEDISTADFEE 834
+                            56677899**********86.*************************998.7888*********99876655 PP
+
+>> sp|Q15642|CIP4_HUMAN  Cdc42-interacting protein 4 OS=Homo sapiens OX=9606 GN=TRIP10 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.8   0.0   2.6e-11   2.7e-11       9      66 ..     541     597 ..     534     600 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 35.8 bits;  conditional E-value: 2.6e-11
+    MSA_uniprot_edited   9 keptykAlYdFegssseseLplkkgdvvlilqk.egnGWslakkldgskeGWvPtaYle 66 
+                              ++ A+Y Fegss e+++++++g+ + + ++ +g+GW+ +++++ + eG+vPt+Yl+
+  sp|Q15642|CIP4_HUMAN 541 PIGHCVAIYHFEGSS-EGTISMAEGEDLSLMEEdKGDGWTRVRRKE-GGEGYVPTSYLR 597
+                           556789********7.7********99887776699********98.57********96 PP
+
+>> sp|Q08881|ITK_HUMAN  Tyrosine-protein kinase ITK/TSK OS=Homo sapiens OX=9606 GN=ITK PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.3   0.2   1.8e-11   1.9e-11       7      72 ..     170     233 ..     164     249 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 36.3 bits;  conditional E-value: 1.8e-11
+   MSA_uniprot_edited   7 kpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkess 72 
+                          +p+e  + AlYd++ ++ ++eL l++++   +l + +  W+ ++  + + eG+vP++Yl+e ++++
+  sp|Q08881|ITK_HUMAN 170 EPEETVVIALYDYQTND-PQELALRRNEEYCLLDSSEIHWWRVQDRN-GHEGYVPSSYLVEKSPNN 233
+                          6889999*********7.9**************************98.79**********988765 PP
+
+>> sp|Q8IZP0|ABI1_HUMAN  Abl interactor 1 OS=Homo sapiens OX=9606 GN=ABI1 PE=1 SV=4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.0   0.2   1.1e-11   1.2e-11       5      69 ..     443     504 ..     439     508 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 37.0 bits;  conditional E-value: 1.1e-11
+    MSA_uniprot_edited   5 aakpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevk 69 
+                           a+k   +++ A+Yd++ ++ + eL++ +g ++++++k+++GW  +  +    +G  P +Y+e + 
+  sp|Q8IZP0|ABI1_HUMAN 443 APKNYIEKVVAIYDYTKDK-DDELSFMEGAIIYVIKKNDDGWYEGVCNR--VTGLFPGNYVESIM 504
+                           556667899*********7.7***********************99876..89********9875 PP
+
+>> sp|O43307|ARHG9_HUMAN  Rho guanine nucleotide exchange factor 9 OS=Homo sapiens OX=9606 GN=ARHGEF9 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.0   0.4   2.3e-11   2.4e-11      13      79 ..      13      76 ..       8      84 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 36.0 bits;  conditional E-value: 2.3e-11
+     MSA_uniprot_edited 13 ykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappa 79
+                           ++A++d +    ++eL +k+gdv+ +l   ++ W+ ++  d  +eGW P+++++ + +++++ ++ +
+  sp|O43307|ARHG9_HUMAN 13 AEAVWDHVTMA-NRELAFKAGDVIKVLDASNKDWWWGQIDD--EEGWFPASFVRLWVNQEDEVEEGP 76
+                           68999999996.7*************************988..9**********9999887765544 PP
+
+>> sp|P42685|FRK_HUMAN  Tyrosine-protein kinase FRK OS=Homo sapiens OX=9606 GN=FRK PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.8   0.0   2.6e-11   2.7e-11       4      70 ..      38     110 ..      36     116 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 35.8 bits;  conditional E-value: 2.6e-11
+   MSA_uniprot_edited   4 paakpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgsk.......eGWvPtaYleevke 70 
+                          p+++   +++ Al+d++ ++ ++ L++++gd + +l +  +GW++a++l++++       +G++P++Y++e ++
+  sp|P42685|FRK_HUMAN  38 PQSQRHGHYFVALFDYQART-AEDLSFRAGDKLQVLDTLHEGWWFARHLEKRRdgssqqlQGYIPSNYVAEDRS 110
+                          566778899**********8.69***********************9987544222234479*******98655 PP
+
+>> sp|Q8N5V2|NGEF_HUMAN  Ephexin-1 OS=Homo sapiens OX=9606 GN=NGEF PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.6   0.0   3.1e-11   3.3e-11      11      73 ..     615     676 ..     610     689 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 35.6 bits;  conditional E-value: 3.1e-11
+    MSA_uniprot_edited  11 ptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesss 73 
+                           p+++++ +++ ++ + eL+l+  d++ il k ++GW+++++l+++++GW P++  ee+ +++ 
+  sp|Q8N5V2|NGEF_HUMAN 615 PQVQCVHPYVAQQ-PDELTLELADILNILDKTDDGWIFGERLHDQERGWFPSSMTEEILNPKI 676
+                           7899999*****6.9**************************************9999977654 PP
+
+>> sp|A1IGU5|ARH37_HUMAN  Rho guanine nucleotide exchange factor 37 OS=Homo sapiens OX=9606 GN=ARHGEF37 PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.5   0.0    0.0091    0.0096      21      73 ..     519     572 ..     509     586 .. 0.74
+   2 !   25.8   0.0   3.5e-08   3.7e-08       6      68 ..     600     663 ..     595     667 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 8.5 bits;  conditional E-value: 0.0091
+     MSA_uniprot_edited  21 gssseseLplkkgdvvlilqk....egnGWslakkldgskeGWvPtaYleevkesss 73 
+                            g++ +  L+l +g++v ilq+     ++G +l+ +   + +G+vP+  l+ ++  +s
+  sp|A1IGU5|ARH37_HUMAN 519 GTG-TLDLTLPRGQIVAILQNkdtkGNSGRWLVDTG--GHRGYVPAGKLQLYHVVPS 572
+                            554.468999********996322257899999985..599****987777766555 PP
+
+  == domain 2  score: 25.8 bits;  conditional E-value: 3.5e-08
+     MSA_uniprot_edited   6 akpkeptykAlYdFegssseseLplkkgdvvlilqk.egnG...WslakkldgskeGWvPtaYleev 68 
+                            + p+ +++ A+Y+F+ +ss +e++l++g+ v+il+  +++G   Wsl++ +   ++G+vP+ +l+  
+  sp|A1IGU5|ARH37_HUMAN 600 SIPTMNQVIAAYPFVARSS-HEVSLQAGQPVTILEAqDKKGnpeWSLVEVNG--QRGYVPSGFLARA 663
+                            5678899**********85.*************97644444555*****975..9******999765 PP
+
+>> sp|O75563|SKAP2_HUMAN  Src kinase-associated phosphoprotein 2 OS=Homo sapiens OX=9606 GN=SKAP2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.8   0.3   2.7e-11   2.9e-11      11      68 ..     300     356 ..     292     358 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 35.8 bits;  conditional E-value: 2.7e-11
+     MSA_uniprot_edited  11 ptykAlYdFegssseseLplkkgdvvlilqkegn..GWslakkldgskeGWvPtaYleev 68 
+                            + y+ l+d +g  s  eL++k+gdv++il+ke n  GW++++ +   + G vP+aY+ e+
+  sp|O75563|SKAP2_HUMAN 300 NFYQGLWDCTGAFS-DELSFKRGDVIYILSKEYNryGWWVGEMKG--AIGLVPKAYIMEM 356
+                            67899999999985.****************76656******975..9*********987 PP
+
+>> sp|P56945|BCAR1_HUMAN  Breast cancer anti-estrogen resistance protein 1 OS=Homo sapiens OX=9606 GN=BCAR1 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.5   0.0   1.4e-10   1.4e-10      13      79 ..       8      74 ..       4      87 .. 0.75
+   2 ?   -1.0   0.0       7.9       8.4      57      75 ..     255     273 ..     254     282 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 33.5 bits;  conditional E-value: 1.4e-10
+     MSA_uniprot_edited 13 ykAlYdFegssseseLplkkgdvvlilqkegn...GWslakkldgskeGWvPtaYleevkesssapappa 79
+                           +kAlYd + +s + eL+++kgd++++l+++++   GW+l++     ++G vP + l+ +    +++++ +
+  sp|P56945|BCAR1_HUMAN  8 AKALYDNVAES-PDELSFRKGDIMTVLEQDTQgldGWWLCSLHG--RQGIVPGNRLKILVGMYDKKPAGP 74
+                           79****99995.9***************98753337*****965..9*****998887766554444433 PP
+
+  == domain 2  score: -1.0 bits;  conditional E-value: 7.9
+     MSA_uniprot_edited  57 eGWvPtaYleevkesssap 75 
+                            +G +P++Y +ev ++++++
+  sp|P56945|BCAR1_HUMAN 255 RGLLPSQYGQEVYDTPPMA 273
+                            699********99876654 PP
+
+>> sp|Q8TC17|GRAPL_HUMAN  GRB2-related adapter protein-like OS=Homo sapiens OX=9606 GN=GRAPL PE=3 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.8   0.0   2.7e-11   2.9e-11      14      66 ..       4      54 ..       2      67 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 35.8 bits;  conditional E-value: 2.7e-11
+     MSA_uniprot_edited 14 kAlYdFegssseseLplkkgdvvlilqk.egnGWslakkldgskeGWvPtaYle 66
+                            AlY F+ ++s  eL ++kgd + il+  +++ W  a+      eG++P++Y++
+  sp|Q8TC17|GRAPL_HUMAN  4 VALYSFQATES-DELAFNKGDTLKILNMeDDQNWYKAELRG--VEGFIPKNYIR 54
+                           69*******86.**************986788999999865..9********97 PP
+
+>> sp|Q96N96|SPT13_HUMAN  Spermatogenesis-associated protein 13 OS=Homo sapiens OX=9606 GN=SPATA13 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.1   0.5   4.4e-11   4.7e-11      13      85 ..     152     221 ..     148     228 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 35.1 bits;  conditional E-value: 4.4e-11
+     MSA_uniprot_edited  13 ykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappapspaaa 85 
+                            ++Al+d +  + ++eL +k+gdv+ +l+  ++ W+ +++ d  ke W P+++++   ++++ +++++++p  +
+  sp|Q96N96|SPT13_HUMAN 152 AEALWDHVTMD-DQELGFKAGDVIQVLEASNKDWWWGRSED--KEAWFPASFVRLRVNQEELSENSSSTPSEE 221
+                            6899**99997.7**************************99..99********99888777766666665544 PP
+
+>> sp|P14317|HCLS1_HUMAN  Hematopoietic lineage cell-specific protein OS=Homo sapiens OX=9606 GN=HCLS1 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.9   0.0   2.2e-10   2.3e-10      13      67 ..     433     484 ..     429     486 .] 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 32.9 bits;  conditional E-value: 2.2e-10
+     MSA_uniprot_edited  13 ykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYlee 67 
+                            + A+Yd++g++s  eL+++ +dv++ ++  ++GW+ ++       G  P++Y++ 
+  sp|P14317|HCLS1_HUMAN 433 AVAVYDYQGEGS-DELSFDPDDVITDIEMVDEGWWRGRCHG--HFGLFPANYVKL 484
+                            679*******96.*************************975..89********86 PP
+
+>> sp|P42681|TXK_HUMAN  Tyrosine-protein kinase TXK OS=Homo sapiens OX=9606 GN=TXK PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.4   0.0   7.2e-11   7.6e-11       3      69 ..      77     141 ..      74     149 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 34.4 bits;  conditional E-value: 7.2e-11
+   MSA_uniprot_edited   3 apaakpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevk 69 
+                          +++ ++++ ++kAlYdF  ++ + +L l++ +  lil+k +  W+ a+    ++eG +P++Y++e k
+  sp|P42681|TXK_HUMAN  77 PSEVAEEKIQVKALYDFLPRE-PCNLALRRAEEYLILEKYNPHWWKARDRL-GNEGLIPSNYVTENK 141
+                          4556778889**********6.9*************************988.79*********9976 PP
+
+>> sp|Q8TE68|ES8L1_HUMAN  Epidermal growth factor receptor kinase substrate 8-like protein 1 OS=Homo sapiens OX=9606 GN=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.7   0.1   1.2e-10   1.3e-10      13      85 ..     483     552 ..     471     564 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 33.7 bits;  conditional E-value: 1.2e-10
+     MSA_uniprot_edited  13 ykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappapspaaa 85 
+                            + + YdF+ ++s seL++k+ dv+++l +++  W+ ++    ++eG+vP + l+ +  ++  ++++++++ ++
+  sp|Q8TE68|ES8L1_HUMAN 483 VLCNYDFQARNS-SELSVKQRDVLEVL-DDSRKWWKVRDPA-GQEGYVPYNILTPYPGPRLHHSQSPARSLNS 552
+                            6678******86.**************.67999******98.79************99888777766665544 PP
+
+>> sp|Q9H6S3|ES8L2_HUMAN  Epidermal growth factor receptor kinase substrate 8-like protein 2 OS=Homo sapiens OX=9606 GN=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.5   0.1   1.4e-10   1.5e-10       8      73 ..     492     554 ..     487     569 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 33.5 bits;  conditional E-value: 1.4e-10
+     MSA_uniprot_edited   8 pkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesss 73 
+                               +++k lYdF+ ++ ++eL++ k++v+++l ++g  W+  ++ + ++ G+vP + l e +++++
+  sp|Q9H6S3|ES8L2_HUMAN 492 AMAKYVKILYDFTARN-ANELSVLKDEVLEVL-EDGRQWWKLRSRS-GQAGYVPCNILGEARPEDA 554
+                            4567899********8.6**************.5699999999987.79******99999887665 PP
+
+>> sp|Q13625|ASPP2_HUMAN  Apoptosis-stimulating of p53 protein 2 OS=Homo sapiens OX=9606 GN=TP53BP2 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.7   0.1   2.4e-10   2.5e-10      13      67 ..    1062    1116 ..    1056    1126 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 32.7 bits;  conditional E-value: 2.4e-10
+     MSA_uniprot_edited   13 ykAlYdFegssseseLplkkgdvvlilqkegn...GWslakkldgskeGWvPtaYlee 67  
+                             + Al+d+e ++ + eLp+k+gd ++i+  e++    W+ a+ +d  keG+vP + l  
+  sp|Q13625|ASPP2_HUMAN 1062 IYALWDYEPQN-DDELPMKEGDCMTIIHREDEdeiEWWWARLND--KEGYVPRNLLGL 1116
+                             679*******8.7***********998876552337******99..9*****997765 PP
+
+>> sp|Q9NR80|ARHG4_HUMAN  Rho guanine nucleotide exchange factor 4 OS=Homo sapiens OX=9606 GN=ARHGEF4 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.9   0.1   2.2e-10   2.3e-10      13      74 ..     199     257 ..     195     269 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 32.9 bits;  conditional E-value: 2.2e-10
+     MSA_uniprot_edited  13 ykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssa 74 
+                            ++Al+d +  + ++eL +k+gdv+++    +  W+ ++ +d   eGW P+++++   +++++
+  sp|Q9NR80|ARHG4_HUMAN 199 AEALWDHVTMD-DQELGFKAGDVIEVMDATNREWWWGRVAD--GEGWFPASFVRLRVNQDEP 257
+                            6899**99997.7****************************..59********976654443 PP
+
+>> sp|Q9BRR9|RHG09_HUMAN  Rho GTPase-activating protein 9 OS=Homo sapiens OX=9606 GN=ARHGAP9 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.6   0.0   2.6e-10   2.8e-10       6      77 ..      20      95 ..      17     103 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 32.6 bits;  conditional E-value: 2.6e-10
+     MSA_uniprot_edited  6 akpkeptykAlYdFegsss.eseLplkkgdvvlilqkegnGWslakkld...gskeGWvPtaYleevkesssapap 77
+                           ++p+  ++ AlY F+ +++  ++++l++gd +l+l+k ++ W+la++l+   +s+  +vP+aY+ e + +s++p++
+  sp|Q9BRR9|RHG09_HUMAN 20 SPPRGSQLCALYAFTYTGAdGQQVSLAEGDRFLLLRKTNSDWWLARRLEapsTSRPIFVPAAYMIEESIPSQSPTT 95
+                           678889999******66552589************************9855568888*******999887776654 PP
+
+>> sp|Q96HU1|SGSM3_HUMAN  Small G protein signaling modulator 3 OS=Homo sapiens OX=9606 GN=SGSM3 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.8   0.0   2.3e-10   2.4e-10       7      74 ..     479     543 ..     474     554 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 32.8 bits;  conditional E-value: 2.3e-10
+     MSA_uniprot_edited   7 kpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssa 74 
+                             + + ++kAl dFe  + + eL ++k+d+++i++++++  ++++ +    +GW P++++e ++e+s++
+  sp|Q96HU1|SGSM3_HUMAN 479 RSHRRRAKALLDFERHD-DDELGFRKNDIITIVSQKDEHCWVGELNG--LRGWFPAKFVEVLDERSKE 543
+                            5677899*********7.7**************99988888999865..89**********9998765 PP
+
+>> sp|P06239|LCK_HUMAN  Tyrosine-protein kinase Lck OS=Homo sapiens OX=9606 GN=LCK PE=1 SV=6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.9   0.0   4.3e-10   4.5e-10       3      72 ..      56     123 ..      54     137 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 31.9 bits;  conditional E-value: 4.3e-10
+   MSA_uniprot_edited   3 apaakpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkess 72 
+                          +pa++ +++ + Al  +e s+ ++ L ++kg+ + il++ +  W+ a++l++++eG++P +++++ ++ +
+  sp|P06239|LCK_HUMAN  56 PPASPLQDNLVIALHSYEPSH-DGDLGFEKGEQLRILEQ-SGEWWKAQSLTTGQEGFIPFNFVAKANSLE 123
+                          566777899999********8.7**************66.667********************9988755 PP
+
+>> sp|Q15080|NCF4_HUMAN  Neutrophil cytosol factor 4 OS=Homo sapiens OX=9606 GN=NCF4 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.8   0.0   4.8e-10     5e-10       9      73 ..     171     232 ..     165     241 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 31.8 bits;  conditional E-value: 4.8e-10
+    MSA_uniprot_edited   9 keptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesss 73 
+                           + p+++Al+dF+g+s + eL++k+gdv+++l+  ++ W+ ++     ++G  P ++++ +k+ ++
+  sp|Q15080|NCF4_HUMAN 171 AAPRAEALFDFTGNS-KLELNFKAGDVIFLLSRINKDWLEGTVRG--ATGIFPLSFVKILKDFPE 232
+                           6799**********7.7***********************99865..9**********9987554 PP
+
+>> sp|Q96HL8|SH3Y1_HUMAN  SH3 domain-containing YSC84-like protein 1 OS=Homo sapiens OX=9606 GN=SH3YL1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.4   0.0   6.3e-10   6.6e-10      12      66 ..     287     340 ..     282     342 .] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 31.4 bits;  conditional E-value: 6.3e-10
+     MSA_uniprot_edited  12 tykAlYdFegssseseLplkkgdvvlilqkegn..GWslakkldgskeGWvPtaYle 66 
+                            ++ AlY Feg++ ++ L++++gd +++++k ++   W+ +k     ++G  P++Y++
+  sp|Q96HL8|SH3Y1_HUMAN 287 EVTALYSFEGQQ-PGDLNFQAGDRITVISKTDShfDWWEGKLRG--QTGIFPANYVT 340
+                            578********6.9**************99666448*****975..99*******97 PP
+
+>> sp|Q9H7D0|DOCK5_HUMAN  Dedicator of cytokinesis protein 5 OS=Homo sapiens OX=9606 GN=DOCK5 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.6   0.1   2.3e-09   2.4e-09       9      69 ..       9      68 ..       4      81 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 29.6 bits;  conditional E-value: 2.3e-09
+     MSA_uniprot_edited  9 keptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkld.gskeGWvPtaYleevk 69
+                           ++++  A+Y+++ s+ + eL+l+ gd v il+   +GW  + +l+ +sk+G  P++Y+   +
+  sp|Q9H7D0|DOCK5_HUMAN  9 RQKYGVAIYNYNASQ-DVELSLQIGDTVHILE-MYEGWYRGYTLQnKSKKGIFPETYIHLKE 68
+                           566778********7.7**************5.599*****9987689*********98655 PP
+
+>> sp|Q86WV1|SKAP1_HUMAN  Src kinase-associated phosphoprotein 1 OS=Homo sapiens OX=9606 GN=SKAP1 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.6   0.2   2.2e-09   2.3e-09      12      67 ..     298     352 ..     291     358 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 29.6 bits;  conditional E-value: 2.2e-09
+     MSA_uniprot_edited  12 tykAlYdFegssseseLplkkgdvvlilqkegn..GWslakkldgskeGWvPtaYlee 67 
+                            +y+ l+d +g++ + eL++++gd++ il+ke n  GW++++ ++    G vP++Yl+ 
+  sp|Q86WV1|SKAP1_HUMAN 298 YYQGLWDCHGDQ-PDELSFQRGDLIRILSKEYNmyGWWVGELNS--LVGIVPKEYLTT 352
+                            789999*****6.9****************87767******975..9********986 PP
+
+>> sp|P98171|RHG04_HUMAN  Rho GTPase-activating protein 4 OS=Homo sapiens OX=9606 GN=ARHGAP4 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.9   0.0     8e-09   8.4e-09      12      69 ..     750     804 ..     739     819 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 27.9 bits;  conditional E-value: 8e-09
+     MSA_uniprot_edited  12 tykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevk 69 
+                            ++ A + ++g++ ++eL++++gdv+ +++  ++ W+ ++++    +G +P +Y++  +
+  sp|P98171|RHG04_HUMAN 750 EAVACFAYTGRT-AQELSFRRGDVLRLHERASSDWWRGEHNG--MRGLIPHKYITLPA 804
+                            5679999****8.6*************************975..89*******98655 PP
+
+>> sp|O75044|SRGP2_HUMAN  SLIT-ROBO Rho GTPase-activating protein 2 OS=Homo sapiens OX=9606 GN=SRGAP2 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.3   0.0   1.2e-08   1.3e-08      13      81 ..     733     798 ..     723     807 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 27.3 bits;  conditional E-value: 1.2e-08
+     MSA_uniprot_edited  13 ykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesssapappaps 81 
+                            + A +d++g++ ++eL++kkg  +l+ q  ++ W+ ++++     G +P +Y++  ++++   ++++p+
+  sp|O75044|SRGP2_HUMAN 733 AIAKFDYVGRT-ARELSFKKGASLLLYQRASDDWWEGRHNG--IDGLIPHQYIVVQDTEDGVVERSSPK 798
+                            6799******8.6*************************975..89********9988877665555554 PP
+
+>> sp|Q7Z6B7|SRGP1_HUMAN  SLIT-ROBO Rho GTPase-activating protein 1 OS=Homo sapiens OX=9606 GN=SRGAP1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.8   0.0   1.7e-08   1.8e-08      12      73 ..     747     805 ..     736     821 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 26.8 bits;  conditional E-value: 1.7e-08
+     MSA_uniprot_edited  12 tykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesss 73 
+                            ++ A +d++g+s ++eL++kkg  +l+    ++ W+ ++++     G vP +Y++  + +++
+  sp|Q7Z6B7|SRGP1_HUMAN 747 EAIAKFDYVGRS-ARELSFKKGASLLLYHRASEDWWEGRHNG--IDGLVPHQYIVVQDMDDT 805
+                            56799******7.7*************************975..89*******987766544 PP
+
+>> sp|P55345|ANM2_HUMAN  Protein arginine N-methyltransferase 2 OS=Homo sapiens OX=9606 GN=PRMT2 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.8   0.1   1.7e-08   1.8e-08       9      73 ..      31      92 ..      26     102 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 26.8 bits;  conditional E-value: 1.7e-08
+    MSA_uniprot_edited  9 keptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesss 73
+                          + +++ A+ d++ ++ e++L++ +g+ +lil++ +  W+ ++++     G++P++++ ++ ++ +
+  sp|P55345|ANM2_HUMAN 31 QPEEFVAIADYAATD-ETQLSFLRGEKILILRQTTADWWWGERAG--CCGYIPANHVGKHVDEYD 92
+                          567899********8.7**************************86..89*******998876554 PP
+
+>> sp|O43295|SRGP3_HUMAN  SLIT-ROBO Rho GTPase-activating protein 3 OS=Homo sapiens OX=9606 GN=SRGAP3 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.3   0.0   2.5e-08   2.7e-08       6      73 ..     742     806 ..     737     821 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 26.3 bits;  conditional E-value: 2.5e-08
+     MSA_uniprot_edited   6 akpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesss 73 
+                            ++ ++ ++ A +d+ g+s ++eL++kkg  +l+    ++ W+ ++++     G +P +Y++  + +++
+  sp|O43295|SRGP3_HUMAN 742 EEVEQIEAIAKFDYMGRS-PRELSFKKGASLLLYHRASEDWWEGRHNG--VDGLIPHQYIVVQDMDDA 806
+                            56667778899******6.9*************************975..89*******987766544 PP
+
+>> sp|P20936|RASA1_HUMAN  Ras GTPase-activating protein 1 OS=Homo sapiens OX=9606 GN=RASA1 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.6   0.0   4.1e-08   4.3e-08       3      73 ..     274     344 ..     272     350 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 25.6 bits;  conditional E-value: 4.1e-08
+     MSA_uniprot_edited   3 apaakpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleevkesss 73 
+                            +p++ + + +++A+ +++   ++ e+++ kgd+++++++ ++GW+ +++l ++++G + ++ +eev  +++
+  sp|P20936|RASA1_HUMAN 274 PPEPVEDRRRVRAILPYTKVPDTDEISFLKGDMFIVHNELEDGWMWVTNLRTDEQGLIVEDLVEEVGREED 344
+                            5667788899********9999************************************9999999987665 PP
+
+>> sp|Q9ULH1|ASAP1_HUMAN  Arf-GAP with SH3 domain, ANK repeat and PH domain-containing protein 1 OS=Homo sapiens OX=9606
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.0   0.0   6.1e-08   6.5e-08       7      67 ..    1066    1126 ..    1061    1129 .] 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 25.0 bits;  conditional E-value: 6.1e-08
+     MSA_uniprot_edited    7 kpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkld.gskeGWvPtaYlee 67  
+                             k k  ++k +Yd + ++ + eL++ +g+v++++ +e++ W+ ++     +++G  P +++  
+  sp|Q9ULH1|ASAP1_HUMAN 1066 KNKVRRVKTIYDCQADN-DDELTFIEGEVIIVTGEEDQEWWIGHIEGqPERKGVFPVSFVHI 1126
+                             5678899*********7.7************************9765268999999999875 PP
+
+>> sp|P42679|MATK_HUMAN  Megakaryocyte-associated tyrosine-protein kinase OS=Homo sapiens OX=9606 GN=MATK PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.1   0.0   4.3e-06   4.6e-06      24      60 ..      63     100 ..      58     118 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 19.1 bits;  conditional E-value: 4.3e-06
+    MSA_uniprot_edited  24 seseLplkkgdvvlilqk.egnGWslakkldgskeGWv 60 
+                           +++eL ++kgdvv+il+  e++ W  +k+ ++++eG +
+  sp|P42679|MATK_HUMAN  63 KPGELAFRKGDVVTILEAcENKSWYRVKHHTSGQEGLL 100
+                           589***************9*****************75 PP
+
+>> sp|Q12959|DLG1_HUMAN  Disks large homolog 1 OS=Homo sapiens OX=9606 GN=DLG1 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.2   0.0   3.5e-05   3.6e-05       8      62 ..     581     643 ..     576     667 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 16.2 bits;  conditional E-value: 3.5e-05
+    MSA_uniprot_edited   8 pkeptykAlYdFegsss....eseLplkkgdvvlilqkegnGWslakkld....gskeGWvPt 62 
+                           ++  +++Al+d++ +++    ++ L++k gd++ +++  ++ W+ a++ +    +++ G +P+
+  sp|Q12959|DLG1_HUMAN 581 KRSLYVRALFDYDKTKDsglpSQGLNFKFGDILHVINASDDEWWQARQVTpdgeSDEVGVIPS 643
+                           5566799******6554223246799********************98753332445566666 PP
+
+>> sp|Q9H6Q3|SLAP2_HUMAN  Src-like-adapter 2 OS=Homo sapiens OX=9606 GN=SLA2 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.6   0.0   2.6e-05   2.7e-05       5      68 ..      29      90 ..      25      97 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 16.6 bits;  conditional E-value: 2.6e-05
+     MSA_uniprot_edited  5 aakpkeptykAlYdFegssseseLplkkgdvvlilqkegnGWslakkldgskeGWvPtaYleev 68
+                           +a+ ++ t+ Al  F+  + + eL+l+ g+ ++i+++ +  W+ + +  +++e  +P+ ++++v
+  sp|Q9H6Q3|SLAP2_HUMAN 29 EAERSKATAVALGSFPAGG-PAELSLRLGEPLTIVSE-DGDWWTVLSEVSGREYNIPSVHVAKV 90
+                           6778999*********998.8**************66.55677766666678877887777766 PP
+
+>> sp|P78352|DLG4_HUMAN  Disks large homolog 4 OS=Homo sapiens OX=9606 GN=DLG4 PE=1 SV=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.0   0.0     4e-05   4.2e-05      11      61 ..     431     489 ..     422     501 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 16.0 bits;  conditional E-value: 4e-05
+    MSA_uniprot_edited  11 ptykAlYdFegsss....eseLplkkgdvvlilqkegnGWslakkldgske....GWvP 61 
+                            +++Al+d++ +++    ++ L+++ gdv+ ++   ++ W+ a++ +++ e    G++P
+  sp|P78352|DLG4_HUMAN 431 FYIRALFDYDKTKDcgflSQALSFRFGDVLHVIDASDEEWWQARRVHSDSEtddiGFIP 489
+                           5689******77654444689***********************998655433336666 PP
+
+>> sp|Q92796|DLG3_HUMAN  Disks large homolog 3 OS=Homo sapiens OX=9606 GN=DLG3 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.5   0.0   0.00012   0.00013      10      53 ..     503     550 ..     496     579 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 14.5 bits;  conditional E-value: 0.00012
+    MSA_uniprot_edited  10 eptykAlYdFegsss....eseLplkkgdvvlilqkegnGWslakkld 53 
+                             +++Al+d++ + +    ++ L+++ gd++ +++  ++ W+ a+  +
+  sp|Q92796|DLG3_HUMAN 503 SLYVRALFDYDRTRDsclpSQGLSFSYGDILHVINASDDEWWQARLVT 550
+                           55789******665423435789*********************9875 PP
+
+>> sp|Q8TF17|S3TC2_HUMAN  SH3 domain and tetratricopeptide repeat-containing protein 2 OS=Homo sapiens OX=9606 GN=SH3TC2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.5   0.0    0.0011    0.0011      12      67 ..     272     328 ..     266     345 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 11.5 bits;  conditional E-value: 0.0011
+     MSA_uniprot_edited  12 tykAlYdFegssseseLplkkgdvvlilqk..egnGWslakkldgskeGWvPtaYlee 67 
+                            ++kAl  +e  + + eL++ +g+ ++i+     g  W  +k+ ++++ G+vPt  +  
+  sp|Q8TF17|S3TC2_HUMAN 272 RCKALTGYEPGE-KDELNFYQGESIEIIGFviPGLQWFIGKSTSSGQVGFVPTRNIDP 328
+                            688999999886.69************987447778****************986655 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (91 nodes)
+Target sequences:                        101  (77608 residues searched)
+Passed MSV filter:                        99  (0.980198); expected 2.0 (0.02)
+Passed bias filter:                       98  (0.970297); expected 2.0 (0.02)
+Passed Vit filter:                        98  (0.970297); expected 0.1 (0.001)
+Passed Fwd filter:                        96  (0.950495); expected 0.0 (1e-05)
+Initial search space (Z):                101  [actual number of targets]
+Domain search space  (domZ):              96  [number of targets reported over threshold]
+# CPU time: 0.12u 0.01s 00:00:00.13 Elapsed: 00:00:00.13
+# Mc/sec: 54.25
+//
+[ok]

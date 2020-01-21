@@ -1,0 +1,2917 @@
+PSIBLAST 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: ./uniprotNOT_PF00018proteins.fasta
+           20,266 sequences; 11,279,802 total letters
+
+Results from round 1
+
+
+Query=
+Length=49
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+Q14155 Rho guanine nucleotide exchange factor 7 OS=Homo sapiens O...  52.5       3e-10
+Q15052 Rho guanine nucleotide exchange factor 6 OS=Homo sapiens O...  51.7       6e-10
+O43586 Proline-serine-threonine phosphatase-interacting protein 1...  49.4       4e-09
+Q8IVI9 Nostrin OS=Homo sapiens OX=9606 GN=NOSTRIN PE=1 SV=2           49.0       5e-09
+O00160 Unconventional myosin-If OS=Homo sapiens OX=9606 GN=MYO1F ...  49.0       6e-09
+O43281 Embryonal Fyn-associated substrate OS=Homo sapiens OX=9606...  45.9       7e-08
+O60861 Growth arrest-specific protein 7 OS=Homo sapiens OX=9606 G...  45.5       9e-08
+Q96RU3 Formin-binding protein 1 OS=Homo sapiens OX=9606 GN=FNBP1 ...  45.1       1e-07
+Q9UKW4 Guanine nucleotide exchange factor VAV3 OS=Homo sapiens OX...  44.7       2e-07
+O15068 Guanine nucleotide exchange factor DBS OS=Homo sapiens OX=...  44.4       2e-07
+Q14511 Enhancer of filamentation 1 OS=Homo sapiens OX=9606 GN=NED...  43.2       6e-07
+Q9NQ75 Cas scaffolding protein family member 4 OS=Homo sapiens OX...  43.2       6e-07
+Q96DR7 Rho guanine nucleotide exchange factor 26 OS=Homo sapiens ...  43.2       6e-07
+Q12774 Rho guanine nucleotide exchange factor 5 OS=Homo sapiens O...  42.8       8e-07
+P52735 Guanine nucleotide exchange factor VAV2 OS=Homo sapiens OX...  41.7       2e-06
+Q99962 Endophilin-A1 OS=Homo sapiens OX=9606 GN=SH3GL2 PE=1 SV=1      40.5       4e-06
+Q5VV41 Rho guanine nucleotide exchange factor 16 OS=Homo sapiens ...  40.5       5e-06
+O43150 Arf-GAP with SH3 domain, ANK repeat and PH domain-containi...  40.5       6e-06
+Q9NYB9 Abl interactor 2 OS=Homo sapiens OX=9606 GN=ABI2 PE=1 SV=1     39.7       1e-05
+Q5T2T1 MAGUK p55 subfamily member 7 OS=Homo sapiens OX=9606 GN=MP...  39.0       2e-05
+Q9BY11 Protein kinase C and casein kinase substrate in neurons pr...  39.0       2e-05
+Q6UXY1 Brain-specific angiogenesis inhibitor 1-associated protein...  38.6       2e-05
+Q99963 Endophilin-A3 OS=Homo sapiens OX=9606 GN=SH3GL3 PE=1 SV=1      38.2       3e-05
+Q00013 55 kDa erythrocyte membrane protein OS=Homo sapiens OX=960...  37.8       5e-05
+A4FU49 SH3 domain-containing protein 21 OS=Homo sapiens OX=9606 G...  37.8       5e-05
+Q8N3R9 MAGUK p55 subfamily member 5 OS=Homo sapiens OX=9606 GN=MP...  37.8       5e-05
+Q8IW93 Rho guanine nucleotide exchange factor 19 OS=Homo sapiens ...  37.4       7e-05
+Q96B97 SH3 domain-containing kinase-binding protein 1 OS=Homo sap...  37.0       8e-05
+Q9UKS6 Protein kinase C and casein kinase substrate in neurons pr...  37.0       8e-05
+O76041 Nebulette OS=Homo sapiens OX=9606 GN=NEBL PE=1 SV=1            36.7       1e-04
+Q6PIF6 Unconventional myosin-VIIb OS=Homo sapiens OX=9606 GN=MYO7...  36.3       1e-04
+Q16584 Mitogen-activated protein kinase kinase kinase 11 OS=Homo ...  36.3       2e-04
+Q96JB8 MAGUK p55 subfamily member 4 OS=Homo sapiens OX=9606 GN=MP...  35.5       3e-04
+Q8WUF5 RelA-associated inhibitor OS=Homo sapiens OX=9606 GN=PPP1R...  35.5       3e-04
+Q8IWW6 Rho GTPase-activating protein 12 OS=Homo sapiens OX=9606 G...  34.7       6e-04
+
+
+>Q14155 Rho guanine nucleotide exchange factor 7 OS=Homo sapiens OX=9606
+GN=ARHGEF7 PE=1 SV=2
+Length=803
+
+ Score = 52.5 bits (125),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 15/49 (31%), Positives = 24/49 (49%), Gaps = 3/49 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+             A ++F    +  EL   KGD++ ++R E  GW    L    + GW P+
+Sbjct  190  RAKFNFQ-QTNEDELSFSKGDVIHVTRVEEGGWWEGTL--NGRTGWFPS  235
+
+
+>Q15052 Rho guanine nucleotide exchange factor 6 OS=Homo sapiens OX=9606
+GN=ARHGEF6 PE=1 SV=2
+Length=776
+
+ Score = 51.7 bits (123),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 16/49 (33%), Positives = 27/49 (55%), Gaps = 3/49 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+            +A ++F    +  EL + KGDI++++R E  GW    L    + GW P+
+Sbjct  166  KARFNFK-QTNEDELSVCKGDIIYVTRVEEGGWWEGTL--NGRTGWFPS  211
+
+
+>O43586 Proline-serine-threonine phosphatase-interacting protein 1 OS=Homo
+sapiens OX=9606 GN=PSTPIP1 PE=1 SV=1
+Length=416
+
+ Score = 49.4 bits (117),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 14/48 (29%), Positives = 21/48 (44%), Gaps = 3/48 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+             A YD+       EL L  GDI+ +  +   GW   +     + G+VP
+Sbjct  365  RALYDYTAQN-PDELDLSAGDILEVILEGEDGWWTVER--NGQRGFVP  409
+
+
+>Q8IVI9 Nostrin OS=Homo sapiens OX=9606 GN=NOSTRIN PE=1 SV=2
+Length=506
+
+ Score = 49.0 bits (116),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 18/49 (37%), Positives = 22/49 (45%), Gaps = 3/49 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+            +A Y F       EL L+KGDIV I   +  GW    L    K+G  P
+Sbjct  444  KALYSFQAR-QDDELNLEKGDIVIIHEKKEGGWWFGSL--NGKKGHFPA  489
+
+
+>O00160 Unconventional myosin-If OS=Homo sapiens OX=9606 GN=MYO1F PE=1
+SV=3
+Length=1098
+
+ Score = 49.0 bits (116),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 14/48 (29%), Positives = 22/48 (46%), Gaps = 3/48 (6%)
+
+Query  1     EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+              A Y + G     EL     +++ I  ++PSGW   +L    +EG  P
+Sbjct  1047  RALYQYVGQDVD-ELSFNVNEVIEILMEDPSGWWKGRL--HGQEGLFP  1091
+
+
+>O43281 Embryonal Fyn-associated substrate OS=Homo sapiens OX=9606 GN=EFS
+PE=1 SV=1
+Length=561
+
+ Score = 45.9 bits (108),  Expect = 7e-08, Method: Composition-based stats.
+ Identities = 16/53 (30%), Positives = 25/53 (47%), Gaps = 7/53 (13%)
+
+Query  1   EAAYDFPGSGSSSELPLKKGDIVFISRDEP----SGWSLAKLLDGSKEGWVPT  49
+            A YD   + S  EL  ++GD++ + + E      GW L  L    ++G VP
+Sbjct  11  RALYD-NTAESPQELSFRRGDVLRVLQREGAGGLDGWCLCSL--HGQQGIVPA  60
+
+
+>O60861 Growth arrest-specific protein 7 OS=Homo sapiens OX=9606 GN=GAS7
+PE=1 SV=3
+Length=476
+
+ Score = 45.5 bits (107),  Expect = 9e-08, Method: Composition-based stats.
+ Identities = 12/49 (24%), Positives = 19/49 (39%), Gaps = 1/49 (2%)
+
+Query  1   EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+              Y F G      L    G+++ + +    GW   +  DG + GW P
+Sbjct  7   RTLYPFSGERHGQGLRFAAGELITLLQVPDGGWWEGEKEDGLR-GWFPA  54
+
+
+>Q96RU3 Formin-binding protein 1 OS=Homo sapiens OX=9606 GN=FNBP1 PE=1
+SV=2
+Length=617
+
+ Score = 45.1 bits (106),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 12/50 (24%), Positives = 27/50 (54%), Gaps = 3/50 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDE-PSGWSLAKLLDGSKEGWVPT  49
+            +A Y F G      + + +G+ +++  ++   GW+  +  +  +EG+VPT
+Sbjct  556  KALYTFEGQN-EGTISVVEGETLYVIEEDKGDGWTRIRR-NEDEEGYVPT  603
+
+
+>Q9UKW4 Guanine nucleotide exchange factor VAV3 OS=Homo sapiens OX=9606
+GN=VAV3 PE=1 SV=1
+Length=847
+
+ Score = 44.7 bits (105),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 17/49 (35%), Positives = 25/49 (51%), Gaps = 4/49 (8%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFI-SRDEPSGWSLAKLLDGSKEGWVPT  49
+            A YDF       EL L KGD+V I ++   +GW   ++    + GW P+
+Sbjct  795  ARYDFCARD-MRELSLLKGDVVKIYTKMSANGWWRGEV--NGRVGWFPS  840
+
+
+>O15068 Guanine nucleotide exchange factor DBS OS=Homo sapiens OX=9606
+GN=MCF2L PE=1 SV=2
+Length=1137
+
+ Score = 44.4 bits (104),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 12/40 (30%), Positives = 19/40 (48%), Gaps = 0/40 (0%)
+
+Query  10    GSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+             G    L ++ GD+V + ++   G    +     KEGWVP
+Sbjct  1069  GGPDALRVRSGDVVELVQEGDEGLWYVRDPTTGKEGWVPA  1108
+
+
+>Q14511 Enhancer of filamentation 1 OS=Homo sapiens OX=9606 GN=NEDD9
+PE=1 SV=1
+Length=834
+
+ Score = 43.2 bits (101),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 16/51 (31%), Positives = 22/51 (43%), Gaps = 6/51 (12%)
+
+Query  1   EAAYDFPGSGSSSELPLKKGDIVFISRDEP---SGWSLAKLLDGSKEGWVP  48
+            A YD     +  EL  +KGDI+ +         GW L  L    ++G VP
+Sbjct  9   RALYDNVPECAE-ELAFRKGDILTVIEQNTGGLEGWWLCSL--HGRQGIVP  56
+
+
+>Q9NQ75 Cas scaffolding protein family member 4 OS=Homo sapiens OX=9606
+GN=CASS4 PE=1 SV=2
+Length=786
+
+ Score = 43.2 bits (101),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 17/52 (33%), Positives = 21/52 (40%), Gaps = 6/52 (12%)
+
+Query  1   EAAYDFPGSGSSSELPLKKGDIVFISRD---EPSGWSLAKLLDGSKEGWVPT  49
+            A YD      S EL   +GDI+ I      E  GW   K L   ++G  P
+Sbjct  17  RALYD-NCPDCSDELAFSRGDILTILEQHVPESEGWW--KCLLHGRQGLAPA  65
+
+
+>Q96DR7 Rho guanine nucleotide exchange factor 26 OS=Homo sapiens OX=9606
+GN=ARHGEF26 PE=1 SV=4
+Length=871
+
+ Score = 43.2 bits (101),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 12/38 (32%), Positives = 17/38 (45%), Gaps = 0/38 (0%)
+
+Query  11   SSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+               EL L+  D+V I +    GW   + L   + GW P
+Sbjct  804  QPDELSLQVADVVLIYQRVSDGWYEGERLRDGERGWFP  841
+
+
+>Q12774 Rho guanine nucleotide exchange factor 5 OS=Homo sapiens OX=9606
+GN=ARHGEF5 PE=1 SV=3
+Length=1597
+
+ Score = 42.8 bits (100),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 12/38 (32%), Positives = 19/38 (50%), Gaps = 0/38 (0%)
+
+Query  11    SSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+              + EL L+K D+V +++    GW     L   + GW P
+Sbjct  1525  ENDELALEKADVVMVTQQSSDGWLEGVRLSDGERGWFP  1562
+
+
+>P52735 Guanine nucleotide exchange factor VAV2 OS=Homo sapiens OX=9606
+GN=VAV2 PE=1 SV=2
+Length=878
+
+ Score = 41.7 bits (97),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 15/51 (29%), Positives = 22/51 (43%), Gaps = 5/51 (10%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRD--EPSGWSLAKLLDGSKEGWVPT  49
+             A Y+F       EL L++GD+V I        GW   +     + GW P+
+Sbjct  822  VARYNFAARD-MRELSLREGDVVRIYSRIGGDQGWWKGET--NGRIGWFPS  869
+
+
+>Q99962 Endophilin-A1 OS=Homo sapiens OX=9606 GN=SH3GL2 PE=1 SV=1
+Length=352
+
+ Score = 40.5 bits (94),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 14/48 (29%), Positives = 19/48 (40%), Gaps = 3/48 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+             A YDF       EL  K+GDI+ ++      W    L      G+ P
+Sbjct  296  RALYDFEPEN-EGELGFKEGDIITLTNQIDENWYEGML--HGHSGFFP  340
+
+
+>Q5VV41 Rho guanine nucleotide exchange factor 16 OS=Homo sapiens OX=9606
+GN=ARHGEF16 PE=1 SV=1
+Length=709
+
+ Score = 40.5 bits (94),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 11/39 (28%), Positives = 20/39 (51%), Gaps = 1/39 (3%)
+
+Query  11   SSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+             + E+ L++ D+V + + E  GW   + L   + GW P
+Sbjct  644  QADEVTLQQADVVLVLQQE-DGWLYGERLRDGETGWFPE  681
+
+
+>O43150 Arf-GAP with SH3 domain, ANK repeat and PH domain-containing
+protein 2 OS=Homo sapiens OX=9606 GN=ASAP2 PE=1 SV=3
+Length=1006
+
+ Score = 40.5 bits (94),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 11/49 (22%), Positives = 23/49 (47%), Gaps = 2/49 (4%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAK-LLDGSKEGWVP  48
+            +A Y+   + +  EL   +GD++ +  +E   W +     D  ++G  P
+Sbjct  950  KALYNCV-ADNPDELTFSEGDVIIVDGEEDQEWWIGHIDGDPGRKGAFP  997
+
+
+>Q9NYB9 Abl interactor 2 OS=Homo sapiens OX=9606 GN=ABI2 PE=1 SV=1
+Length=513
+
+ Score = 39.7 bits (92),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 9/33 (27%), Positives = 16/33 (48%), Gaps = 1/33 (3%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGW  33
+             A YD+       EL  ++G I+++ +    GW
+Sbjct  457  VAIYDYT-KDKEDELSFQEGAIIYVIKKNDDGW  488
+
+
+>Q5T2T1 MAGUK p55 subfamily member 7 OS=Homo sapiens OX=9606 GN=MPP7
+PE=1 SV=1
+Length=576
+
+ Score = 39.0 bits (90),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 14/57 (25%), Positives = 26/57 (46%), Gaps = 8/57 (14%)
+
+Query  1    EAAYDFPGSGSSSE------LPLKKGDIVFISRDEPSGWSLAKLLDGS--KEGWVPT  49
+            +A +D+  +   +       L  KKGDI+ I   + + W  AK    +  + G +P+
+Sbjct  234  KALFDYNPNEDKAIPCKEAGLSFKKGDILQIMSQDDATWWQAKHEADANPRAGLIPS  290
+
+
+>Q9BY11 Protein kinase C and casein kinase substrate in neurons protein
+1 OS=Homo sapiens OX=9606 GN=PACSIN1 PE=1 SV=1
+Length=444
+
+ Score = 39.0 bits (90),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 15/50 (30%), Positives = 21/50 (42%), Gaps = 3/50 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFIS-RDEPSGWSLAKLLDGSKEGWVPT  49
+             A YD+ G     EL  K GD +     ++  GW   + LD  + G  P
+Sbjct  391  RALYDYDGQEQD-ELSFKAGDELTKLGEEDEQGWCRGR-LDSGQLGLYPA  438
+
+
+>Q6UXY1 Brain-specific angiogenesis inhibitor 1-associated protein 2-like
+protein 2 OS=Homo sapiens OX=9606 GN=BAIAP2L2 PE=1 SV=1
+Length=529
+
+ Score = 38.6 bits (89),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 13/36 (36%), Positives = 16/36 (44%), Gaps = 1/36 (3%)
+
+Query  15   LPLKKGDIVFISRDEP-SGWSLAKLLDGSKEGWVPT  49
+            L    GD+V +   E  +GW   KL   S  GW P
+Sbjct  344  LRFSAGDVVEVLVPEAQNGWLYGKLEGSSASGWFPE  379
+
+
+>Q99963 Endophilin-A3 OS=Homo sapiens OX=9606 GN=SH3GL3 PE=1 SV=1
+Length=347
+
+ Score = 38.2 bits (88),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 12/48 (25%), Positives = 20/48 (42%), Gaps = 3/48 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+               YDF       EL  K+GDI+ ++      W   + +   + G+ P
+Sbjct  291  RGLYDFEPENQ-GELGFKEGDIITLTNQIDENWY--EGMIHGESGFFP  335
+
+
+>Q00013 55 kDa erythrocyte membrane protein OS=Homo sapiens OX=9606 GN=MPP1
+PE=1 SV=2
+Length=466
+
+ Score = 37.8 bits (87),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 14/57 (25%), Positives = 23/57 (40%), Gaps = 8/57 (14%)
+
+Query  1    EAAYDFPGSGS------SSELPLKKGDIVFISRDEPSGWSLAKLLDGSKE--GWVPT  49
+             A +D+            + L    GDI+ I   + S W   ++   SKE  G +P+
+Sbjct  164  RAQFDYDPKKDNLIPCKEAGLKFATGDIIQIINKDDSNWWQGRVEGSSKESAGLIPS  220
+
+
+>A4FU49 SH3 domain-containing protein 21 OS=Homo sapiens OX=9606 GN=SH3D21
+PE=2 SV=2
+Length=640
+
+ Score = 37.8 bits (87),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 10/36 (28%), Positives = 17/36 (47%), Gaps = 3/36 (8%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRD--EPSGWS  34
+               +D+    +  EL L++GD+V +     E  GW
+Sbjct  71   RVLFDYQPE-APDELALRRGDVVKVLSKTTEDKGWW  105
+
+
+>Q8N3R9 MAGUK p55 subfamily member 5 OS=Homo sapiens OX=9606 GN=MPP5
+PE=1 SV=3
+Length=675
+
+ Score = 37.8 bits (87),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 16/58 (28%), Positives = 24/58 (41%), Gaps = 10/58 (17%)
+
+Query  1    EAAYDFPGSGSS----SEL--PLKKGDIVFISRDEPSGWSLA-KLLDGSKE---GWVP  48
+            +A +D+  S        EL    +KGDI+ +   E   W  A +  D   +   G VP
+Sbjct  351  KAHFDYDPSDDPYVPCRELGLSFQKGDILHVISQEDPNWWQAYREGDEDNQPLAGLVP  408
+
+
+>Q8IW93 Rho guanine nucleotide exchange factor 19 OS=Homo sapiens OX=9606
+GN=ARHGEF19 PE=1 SV=1
+Length=802
+
+ Score = 37.4 bits (86),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 13/37 (35%), Positives = 18/37 (49%), Gaps = 0/37 (0%)
+
+Query  12   SSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+              EL L+K DI+ +      GW     L   ++GWVP
+Sbjct  731  PDELTLEKTDILSVRTWTSDGWLEGVRLADGEKGWVP  767
+
+
+>Q96B97 SH3 domain-containing kinase-binding protein 1 OS=Homo sapiens
+OX=9606 GN=SH3KBP1 PE=1 SV=2
+Length=665
+
+ Score = 37.0 bits (85),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 11/45 (24%), Positives = 19/45 (42%), Gaps = 3/45 (7%)
+
+Query  4   YDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+           +D+       EL +  G+I+   R E  GW   ++    + G  P
+Sbjct  8   FDYQAQHDD-ELTISVGEIITNIRKEDGGWWEGQI--NGRRGLFP  49
+
+
+>Q9UKS6 Protein kinase C and casein kinase substrate in neurons protein
+3 OS=Homo sapiens OX=9606 GN=PACSIN3 PE=1 SV=2
+Length=424
+
+ Score = 37.0 bits (85),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 13/50 (26%), Positives = 24/50 (48%), Gaps = 3/50 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKG-DIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+             A YD+ G  +  EL  + G +++ +S ++  GW   + L   + G  P
+Sbjct  369  RALYDYAGQEAD-ELSFRAGEELLKMSEEDEQGWCQGQ-LQSGRIGLYPA  416
+
+
+>O76041 Nebulette OS=Homo sapiens OX=9606 GN=NEBL PE=1 SV=1
+Length=1014
+
+ Score = 36.7 bits (84),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 10/49 (20%), Positives = 18/49 (37%), Gaps = 1/49 (2%)
+
+Query  1     EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+              A YD+       E+  + GD +   +    GW    +    + G +P
+Sbjct  960   RAMYDYSAQD-EDEVSFRDGDYIVNVQPIDDGWMYGTVQRTGRTGMLPA  1007
+
+
+>Q6PIF6 Unconventional myosin-VIIb OS=Homo sapiens OX=9606 GN=MYO7B PE=1
+SV=2
+Length=2116
+
+ Score = 36.3 bits (83),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 13/51 (25%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  2     AAYDFPGSGSSSELPLKKGDIVFISRDEP----SGWSLAKLLDGSKEGWVP  48
+             A  D   +  ++ L  KKGD++ +++ +       W+L +     K G VP
+Sbjct  1508  ALQDRKATDDTTLLAFKKGDLLVLTKKQGLLASENWTLGQNDRTGKTGLVP  1558
+
+
+>Q16584 Mitogen-activated protein kinase kinase kinase 11 OS=Homo sapiens
+OX=9606 GN=MAP3K11 PE=1 SV=1
+Length=847
+
+ Score = 36.3 bits (83),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 16/53 (30%), Positives = 25/53 (47%), Gaps = 8/53 (15%)
+
+Query  2   AAYDFPGSGSSSELPLKKGDIVFISRDE-----PSGWSLAKLLDGSKEGWVPT  49
+           A +D+  SG   EL L+KGD V +   +       GW   ++  G + G  P+
+Sbjct  48  ALFDYEPSGQD-ELALRKGDRVEVLSRDAAISGDEGWWAGQV--GGQVGIFPS  97
+
+
+>Q96JB8 MAGUK p55 subfamily member 4 OS=Homo sapiens OX=9606 GN=MPP4
+PE=1 SV=2
+Length=637
+
+ Score = 35.5 bits (81),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 12/37 (32%), Positives = 18/37 (49%), Gaps = 2/37 (5%)
+
+Query  15   LPLKKGDIVFISRDEPSGWSLAKLLDGSKE--GWVPT  49
+            LP +KGDI+ I     + W  A+ +       G VP+
+Sbjct  268  LPFQKGDILQIVDQNDALWWQARKISDPATCAGLVPS  304
+
+
+>Q8WUF5 RelA-associated inhibitor OS=Homo sapiens OX=9606 GN=PPP1R13L
+PE=1 SV=4
+Length=828
+
+ Score = 35.5 bits (81),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 15/50 (30%), Positives = 24/50 (48%), Gaps = 6/50 (12%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRD---EPSGWSLAKLLDGSKEGWVP  48
+            A +D+       EL  ++G+ V + R    E + W  A L    +EG+VP
+Sbjct  765  ALWDYSAEFGD-ELSFREGESVTVLRRDGPEETDWWWAAL--HGQEGYVP  811
+
+
+>Q8IWW6 Rho GTPase-activating protein 12 OS=Homo sapiens OX=9606 GN=ARHGAP12
+PE=1 SV=1
+Length=846
+
+ Score = 34.7 bits (79),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 11/49 (22%), Positives = 21/49 (43%), Gaps = 0/49 (0%)
+
+Query  1   EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+           E  YD+       ++ +K+G+   + +     W   K  + SK  +VP
+Sbjct  18  EVEYDYEYEAKDRKIVIKQGERYILVKKTNDDWWQVKPDENSKAFYVPA  66
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.162    0.597    0.792     4.96
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0496    0.140     1.90     42.6     43.6
+
+Effective search space used: 281155784
+Results from round 2
+
+
+Query=
+Length=49
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+Q14155 Rho guanine nucleotide exchange factor 7 OS=Homo sapiens O...  69.2       4e-16
+O76041 Nebulette OS=Homo sapiens OX=9606 GN=NEBL PE=1 SV=1            68.8       5e-16
+Q15052 Rho guanine nucleotide exchange factor 6 OS=Homo sapiens O...  66.5       3e-15
+O00160 Unconventional myosin-If OS=Homo sapiens OX=9606 GN=MYO1F ...  63.8       3e-14
+Q8IVI9 Nostrin OS=Homo sapiens OX=9606 GN=NOSTRIN PE=1 SV=2           63.4       4e-14
+O43586 Proline-serine-threonine phosphatase-interacting protein 1...  63.4       5e-14
+Q99962 Endophilin-A1 OS=Homo sapiens OX=9606 GN=SH3GL2 PE=1 SV=1      63.1       5e-14
+Q99963 Endophilin-A3 OS=Homo sapiens OX=9606 GN=SH3GL3 PE=1 SV=1      60.7       3e-13
+O43150 Arf-GAP with SH3 domain, ANK repeat and PH domain-containi...  60.7       4e-13
+Q9NYB9 Abl interactor 2 OS=Homo sapiens OX=9606 GN=ABI2 PE=1 SV=1     60.0       6e-13
+Q96B97 SH3 domain-containing kinase-binding protein 1 OS=Homo sap...  60.0       8e-13
+P52735 Guanine nucleotide exchange factor VAV2 OS=Homo sapiens OX...  59.6       8e-13
+O60861 Growth arrest-specific protein 7 OS=Homo sapiens OX=9606 G...  59.6       9e-13
+Q96DR7 Rho guanine nucleotide exchange factor 26 OS=Homo sapiens ...  59.6       1e-12
+Q5T2T1 MAGUK p55 subfamily member 7 OS=Homo sapiens OX=9606 GN=MP...  59.2       1e-12
+A4FU49 SH3 domain-containing protein 21 OS=Homo sapiens OX=9606 G...  59.2       1e-12
+Q9UKW4 Guanine nucleotide exchange factor VAV3 OS=Homo sapiens OX...  58.8       2e-12
+Q8IWW6 Rho GTPase-activating protein 12 OS=Homo sapiens OX=9606 G...  58.8       2e-12
+Q9NQ75 Cas scaffolding protein family member 4 OS=Homo sapiens OX...  58.4       2e-12
+Q12774 Rho guanine nucleotide exchange factor 5 OS=Homo sapiens O...  58.1       3e-12
+Q00013 55 kDa erythrocyte membrane protein OS=Homo sapiens OX=960...  58.1       3e-12
+Q14511 Enhancer of filamentation 1 OS=Homo sapiens OX=9606 GN=NED...  57.7       4e-12
+O15068 Guanine nucleotide exchange factor DBS OS=Homo sapiens OX=...  56.9       7e-12
+O43281 Embryonal Fyn-associated substrate OS=Homo sapiens OX=9606...  56.5       1e-11
+Q8IW93 Rho guanine nucleotide exchange factor 19 OS=Homo sapiens ...  55.0       4e-11
+Q5VV41 Rho guanine nucleotide exchange factor 16 OS=Homo sapiens ...  54.6       6e-11
+Q9BY11 Protein kinase C and casein kinase substrate in neurons pr...  54.2       8e-11
+Q8N3R9 MAGUK p55 subfamily member 5 OS=Homo sapiens OX=9606 GN=MP...  53.8       1e-10
+Q16584 Mitogen-activated protein kinase kinase kinase 11 OS=Homo ...  53.8       1e-10
+Q8WUF5 RelA-associated inhibitor OS=Homo sapiens OX=9606 GN=PPP1R...  53.0       2e-10
+Q9UKS6 Protein kinase C and casein kinase substrate in neurons pr...  52.7       3e-10
+Q96JB8 MAGUK p55 subfamily member 4 OS=Homo sapiens OX=9606 GN=MP...  52.3       4e-10
+Q6PIF6 Unconventional myosin-VIIb OS=Homo sapiens OX=9606 GN=MYO7...  50.7       1e-09
+Q6UXY1 Brain-specific angiogenesis inhibitor 1-associated protein...  45.3       1e-07
+Q96RU3 Formin-binding protein 1 OS=Homo sapiens OX=9606 GN=FNBP1 ...  45.3       1e-07
+
+Sequences not found previously or not previously below threshold:
+
+Q14847 LIM and SH3 domain protein 1 OS=Homo sapiens OX=9606 GN=LA...  63.8       2e-14
+P20929 Nebulin OS=Homo sapiens OX=9606 GN=NEB PE=1 SV=5               62.3       1e-13
+O14936 Peripheral plasma membrane protein CASK OS=Homo sapiens OX...  55.4       3e-11
+Q5TCX8 Mitogen-activated protein kinase kinase kinase 21 OS=Homo ...  55.4       3e-11
+Q02779 Mitogen-activated protein kinase kinase kinase 10 OS=Homo ...  53.0       2e-10
+Q14168 MAGUK p55 subfamily member 2 OS=Homo sapiens OX=9606 GN=MP...  52.3       3e-10
+Q14247 Src substrate cortactin OS=Homo sapiens OX=9606 GN=CTTN PE...  51.5       7e-10
+O15034 RIMS-binding protein 2 OS=Homo sapiens OX=9606 GN=RIMBP2 P...  51.5       7e-10
+P80192 Mitogen-activated protein kinase kinase kinase 9 OS=Homo s...  50.0       2e-09
+Q9NZW5 MAGUK p55 subfamily member 6 OS=Homo sapiens OX=9606 GN=MP...  49.6       3e-09
+Q6ZMT1 SH3 and cysteine-rich domain-containing protein 2 OS=Homo ...  49.6       4e-09
+O95153 Peripheral-type benzodiazepine receptor-associated protein...  48.8       6e-09
+Q9UHR4 Brain-specific angiogenesis inhibitor 1-associated protein...  48.8       6e-09
+Q15700 Disks large homolog 2 OS=Homo sapiens OX=9606 GN=DLG2 PE=1...  48.4       7e-09
+Q9UQB8 Brain-specific angiogenesis inhibitor 1-associated protein...  48.0       1e-08
+Q13368 MAGUK p55 subfamily member 3 OS=Homo sapiens OX=9606 GN=MP...  47.7       2e-08
+Q9UJU6 Drebrin-like protein OS=Homo sapiens OX=9606 GN=DBNL PE=1 ...  47.7       2e-08
+Q8WV41 Sorting nexin-33 OS=Homo sapiens OX=9606 GN=SNX33 PE=1 SV=1    46.9       2e-08
+Q96RF0 Sorting nexin-18 OS=Homo sapiens OX=9606 GN=SNX18 PE=1 SV=2    46.1       5e-08
+Q8WXE0 Caskin-2 OS=Homo sapiens OX=9606 GN=CASKIN2 PE=1 SV=2          46.1       5e-08
+Q9Y566 SH3 and multiple ankyrin repeat domains protein 1 OS=Homo ...  45.3       1e-07
+Q8WXD9 Caskin-1 OS=Homo sapiens OX=9606 GN=CASKIN1 PE=1 SV=1          45.3       1e-07
+Q9P2A4 ABI gene family member 3 OS=Homo sapiens OX=9606 GN=ABI3 P...  45.3       1e-07
+O14559 Rho GTPase-activating protein 33 OS=Homo sapiens OX=9606 G...  45.3       1e-07
+Q14185 Dedicator of cytokinesis protein 1 OS=Homo sapiens OX=9606...  45.0       1e-07
+A6NJZ7 RIMS-binding protein 3C OS=Homo sapiens OX=9606 GN=RIMBP3C...  43.4       4e-07
+A6NNM3 RIMS-binding protein 3B OS=Homo sapiens OX=9606 GN=RIMBP3B...  43.4       4e-07
+Q9BVN2 RUN and SH3 domain-containing protein 1 OS=Homo sapiens OX...  43.4       5e-07
+Q13387 C-Jun-amino-terminal kinase-interacting protein 2 OS=Homo ...  43.4       5e-07
+Q9UFD9 RIMS-binding protein 3A OS=Homo sapiens OX=9606 GN=RIMBP3 ...  43.0       6e-07
+Q9UPX8 SH3 and multiple ankyrin repeat domains protein 2 OS=Homo ...  43.0       7e-07
+Q9UQF2 C-Jun-amino-terminal kinase-interacting protein 1 OS=Homo ...  41.5       2e-06
+Q9BYB0 SH3 and multiple ankyrin repeat domains protein 3 OS=Homo ...  41.5       3e-06
+P27986 Phosphatidylinositol 3-kinase regulatory subunit alpha OS=...  39.6       1e-05
+Q86WN1 F-BAR and double SH3 domains protein 1 OS=Homo sapiens OX=...  39.2       2e-05
+Q9P0V3 SH3 domain-binding protein 4 OS=Homo sapiens OX=9606 GN=SH...  38.8       2e-05
+Q92968 Peroxisomal membrane protein PEX13 OS=Homo sapiens OX=9606...  38.8       2e-05
+A7KAX9 Rho GTPase-activating protein 32 OS=Homo sapiens OX=9606 G...  38.4       2e-05
+Q07912 Activated CDC42 kinase 1 OS=Homo sapiens OX=9606 GN=TNK2 P...  38.4       3e-05
+Q8N2Y8 Iporin OS=Homo sapiens OX=9606 GN=RUSC2 PE=1 SV=3              38.0       4e-05
+Q8TDM6 Disks large homolog 5 OS=Homo sapiens OX=9606 GN=DLG5 PE=1...  37.6       5e-05
+O00499 Myc box-dependent-interacting protein 1 OS=Homo sapiens OX...  37.6       5e-05
+O75995 SAM and SH3 domain-containing protein 3 OS=Homo sapiens OX...  36.9       1e-04
+Q6ZUM4 Rho GTPase-activating protein 27 OS=Homo sapiens OX=9606 G...  36.1       2e-04
+
+
+>Q14155 Rho guanine nucleotide exchange factor 7 OS=Homo sapiens OX=9606
+GN=ARHGEF7 PE=1 SV=2
+Length=803
+
+ Score = 69.2 bits (168),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 15/49 (31%), Positives = 24/49 (49%), Gaps = 3/49 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+             A ++F    +  EL   KGD++ ++R E  GW    L    + GW P+
+Sbjct  190  RAKFNFQ-QTNEDELSFSKGDVIHVTRVEEGGWWEGTL--NGRTGWFPS  235
+
+
+>O76041 Nebulette OS=Homo sapiens OX=9606 GN=NEBL PE=1 SV=1
+Length=1014
+
+ Score = 68.8 bits (167),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 10/49 (20%), Positives = 18/49 (37%), Gaps = 1/49 (2%)
+
+Query  1     EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+              A YD+       E+  + GD +   +    GW    +    + G +P
+Sbjct  960   RAMYDYSAQD-EDEVSFRDGDYIVNVQPIDDGWMYGTVQRTGRTGMLPA  1007
+
+
+>Q15052 Rho guanine nucleotide exchange factor 6 OS=Homo sapiens OX=9606
+GN=ARHGEF6 PE=1 SV=2
+Length=776
+
+ Score = 66.5 bits (161),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 16/49 (33%), Positives = 27/49 (55%), Gaps = 3/49 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+            +A ++F    +  EL + KGDI++++R E  GW    L    + GW P+
+Sbjct  166  KARFNFK-QTNEDELSVCKGDIIYVTRVEEGGWWEGTL--NGRTGWFPS  211
+
+
+>Q14847 LIM and SH3 domain protein 1 OS=Homo sapiens OX=9606 GN=LASP1
+PE=1 SV=2
+Length=261
+
+ Score = 63.8 bits (154),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 10/49 (20%), Positives = 18/49 (37%), Gaps = 1/49 (2%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+             A YD+  +    E+  + GD +   +    GW    +      G +P
+Sbjct  208  RAVYDYSAAD-EDEVSFQDGDTIVNVQQIDDGWMYGTVERTGDTGMLPA  255
+
+
+>O00160 Unconventional myosin-If OS=Homo sapiens OX=9606 GN=MYO1F PE=1
+SV=3
+Length=1098
+
+ Score = 63.8 bits (154),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 14/48 (29%), Positives = 22/48 (46%), Gaps = 3/48 (6%)
+
+Query  1     EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+              A Y + G     EL     +++ I  ++PSGW   +L    +EG  P
+Sbjct  1047  RALYQYVGQDV-DELSFNVNEVIEILMEDPSGWWKGRL--HGQEGLFP  1091
+
+
+>Q8IVI9 Nostrin OS=Homo sapiens OX=9606 GN=NOSTRIN PE=1 SV=2
+Length=506
+
+ Score = 63.4 bits (153),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 18/49 (37%), Positives = 22/49 (45%), Gaps = 3/49 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+            +A Y F       EL L+KGDIV I   +  GW    L    K+G  P
+Sbjct  444  KALYSFQAR-QDDELNLEKGDIVIIHEKKEGGWWFGSL--NGKKGHFPA  489
+
+
+>O43586 Proline-serine-threonine phosphatase-interacting protein 1 OS=Homo
+sapiens OX=9606 GN=PSTPIP1 PE=1 SV=1
+Length=416
+
+ Score = 63.4 bits (153),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 14/48 (29%), Positives = 21/48 (44%), Gaps = 3/48 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+             A YD+       EL L  GDI+ +  +   GW   +     + G+VP
+Sbjct  365  RALYDYTAQN-PDELDLSAGDILEVILEGEDGWWTVER--NGQRGFVP  409
+
+
+>Q99962 Endophilin-A1 OS=Homo sapiens OX=9606 GN=SH3GL2 PE=1 SV=1
+Length=352
+
+ Score = 63.1 bits (152),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 14/48 (29%), Positives = 19/48 (40%), Gaps = 3/48 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+             A YDF       EL  K+GDI+ ++      W    L      G+ P
+Sbjct  296  RALYDFEPEN-EGELGFKEGDIITLTNQIDENWYEGML--HGHSGFFP  340
+
+
+>P20929 Nebulin OS=Homo sapiens OX=9606 GN=NEB PE=1 SV=5
+Length=6669
+
+ Score = 62.3 bits (150),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 11/49 (22%), Positives = 20/49 (41%), Gaps = 1/49 (2%)
+
+Query  1     EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+              A YD+  + +  E+  K GD +   +    GW    +    + G +P
+Sbjct  6616  RAMYDYMAADA-DEVSFKDGDAIINVQAIDEGWMYGTVQRTGRTGMLPA  6663
+
+
+>Q99963 Endophilin-A3 OS=Homo sapiens OX=9606 GN=SH3GL3 PE=1 SV=1
+Length=347
+
+ Score = 60.7 bits (146),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 12/48 (25%), Positives = 19/48 (40%), Gaps = 3/48 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+               YDF       EL  K+GDI+ ++      W     +   + G+ P
+Sbjct  291  RGLYDFEPENQ-GELGFKEGDIITLTNQIDENWYEG--MIHGESGFFP  335
+
+
+>O43150 Arf-GAP with SH3 domain, ANK repeat and PH domain-containing
+protein 2 OS=Homo sapiens OX=9606 GN=ASAP2 PE=1 SV=3
+Length=1006
+
+ Score = 60.7 bits (146),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 10/49 (20%), Positives = 22/49 (45%), Gaps = 2/49 (4%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDG-SKEGWVP  48
+            +A Y+     +  EL   +GD++ +  +E   W +  +     ++G  P
+Sbjct  950  KALYNCVA-DNPDELTFSEGDVIIVDGEEDQEWWIGHIDGDPGRKGAFP  997
+
+
+>Q9NYB9 Abl interactor 2 OS=Homo sapiens OX=9606 GN=ABI2 PE=1 SV=1
+Length=513
+
+ Score = 60.0 bits (144),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 11/47 (23%), Positives = 19/47 (40%), Gaps = 3/47 (6%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+            A YD+       EL  ++G I+++ +    GW    +      G  P
+Sbjct  458  AIYDYT-KDKEDELSFQEGAIIYVIKKNDDGWYEGVM--NGVTGLFP  501
+
+
+>Q96B97 SH3 domain-containing kinase-binding protein 1 OS=Homo sapiens
+OX=9606 GN=SH3KBP1 PE=1 SV=2
+Length=665
+
+ Score = 60.0 bits (144),  Expect = 8e-13, Method: Composition-based stats.
+ Identities = 11/47 (23%), Positives = 19/47 (40%), Gaps = 3/47 (6%)
+
+Query  2   AAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+             +D+       EL +  G+I+   R E  GW   ++    + G  P
+Sbjct  6   VEFDYQAQ-HDDELTISVGEIITNIRKEDGGWWEGQI--NGRRGLFP  49
+
+
+ Score = 55.4 bits (132),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 14/49 (29%), Positives = 21/49 (43%), Gaps = 3/49 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+            + A+ +       EL LK GDI+ +  +   GW    L    K G  P+
+Sbjct  104  QVAFSYLPQN-DDELELKVGDIIEVVGEVEEGWWEGVL--NGKTGMFPS  149
+
+
+ Score = 55.0 bits (131),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 12/50 (24%), Positives = 21/50 (42%), Gaps = 5/50 (10%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDE--PSGWSLAKLLDGSKEGWVP  48
+            +  + +       EL +K+GDIV +   +    GW   +L    + G  P
+Sbjct  273  KVIFPYEAQN-DDELTIKEGDIVTLINKDCIDVGWWEGEL--NGRRGVFP  319
+
+
+>P52735 Guanine nucleotide exchange factor VAV2 OS=Homo sapiens OX=9606
+GN=VAV2 PE=1 SV=2
+Length=878
+
+ Score = 59.6 bits (143),  Expect = 8e-13, Method: Composition-based stats.
+ Identities = 15/50 (30%), Positives = 22/50 (44%), Gaps = 5/50 (10%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRD--EPSGWSLAKLLDGSKEGWVPT  49
+            A Y+F       EL L++GD+V I        GW   +     + GW P+
+Sbjct  823  ARYNFAARD-MRELSLREGDVVRIYSRIGGDQGWWKGE--TNGRIGWFPS  869
+
+
+ Score = 46.5 bits (109),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 12/52 (23%), Positives = 25/52 (48%), Gaps = 4/52 (8%)
+
+Query  2    AAYDFPGSGSSSE---LPLKKGDIVFISRDEPSG-WSLAKLLDGSKEGWVPT  49
+            A  ++ G+ +      L  + GD++ + R +P   W   +L+   K G+ P+
+Sbjct  593  AMQNYHGNPAPPGKPVLTFQTGDVLELLRGDPESPWWEGRLVQTRKSGYFPS  644
+
+
+>O60861 Growth arrest-specific protein 7 OS=Homo sapiens OX=9606 GN=GAS7
+PE=1 SV=3
+Length=476
+
+ Score = 59.6 bits (143),  Expect = 9e-13, Method: Composition-based stats.
+ Identities = 10/49 (20%), Positives = 16/49 (33%), Gaps = 1/49 (2%)
+
+Query  1   EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+              Y F G      L    G+++ + +    GW   +       GW P
+Sbjct  7   RTLYPFSGERHGQGLRFAAGELITLLQVPDGGWWEGEKE-DGLRGWFPA  54
+
+
+>Q96DR7 Rho guanine nucleotide exchange factor 26 OS=Homo sapiens OX=9606
+GN=ARHGEF26 PE=1 SV=4
+Length=871
+
+ Score = 59.6 bits (143),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 12/38 (32%), Positives = 17/38 (45%), Gaps = 0/38 (0%)
+
+Query  11   SSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+               EL L+  D+V I +    GW   + L   + GW P
+Sbjct  804  QPDELSLQVADVVLIYQRVSDGWYEGERLRDGERGWFP  841
+
+
+>Q5T2T1 MAGUK p55 subfamily member 7 OS=Homo sapiens OX=9606 GN=MPP7
+PE=1 SV=1
+Length=576
+
+ Score = 59.2 bits (142),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 14/57 (25%), Positives = 25/57 (44%), Gaps = 8/57 (14%)
+
+Query  1    EAAYDFPGSGS------SSELPLKKGDIVFISRDEPSGWSLAKL--LDGSKEGWVPT  49
+            +A +D+  +         + L  KKGDI+ I   + + W  AK       + G +P+
+Sbjct  234  KALFDYNPNEDKAIPCKEAGLSFKKGDILQIMSQDDATWWQAKHEADANPRAGLIPS  290
+
+
+>A4FU49 SH3 domain-containing protein 21 OS=Homo sapiens OX=9606 GN=SH3D21
+PE=2 SV=2
+Length=640
+
+ Score = 59.2 bits (142),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 12/50 (24%), Positives = 21/50 (42%), Gaps = 5/50 (10%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRD--EPSGWSLAKLLDGSKEGWVP  48
+               +D+    +  EL L++GD+V +     E  GW   +     + G  P
+Sbjct  71   RVLFDYQPE-APDELALRRGDVVKVLSKTTEDKGWWEGECQ--GRRGVFP  117
+
+
+>Q9UKW4 Guanine nucleotide exchange factor VAV3 OS=Homo sapiens OX=9606
+GN=VAV3 PE=1 SV=1
+Length=847
+
+ Score = 58.8 bits (141),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 17/49 (35%), Positives = 25/49 (51%), Gaps = 4/49 (8%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFI-SRDEPSGWSLAKLLDGSKEGWVPT  49
+            A YDF       EL L KGD+V I ++   +GW   ++    + GW P+
+Sbjct  795  ARYDFCARD-MRELSLLKGDVVKIYTKMSANGWWRGEV--NGRVGWFPS  840
+
+
+>Q8IWW6 Rho GTPase-activating protein 12 OS=Homo sapiens OX=9606 GN=ARHGAP12
+PE=1 SV=1
+Length=846
+
+ Score = 58.8 bits (141),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 11/49 (22%), Positives = 21/49 (43%), Gaps = 0/49 (0%)
+
+Query  1   EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+           E  YD+       ++ +K+G+   + +     W   K  + SK  +VP
+Sbjct  18  EVEYDYEYEAKDRKIVIKQGERYILVKKTNDDWWQVKPDENSKAFYVPA  66
+
+
+>Q9NQ75 Cas scaffolding protein family member 4 OS=Homo sapiens OX=9606
+GN=CASS4 PE=1 SV=2
+Length=786
+
+ Score = 58.4 bits (140),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 17/52 (33%), Positives = 21/52 (40%), Gaps = 6/52 (12%)
+
+Query  1   EAAYDFPGSGSSSELPLKKGDIVFISRD---EPSGWSLAKLLDGSKEGWVPT  49
+            A YD      S EL   +GDI+ I      E  GW   K L   ++G  P
+Sbjct  17  RALYDNCP-DCSDELAFSRGDILTILEQHVPESEGWW--KCLLHGRQGLAPA  65
+
+
+>Q12774 Rho guanine nucleotide exchange factor 5 OS=Homo sapiens OX=9606
+GN=ARHGEF5 PE=1 SV=3
+Length=1597
+
+ Score = 58.1 bits (139),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 12/43 (28%), Positives = 20/43 (47%), Gaps = 1/43 (2%)
+
+Query  6     FPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+             +    +  EL L+K D+V +++    GW     L   + GW P
+Sbjct  1521  YKPREN-DELALEKADVVMVTQQSSDGWLEGVRLSDGERGWFP  1562
+
+
+>Q00013 55 kDa erythrocyte membrane protein OS=Homo sapiens OX=9606 GN=MPP1
+PE=1 SV=2
+Length=466
+
+ Score = 58.1 bits (139),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 14/57 (25%), Positives = 23/57 (40%), Gaps = 8/57 (14%)
+
+Query  1    EAAYDFPGSGS------SSELPLKKGDIVFISRDEPSGWSLAKLLDGSKE--GWVPT  49
+             A +D+            + L    GDI+ I   + S W   ++   SKE  G +P+
+Sbjct  164  RAQFDYDPKKDNLIPCKEAGLKFATGDIIQIINKDDSNWWQGRVEGSSKESAGLIPS  220
+
+
+>Q14511 Enhancer of filamentation 1 OS=Homo sapiens OX=9606 GN=NEDD9
+PE=1 SV=1
+Length=834
+
+ Score = 57.7 bits (138),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 16/51 (31%), Positives = 22/51 (43%), Gaps = 6/51 (12%)
+
+Query  1   EAAYDFPGSGSSSELPLKKGDIVFISRDEP---SGWSLAKLLDGSKEGWVP  48
+            A YD     +  EL  +KGDI+ +         GW L  L    ++G VP
+Sbjct  9   RALYDNVPECAE-ELAFRKGDILTVIEQNTGGLEGWWLCSL--HGRQGIVP  56
+
+
+>O15068 Guanine nucleotide exchange factor DBS OS=Homo sapiens OX=9606
+GN=MCF2L PE=1 SV=2
+Length=1137
+
+ Score = 56.9 bits (136),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 12/41 (29%), Positives = 19/41 (46%), Gaps = 0/41 (0%)
+
+Query  9     SGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+              G    L ++ GD+V + ++   G    +     KEGWVP
+Sbjct  1068  KGGPDALRVRSGDVVELVQEGDEGLWYVRDPTTGKEGWVPA  1108
+
+
+>O43281 Embryonal Fyn-associated substrate OS=Homo sapiens OX=9606 GN=EFS
+PE=1 SV=1
+Length=561
+
+ Score = 56.5 bits (135),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 16/53 (30%), Positives = 24/53 (45%), Gaps = 7/53 (13%)
+
+Query  1   EAAYDFPGSGSSSELPLKKGDIVFISRDEP----SGWSLAKLLDGSKEGWVPT  49
+            A YD     S  EL  ++GD++ + + E      GW L  L    ++G VP
+Sbjct  11  RALYDNTAE-SPQELSFRRGDVLRVLQREGAGGLDGWCLCSL--HGQQGIVPA  60
+
+
+>O14936 Peripheral plasma membrane protein CASK OS=Homo sapiens OX=9606
+GN=CASK PE=1 SV=3
+Length=926
+
+ Score = 55.4 bits (132),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 10/57 (18%), Positives = 22/57 (39%), Gaps = 8/57 (14%)
+
+Query  1    EAAYDFPGSGSS------SELPLKKGDIVFISRDEPSGWSLAKLLD--GSKEGWVPT  49
+             A +++  +         + +  + GDI+ I   +   W   KL +      G +P+
+Sbjct  618  RAQFEYDPAKDDLIPCKEAGIRFRVGDIIQIISKDDHNWWQGKLENSKNGTAGLIPS  674
+
+
+>Q5TCX8 Mitogen-activated protein kinase kinase kinase 21 OS=Homo sapiens
+OX=9606 GN=MAP3K21 PE=1 SV=3
+Length=1036
+
+ Score = 55.4 bits (132),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 13/53 (25%), Positives = 22/53 (42%), Gaps = 8/53 (15%)
+
+Query  2   AAYDFPGSGSSSELPLKKGDIVFISRDE-----PSGWSLAKLLDGSKEGWVPT  49
+           A YD+   G   EL L++G +V +   +       GW   ++    + G  P
+Sbjct  45  ALYDYEARG-EDELSLRRGQLVEVLSQDAAVSGDEGWWAGQVQR--RLGIFPA  94
+
+
+>Q8IW93 Rho guanine nucleotide exchange factor 19 OS=Homo sapiens OX=9606
+GN=ARHGEF19 PE=1 SV=1
+Length=802
+
+ Score = 55.0 bits (131),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 13/38 (34%), Positives = 18/38 (47%), Gaps = 0/38 (0%)
+
+Query  11   SSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+               EL L+K DI+ +      GW     L   ++GWVP
+Sbjct  730  HPDELTLEKTDILSVRTWTSDGWLEGVRLADGEKGWVP  767
+
+
+>Q5VV41 Rho guanine nucleotide exchange factor 16 OS=Homo sapiens OX=9606
+GN=ARHGEF16 PE=1 SV=1
+Length=709
+
+ Score = 54.6 bits (130),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 11/39 (28%), Positives = 20/39 (51%), Gaps = 1/39 (3%)
+
+Query  11   SSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+             + E+ L++ D+V + + E  GW   + L   + GW P
+Sbjct  644  QADEVTLQQADVVLVLQQED-GWLYGERLRDGETGWFPE  681
+
+
+>Q9BY11 Protein kinase C and casein kinase substrate in neurons protein
+1 OS=Homo sapiens OX=9606 GN=PACSIN1 PE=1 SV=1
+Length=444
+
+ Score = 54.2 bits (129),  Expect = 8e-11, Method: Composition-based stats.
+ Identities = 15/50 (30%), Positives = 21/50 (42%), Gaps = 3/50 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFIS-RDEPSGWSLAKLLDGSKEGWVPT  49
+             A YD+ G     EL  K GD +     ++  GW   +L D  + G  P
+Sbjct  391  RALYDYDGQEQ-DELSFKAGDELTKLGEEDEQGWCRGRL-DSGQLGLYPA  438
+
+
+>Q8N3R9 MAGUK p55 subfamily member 5 OS=Homo sapiens OX=9606 GN=MPP5
+PE=1 SV=3
+Length=675
+
+ Score = 53.8 bits (128),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 14/58 (24%), Positives = 20/58 (34%), Gaps = 10/58 (17%)
+
+Query  1    EAAYDFPGSGSSS------ELPLKKGDIVFISRDEPSGWSLAKLLDG----SKEGWVP  48
+            +A +D+  S           L  +KGDI+ +   E   W  A            G VP
+Sbjct  351  KAHFDYDPSDDPYVPCRELGLSFQKGDILHVISQEDPNWWQAYREGDEDNQPLAGLVP  408
+
+
+>Q16584 Mitogen-activated protein kinase kinase kinase 11 OS=Homo sapiens
+OX=9606 GN=MAP3K11 PE=1 SV=1
+Length=847
+
+ Score = 53.8 bits (128),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 16/53 (30%), Positives = 25/53 (47%), Gaps = 8/53 (15%)
+
+Query  2   AAYDFPGSGSSSELPLKKGDIVFISRDE-----PSGWSLAKLLDGSKEGWVPT  49
+           A +D+  SG   EL L+KGD V +   +       GW   ++  G + G  P+
+Sbjct  48  ALFDYEPSGQ-DELALRKGDRVEVLSRDAAISGDEGWWAGQV--GGQVGIFPS  97
+
+
+>Q8WUF5 RelA-associated inhibitor OS=Homo sapiens OX=9606 GN=PPP1R13L
+PE=1 SV=4
+Length=828
+
+ Score = 53.0 bits (126),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 15/50 (30%), Positives = 24/50 (48%), Gaps = 6/50 (12%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRD---EPSGWSLAKLLDGSKEGWVP  48
+            A +D+       EL  ++G+ V + R    E + W  A L    +EG+VP
+Sbjct  765  ALWDYSAEFG-DELSFREGESVTVLRRDGPEETDWWWAAL--HGQEGYVP  811
+
+
+>Q02779 Mitogen-activated protein kinase kinase kinase 10 OS=Homo sapiens
+OX=9606 GN=MAP3K10 PE=1 SV=3
+Length=954
+
+ Score = 53.0 bits (126),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 14/53 (26%), Positives = 24/53 (45%), Gaps = 7/53 (13%)
+
+Query  2   AAYDFPGSGSSSELPLKKGDIVFISRDE-----PSGWSLAKLLDGSKEGWVPT  49
+           A +D+  +G   EL L++GD V +   +       GW   +L    + G  P+
+Sbjct  23  AVFDYEAAGDE-ELTLRRGDRVQVLSQDCAVSGDEGWWTGQLP-SGRVGVFPS  73
+
+
+>Q9UKS6 Protein kinase C and casein kinase substrate in neurons protein
+3 OS=Homo sapiens OX=9606 GN=PACSIN3 PE=1 SV=2
+Length=424
+
+ Score = 52.7 bits (125),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 13/50 (26%), Positives = 24/50 (48%), Gaps = 3/50 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKG-DIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+             A YD+ G  +  EL  + G +++ +S ++  GW   +L    + G  P
+Sbjct  369  RALYDYAGQEA-DELSFRAGEELLKMSEEDEQGWCQGQLQ-SGRIGLYPA  416
+
+
+>Q14168 MAGUK p55 subfamily member 2 OS=Homo sapiens OX=9606 GN=MPP2
+PE=1 SV=3
+Length=576
+
+ Score = 52.3 bits (124),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 10/55 (18%), Positives = 23/55 (42%), Gaps = 6/55 (11%)
+
+Query  1    EAAYDFPGSGS------SSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+            +  +D+  +         + L    GD++ I   + + W  A  ++G   G +P+
+Sbjct  255  KCHFDYDPARDSLIPCKEAGLRFNAGDLLQIVNQDDANWWQACHVEGGSAGLIPS  309
+
+
+>Q96JB8 MAGUK p55 subfamily member 4 OS=Homo sapiens OX=9606 GN=MPP4
+PE=1 SV=2
+Length=637
+
+ Score = 52.3 bits (124),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 13/57 (23%), Positives = 21/57 (37%), Gaps = 8/57 (14%)
+
+Query  1    EAAYDFPGSGSSS------ELPLKKGDIVFISRDEPSGWSLAKLLDGSKE--GWVPT  49
+             A  ++              LP +KGDI+ I     + W  A+ +       G VP+
+Sbjct  248  RAMTEYWPQEDPDIPCMDAGLPFQKGDILQIVDQNDALWWQARKISDPATCAGLVPS  304
+
+
+>Q14247 Src substrate cortactin OS=Homo sapiens OX=9606 GN=CTTN PE=1
+SV=2
+Length=550
+
+ Score = 51.5 bits (122),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 11/48 (23%), Positives = 16/48 (33%), Gaps = 3/48 (6%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+            A YD+  +G   E+     DI+        GW         + G  P
+Sbjct  499  ALYDYQAAG-DDEISFDPDDIITNIEMIDDGWWRGVCK--GRYGLFPA  543
+
+
+>O15034 RIMS-binding protein 2 OS=Homo sapiens OX=9606 GN=RIMBP2 PE=1
+SV=3
+Length=1052
+
+ Score = 51.5 bits (122),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 13/55 (24%), Positives = 24/55 (44%), Gaps = 9/55 (16%)
+
+Query  2     AAYDFPGS------GSSSELPLKKGDIVFISRD-EPSGWSLAKLLDGSKEGWVPT  49
+             A YD+            +EL    GDI+ +  + +  G+   +L    ++G VP+
+Sbjct  959   ALYDYDPRESSPNVDVEAELTFCTGDIITVFGEIDEDGFYYGEL--NGQKGLVPS  1011
+
+
+ Score = 40.7 bits (94),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 13/54 (24%), Positives = 23/54 (43%), Gaps = 7/54 (13%)
+
+Query  2    AAYDFPG-----SGSSSELPLKKGDIVFIS-RDEPSGWSLAKLLDGSKEGWVPT  49
+            A Y +           +ELPL  G  +++    +  G+   +LL   + G VP+
+Sbjct  174  ARYSYNPFDGPNENPEAELPLTAGKYLYVYGDMDEDGFYEGELL-DGQRGLVPS  226
+
+
+>Q6PIF6 Unconventional myosin-VIIb OS=Homo sapiens OX=9606 GN=MYO7B PE=1
+SV=2
+Length=2116
+
+ Score = 50.7 bits (120),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 13/51 (25%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  2     AAYDFPGSGSSSELPLKKGDIVFISRDE----PSGWSLAKLLDGSKEGWVP  48
+             A  D   +  ++ L  KKGD++ +++ +       W+L +     K G VP
+Sbjct  1508  ALQDRKATDDTTLLAFKKGDLLVLTKKQGLLASENWTLGQNDRTGKTGLVP  1558
+
+
+>P80192 Mitogen-activated protein kinase kinase kinase 9 OS=Homo sapiens
+OX=9606 GN=MAP3K9 PE=1 SV=3
+Length=1104
+
+ Score = 50.0 bits (118),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 13/53 (25%), Positives = 24/53 (45%), Gaps = 8/53 (15%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRDE-----PSGWSLAKLLDGSKEGWVPT  49
+            A +++  +G   EL L+ GD+V +   +       GW   +L    + G  P+
+Sbjct  59   AVFEYEAAG-EDELTLRLGDVVEVLSKDSQVSGDEGWWTGQL--NQRVGIFPS  108
+
+
+>Q9NZW5 MAGUK p55 subfamily member 6 OS=Homo sapiens OX=9606 GN=MPP6
+PE=1 SV=2
+Length=540
+
+ Score = 49.6 bits (117),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 12/56 (21%), Positives = 22/56 (39%), Gaps = 7/56 (13%)
+
+Query  1    EAAYDFPGSGS------SSELPLKKGDIVFISRDEPSGWSLA-KLLDGSKEGWVPT  49
+            +  +D+            + L   KG+I+ I   E   W  A  + +G   G +P+
+Sbjct  221  KCHFDYNPYNDNLIPCKEAGLKFSKGEILQIVNREDPNWWQASHVKEGGSAGLIPS  276
+
+
+>Q6ZMT1 SH3 and cysteine-rich domain-containing protein 2 OS=Homo sapiens
+OX=9606 GN=STAC2 PE=1 SV=1
+Length=411
+
+ Score = 49.6 bits (117),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 13/48 (27%), Positives = 21/48 (44%), Gaps = 3/48 (6%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+            A Y F    ++  L L+ GD + +  D    W   K+ D  + G+ P
+Sbjct  299  ALYKFLPQENND-LALQPGDRIMLVDDSNEDWWKGKIGD--RVGFFPA  343
+
+
+>O95153 Peripheral-type benzodiazepine receptor-associated protein 1
+OS=Homo sapiens OX=9606 GN=TSPOAP1 PE=1 SV=2
+Length=1857
+
+ Score = 48.8 bits (115),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 13/55 (24%), Positives = 25/55 (45%), Gaps = 9/55 (16%)
+
+Query  2     AAYDFPGS------GSSSELPLKKGDIVFIS-RDEPSGWSLAKLLDGSKEGWVPT  49
+             AA+D+            +ELP + GD++ +    +  G+   +L    + G VP+
+Sbjct  1771  AAFDYNPQESSPNMDVEAELPFRAGDVITVFGGMDDDGFYYGEL--NGQRGLVPS  1823
+
+
+ Score = 41.5 bits (96),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 11/55 (20%), Positives = 23/55 (42%), Gaps = 10/55 (18%)
+
+Query  2     AAYDF-------PGSGSSSELPLKKGDIVFIS-RDEPSGWSLAKLLDGSKEGWVP  48
+             A +D+              ELP ++G I+ +    +  G+   +   G + G++P
+Sbjct  1632  ALFDYDPVSMSPNPDAGEEELPFREGQILKVFGDKDADGFYQGE--GGGRTGYIP  1684
+
+
+ Score = 41.1 bits (95),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 13/54 (24%), Positives = 24/54 (44%), Gaps = 7/54 (13%)
+
+Query  2    AAYDFPG-----SGSSSELPLKKGDIVFIS-RDEPSGWSLAKLLDGSKEGWVPT  49
+            A Y +           +ELPL  G+ ++I    +  G+   +L+   + G VP+
+Sbjct  660  ARYSYNPFEGPNENPEAELPLTAGEYIYIYGNMDEDGFFEGELM-DGRRGLVPS  712
+
+
+>Q9UHR4 Brain-specific angiogenesis inhibitor 1-associated protein 2-like
+protein 1 OS=Homo sapiens OX=9606 GN=BAIAP2L1 PE=1 SV=2
+Length=511
+
+ Score = 48.8 bits (115),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 9/50 (18%), Positives = 19/50 (38%), Gaps = 1/50 (2%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEP-SGWSLAKLLDGSKEGWVPT  49
+            +  +      + + L   +GD++ +   E   GW   +       GW P+
+Sbjct  345  KTIFPHTAGSNKTLLSFAQGDVITLLIPEEKDGWLYGEHDVSKARGWFPS  394
+
+
+>Q15700 Disks large homolog 2 OS=Homo sapiens OX=9606 GN=DLG2 PE=1 SV=3
+Length=870
+
+ Score = 48.4 bits (114),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 14/57 (25%), Positives = 22/57 (39%), Gaps = 8/57 (14%)
+
+Query  1    EAAYDFPGSGSS----SELPLKKGDIVFISRDEPSGWSLAKL----LDGSKEGWVPT  49
+             A +D+  S  S      L  K GDI+ +       W  A+      D  + G +P+
+Sbjct  542  RAMFDYDKSKDSGLPSQGLSFKYGDILHVINASDDEWWQARRVMLEGDSEEMGVIPS  598
+
+
+>Q9UQB8 Brain-specific angiogenesis inhibitor 1-associated protein 2
+OS=Homo sapiens OX=9606 GN=BAIAP2 PE=1 SV=1
+Length=552
+
+ Score = 48.0 bits (113),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 12/49 (24%), Positives = 21/49 (43%), Gaps = 1/49 (2%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEP-SGWSLAKLLDGSKEGWVP  48
+            +A +      +S+ L  K+GD++ +   E   GW   +       GW P
+Sbjct  380  KAIFSHAAGDNSTLLSFKEGDLITLLVPEARDGWHYGESEKTKMRGWFP  428
+
+
+>Q13368 MAGUK p55 subfamily member 3 OS=Homo sapiens OX=9606 GN=MPP3
+PE=1 SV=2
+Length=585
+
+ Score = 47.7 bits (112),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 8/57 (14%), Positives = 20/57 (35%), Gaps = 8/57 (14%)
+
+Query  1    EAAYDFPGSGS------SSELPLKKGDIVFISRDEPSGWSLAKL--LDGSKEGWVPT  49
+             A + +            + LP ++  ++ +   +   W  AK       + G +P+
+Sbjct  232  RALFHYNPREDRAIPCQEAGLPFQRRQVLEVVSQDDPTWWQAKRVGDTNLRAGLIPS  288
+
+
+>Q9UJU6 Drebrin-like protein OS=Homo sapiens OX=9606 GN=DBNL PE=1 SV=1
+Length=430
+
+ Score = 47.7 bits (112),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 8/49 (16%), Positives = 15/49 (31%), Gaps = 2/49 (4%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+             A YD+  +   +E+     +++        GW           G  P
+Sbjct  377  RALYDYQAAD-DTEISFDPENLITGIEVIDEGWWRG-YGPDGHFGMFPA  423
+
+
+>Q8WV41 Sorting nexin-33 OS=Homo sapiens OX=9606 GN=SNX33 PE=1 SV=1
+Length=574
+
+ Score = 46.9 bits (110),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 10/50 (20%), Positives = 19/50 (38%), Gaps = 3/50 (6%)
+
+Query  1   EAAYDFPGSGSSSELPLKKGDIVFISRDEP-SGWSLAKLLDGSKEGWVPT  49
+            A YDF       E+ +++ + + I  +    GW   +     + G  P
+Sbjct  6   RALYDFHSENKE-EISIQQDEDLVIFSETSLDGWLQGQNSR-GETGLFPA  53
+
+
+>Q96RF0 Sorting nexin-18 OS=Homo sapiens OX=9606 GN=SNX18 PE=1 SV=2
+Length=628
+
+ Score = 46.1 bits (108),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 10/50 (20%), Positives = 19/50 (38%), Gaps = 3/50 (6%)
+
+Query  1   EAAYDFPGSGSSSELPLKKGDIVFISRDEP-SGWSLAKLLDGSKEGWVPT  49
+            A YDF       E+ L++ +++ +  ++   GW           G  P
+Sbjct  6   RALYDFRSEN-PGEISLREHEVLSLCSEQDIEGWLEGVNSR-GDRGLFPA  53
+
+
+>Q8WXE0 Caskin-2 OS=Homo sapiens OX=9606 GN=CASKIN2 PE=1 SV=2
+Length=1202
+
+ Score = 46.1 bits (108),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 10/52 (19%), Positives = 20/52 (38%), Gaps = 4/52 (8%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLD----GSKEGWVP  48
+             A  DF      + L ++ GD++ +    P G     + +      + G+ P
+Sbjct  287  RALKDFWNLHDPTALNVRAGDVITVLEQHPDGRWKGHIHESQRGTDRIGYFP  338
+
+
+>Q9Y566 SH3 and multiple ankyrin repeat domains protein 1 OS=Homo sapiens
+OX=9606 GN=SHANK1 PE=1 SV=2
+Length=2161
+
+ Score = 45.3 bits (106),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 9/48 (19%), Positives = 20/48 (42%), Gaps = 3/48 (6%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+            A   +    +  E+ L KG+ + +      G+   ++    + GW P+
+Sbjct  561  AVKSYQAQ-AEGEISLSKGEKIKVLSIGEGGFWEGQVK--GRVGWFPS  605
+
+
+>Q8WXD9 Caskin-1 OS=Homo sapiens OX=9606 GN=CASKIN1 PE=1 SV=1
+Length=1431
+
+ Score = 45.3 bits (106),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 11/53 (21%), Positives = 20/53 (38%), Gaps = 4/53 (8%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLA----KLLDGSKEGWVPT  49
+             A  D+  +   + L +K GDI+ +    P G              + G+ P+
+Sbjct  287  RATKDYCNNYDLTSLNVKAGDIITVLEQHPDGRWKGCIHDNRTGNDRVGYFPS  339
+
+
+>Q9P2A4 ABI gene family member 3 OS=Homo sapiens OX=9606 GN=ABI3 PE=1
+SV=2
+Length=366
+
+ Score = 45.3 bits (106),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 10/47 (21%), Positives = 19/47 (40%), Gaps = 3/47 (6%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+              Y +      +EL   +G ++ ++R    GW      +G   G+ P
+Sbjct  315  TLYPYTSQ-KDNELSFSEGTVICVTRRYSDGWCEGVSSEG--TGFFP  358
+
+
+>O14559 Rho GTPase-activating protein 33 OS=Homo sapiens OX=9606 GN=ARHGAP33
+PE=1 SV=2
+Length=1287
+
+ Score = 45.3 bits (106),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 11/47 (23%), Positives = 18/47 (38%), Gaps = 6/47 (13%)
+
+Query  6    FPGSGSSSELPLKKGDIVFISRD---EPSGWSLAKLLDGSKEGWVPT  49
+            +    +  EL  + GDIV +      E   W   K     + G+ P+
+Sbjct  197  YTAQ-APDELSFEVGDIVSVIDMPPTEDRSWWRGKRGF--QVGFFPS  240
+
+
+>Q6UXY1 Brain-specific angiogenesis inhibitor 1-associated protein 2-like
+protein 2 OS=Homo sapiens OX=9606 GN=BAIAP2L2 PE=1 SV=1
+Length=529
+
+ Score = 45.3 bits (106),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 13/36 (36%), Positives = 15/36 (42%), Gaps = 1/36 (3%)
+
+Query  15   LPLKKGDIVFISRDEPS-GWSLAKLLDGSKEGWVPT  49
+            L    GD+V +   E   GW   KL   S  GW P
+Sbjct  344  LRFSAGDVVEVLVPEAQNGWLYGKLEGSSASGWFPE  379
+
+
+>Q96RU3 Formin-binding protein 1 OS=Homo sapiens OX=9606 GN=FNBP1 PE=1
+SV=2
+Length=617
+
+ Score = 45.3 bits (106),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 12/50 (24%), Positives = 27/50 (54%), Gaps = 3/50 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDE-PSGWSLAKLLDGSKEGWVPT  49
+            +A Y F G      + + +G+ +++  ++   GW+  +  +  +EG+VPT
+Sbjct  556  KALYTFEGQN-EGTISVVEGETLYVIEEDKGDGWTRIRRNED-EEGYVPT  603
+
+
+>Q14185 Dedicator of cytokinesis protein 1 OS=Homo sapiens OX=9606 GN=DOCK1
+PE=1 SV=2
+Length=1865
+
+ Score = 45.0 bits (105),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 17/49 (35%), Positives = 23/49 (47%), Gaps = 3/49 (6%)
+
+Query  2   AAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLA-KLLDGSKEGWVPT  49
+           A Y++   G+  EL L+ GD V I  +   GW     L   SK+G  P
+Sbjct  16  AFYNYDARGA-DELSLQIGDTVHIL-ETYEGWYRGYTLRKKSKKGIFPA  62
+
+
+>A6NJZ7 RIMS-binding protein 3C OS=Homo sapiens OX=9606 GN=RIMBP3C PE=1
+SV=3
+Length=1639
+
+ Score = 43.4 bits (101),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 15/54 (28%), Positives = 24/54 (44%), Gaps = 7/54 (13%)
+
+Query  2    AAYDFPGSGSS-----SELPLKKGDIVFIS-RDEPSGWSLAKLLDGSKEGWVPT  49
+            A Y++            ELPL  GD ++I    +  G+   +L D  + G VP+
+Sbjct  839  AQYNYNPFEGPNDHPEGELPLTAGDYIYIFGDMDEDGFYEGEL-DDGRRGLVPS  891
+
+
+>A6NNM3 RIMS-binding protein 3B OS=Homo sapiens OX=9606 GN=RIMBP3B PE=3
+SV=3
+Length=1639
+
+ Score = 43.4 bits (101),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 15/54 (28%), Positives = 24/54 (44%), Gaps = 7/54 (13%)
+
+Query  2    AAYDFPGSGSS-----SELPLKKGDIVFIS-RDEPSGWSLAKLLDGSKEGWVPT  49
+            A Y++            ELPL  GD ++I    +  G+   +L D  + G VP+
+Sbjct  839  AQYNYNPFEGPNDHPEGELPLTAGDYIYIFGDMDEDGFYEGEL-DDGRRGLVPS  891
+
+
+>Q9BVN2 RUN and SH3 domain-containing protein 1 OS=Homo sapiens OX=9606
+GN=RUSC1 PE=1 SV=3
+Length=902
+
+ Score = 43.4 bits (101),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 9/48 (19%), Positives = 18/48 (38%), Gaps = 3/48 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+             A  D   +    +L  ++G+++ +       W   +      EG VP
+Sbjct  850  RALCDHTAAR-PDQLSFRRGEVLRVITTVDEDWL--RCGRDGMEGLVP  894
+
+
+>Q13387 C-Jun-amino-terminal kinase-interacting protein 2 OS=Homo sapiens
+OX=9606 GN=MAPK8IP2 PE=1 SV=2
+Length=824
+
+ Score = 43.4 bits (101),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 11/49 (22%), Positives = 16/49 (33%), Gaps = 1/49 (2%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+             A + F       EL L   D V +  +E   W     +   + G  P
+Sbjct  610  RAVFRFIPR-HPDELELDVDDPVLVEAEEDDFWFRGFNMRTGERGVFPA  657
+
+
+>Q9UFD9 RIMS-binding protein 3A OS=Homo sapiens OX=9606 GN=RIMBP3 PE=1
+SV=4
+Length=1639
+
+ Score = 43.0 bits (100),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 14/54 (26%), Positives = 23/54 (43%), Gaps = 7/54 (13%)
+
+Query  2    AAYDFPGSGSS-----SELPLKKGDIVFIS-RDEPSGWSLAKLLDGSKEGWVPT  49
+            A Y++            ELPL  GD ++I    +  G+   +L    + G VP+
+Sbjct  839  AQYNYNPFEGPNDHPEGELPLTAGDYIYIFGDMDEDGFYEGELE-DGRRGLVPS  891
+
+
+>Q9UPX8 SH3 and multiple ankyrin repeat domains protein 2 OS=Homo sapiens
+OX=9606 GN=SHANK2 PE=1 SV=3
+Length=1470
+
+ Score = 43.0 bits (100),  Expect = 7e-07, Method: Composition-based stats.
+ Identities = 11/48 (23%), Positives = 16/48 (33%), Gaps = 3/48 (6%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+            A   +       E+PL +GD V +      G+           GW P
+Sbjct  154  AVKPYQPQ-VDGEIPLHRGDRVKVLSIGEGGFWEGS--ARGHIGWFPA  198
+
+
+>Q9UQF2 C-Jun-amino-terminal kinase-interacting protein 1 OS=Homo sapiens
+OX=9606 GN=MAPK8IP1 PE=1 SV=1
+Length=711
+
+ Score = 41.5 bits (96),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 10/49 (20%), Positives = 15/49 (31%), Gaps = 1/49 (2%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+             A + F       EL L+  D + +       W  A  +     G  P
+Sbjct  494  RAIFRFVPR-HEDELELEVDDPLLVELQAEDYWYEAYNMRTGARGVFPA  541
+
+
+>Q9BYB0 SH3 and multiple ankyrin repeat domains protein 3 OS=Homo sapiens
+OX=9606 GN=SHANK3 PE=1 SV=3
+Length=1731
+
+ Score = 41.5 bits (96),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 9/39 (23%), Positives = 16/39 (41%), Gaps = 2/39 (5%)
+
+Query  11   SSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+               E+PL +G+ V +      G+    +    + GW P
+Sbjct  486  GEGEIPLHRGEAVKVLSIGEGGFWEGTVK--GRTGWFPA  522
+
+
+>P27986 Phosphatidylinositol 3-kinase regulatory subunit alpha OS=Homo
+sapiens OX=9606 GN=PIK3R1 PE=1 SV=2
+Length=724
+
+ Score = 39.6 bits (91),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 13/63 (21%), Positives = 19/63 (30%), Gaps = 16/63 (25%)
+
+Query  1   EAAYDFPGSGSSSELPLKKGDIVFI---------------SRDEPSGWSLAKLLDGSKEG  45
+            A YD+        + L  GDI+ +               +R E  GW         + G
+Sbjct  9   RALYDYKKEREED-IDLHLGDILTVNKGSLVALGFSDGQEARPEEIGWLNGYNETTGERG  67
+
+Query  46  WVP  48
+             P
+Sbjct  68  DFP  70
+
+
+>Q86WN1 F-BAR and double SH3 domains protein 1 OS=Homo sapiens OX=9606
+GN=FCHSD1 PE=1 SV=1
+Length=690
+
+ Score = 39.2 bits (90),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 7/48 (15%), Positives = 19/48 (40%), Gaps = 1/48 (2%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+              + +   G   EL + +G+ + +  +  +   +       + G+VP
+Sbjct  475  VVFRYQA-GREDELTITEGEWLEVIEEGDADEWVKARNQHGEVGFVPE  521
+
+
+>Q9P0V3 SH3 domain-binding protein 4 OS=Homo sapiens OX=9606 GN=SH3BP4
+PE=1 SV=1
+Length=963
+
+ Score = 38.8 bits (89),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 10/48 (21%), Positives = 23/48 (48%), Gaps = 3/48 (6%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+            A  D+  +  ++ L   KGD +++       W  A   + ++ G++P+
+Sbjct  62   AIKDYCPTNFTT-LKFSKGDHLYVLDTSGGEWWYAH--NTTEMGYIPS  106
+
+
+>Q92968 Peroxisomal membrane protein PEX13 OS=Homo sapiens OX=9606 GN=PEX13
+PE=1 SV=2
+Length=403
+
+ Score = 38.8 bits (89),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 16/54 (30%), Positives = 25/54 (46%), Gaps = 8/54 (15%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPS----GWSLAKLLDGSK-EGWVPT  49
+             A YDF  + S  E+  + GD++ ++  E      GW LA L    +  G +P
+Sbjct  278  RAEYDF-AAVSEEEISFRAGDMLNLALKEQQPKVRGWLLASL--DGQTTGLIPA  328
+
+
+>A7KAX9 Rho GTPase-activating protein 32 OS=Homo sapiens OX=9606 GN=ARHGAP32
+PE=1 SV=1
+Length=2087
+
+ Score = 38.4 bits (88),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 13/46 (28%), Positives = 18/46 (39%), Gaps = 6/46 (13%)
+
+Query  6    FPGSGSSSELPLKKGDIVFISRDEP---SGWSLAKLLDGSKEGWVP  48
+            +    +  EL L+ GDIV +    P   S W   K     + G  P
+Sbjct  270  YTAR-APDELTLEVGDIVSVIDMPPKVLSTWWRGKHGF--QVGLFP  312
+
+
+>Q07912 Activated CDC42 kinase 1 OS=Homo sapiens OX=9606 GN=TNK2 PE=1
+SV=3
+Length=1038
+
+ Score = 38.4 bits (88),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 8/49 (16%), Positives = 16/49 (33%), Gaps = 4/49 (8%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISR-DEPSGWSLAKLLDGSKEGWVP  48
+             A  DF       +L ++  D++ +      + W   +       G  P
+Sbjct  394  RALQDFE---EPDKLHIQMNDVITVIEGRAENYWWRGQNTRTLCVGPFP  439
+
+
+>Q8N2Y8 Iporin OS=Homo sapiens OX=9606 GN=RUSC2 PE=1 SV=3
+Length=1516
+
+ Score = 38.0 bits (87),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 10/38 (26%), Positives = 13/38 (34%), Gaps = 2/38 (5%)
+
+Query  11    SSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+                +L   KGDI+ +       W        S  G VP
+Sbjct  1462  GPGQLSFHKGDILRVLGRAGGDWLRCSRGPDS--GLVP  1497
+
+
+>Q8TDM6 Disks large homolog 5 OS=Homo sapiens OX=9606 GN=DLG5 PE=1 SV=4
+Length=1919
+
+ Score = 37.6 bits (86),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 15/56 (27%), Positives = 24/56 (43%), Gaps = 8/56 (14%)
+
+Query  1     EAAYDFPGSGSSSELPLKKGDIVFISRDEPSG----WSLAKLLDGS---KEGWVPT  49
+              A YD        EL  KK DI+++    P G    W   +L + +   + G +P+
+Sbjct  1599  RALYDRLA-DVEQELSFKKDDILYVDDTLPQGTFGSWMAWQLDENAQKIQRGQIPS  1653
+
+
+>O00499 Myc box-dependent-interacting protein 1 OS=Homo sapiens OX=9606
+GN=BIN1 PE=1 SV=1
+Length=593
+
+ Score = 37.6 bits (86),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 11/46 (24%), Positives = 21/46 (46%), Gaps = 6/46 (13%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFIS-----RDEPSGWSLAKLLDG  41
+            +A +D+  +  + EL LK GD+V +       ++  GW +
+Sbjct  526  QAQHDYTATD-TDELQLKAGDVVLVIPFQNPEEQDEGWLMGVKESD  570
+
+
+>O75995 SAM and SH3 domain-containing protein 3 OS=Homo sapiens OX=9606
+GN=SASH3 PE=1 SV=2
+Length=380
+
+ Score = 36.9 bits (84),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 15/48 (31%), Positives = 18/48 (38%), Gaps = 3/48 (6%)
+
+Query  1    EAAYDFPGSGSS-SELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWV  47
+                DF  S      L L+KGD++ I    P G  L   L   K G
+Sbjct  179  RVHTDFTPSPYDHDSLKLQKGDVIQIIEKPPVGTWLG--LLNGKVGSF  224
+
+
+>Q6ZUM4 Rho GTPase-activating protein 27 OS=Homo sapiens OX=9606 GN=ARHGAP27
+PE=1 SV=3
+Length=889
+
+ Score = 36.1 bits (82),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 5/46 (11%), Positives = 17/46 (37%), Gaps = 1/46 (2%)
+
+Query  4   YDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+           +++ G      + ++  +   + R     W   +   G +  ++P
+Sbjct  17  FEYTGKDG-RRVAIRPNERYRLLRRSTEHWWHVRREPGGRPFYLPA  61
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.146    0.458    0.792     4.96
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0448    0.140     1.90     42.6     43.6
+
+Effective search space used: 281155784
+Results from round 3
+
+
+Query=
+Length=49
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+Sequences used in model and found again:
+
+O76041 Nebulette OS=Homo sapiens OX=9606 GN=NEBL PE=1 SV=1            73.6       1e-17
+Q14847 LIM and SH3 domain protein 1 OS=Homo sapiens OX=9606 GN=LA...  71.7       2e-17
+Q14155 Rho guanine nucleotide exchange factor 7 OS=Homo sapiens O...  72.1       4e-17
+O43586 Proline-serine-threonine phosphatase-interacting protein 1...  69.8       2e-16
+P20929 Nebulin OS=Homo sapiens OX=9606 GN=NEB PE=1 SV=5               69.0       5e-16
+Q15052 Rho guanine nucleotide exchange factor 6 OS=Homo sapiens O...  67.8       1e-15
+Q99962 Endophilin-A1 OS=Homo sapiens OX=9606 GN=SH3GL2 PE=1 SV=1      66.3       3e-15
+A4FU49 SH3 domain-containing protein 21 OS=Homo sapiens OX=9606 G...  65.9       6e-15
+Q96B97 SH3 domain-containing kinase-binding protein 1 OS=Homo sap...  65.1       9e-15
+Q14247 Src substrate cortactin OS=Homo sapiens OX=9606 GN=CTTN PE...  65.1       1e-14
+Q9NYB9 Abl interactor 2 OS=Homo sapiens OX=9606 GN=ABI2 PE=1 SV=1     65.1       1e-14
+O00160 Unconventional myosin-If OS=Homo sapiens OX=9606 GN=MYO1F ...  63.2       4e-14
+Q8IVI9 Nostrin OS=Homo sapiens OX=9606 GN=NOSTRIN PE=1 SV=2           62.8       6e-14
+O60861 Growth arrest-specific protein 7 OS=Homo sapiens OX=9606 G...  62.8       6e-14
+Q9UJU6 Drebrin-like protein OS=Homo sapiens OX=9606 GN=DBNL PE=1 ...  62.8       6e-14
+Q5T2T1 MAGUK p55 subfamily member 7 OS=Homo sapiens OX=9606 GN=MP...  62.8       7e-14
+Q5TCX8 Mitogen-activated protein kinase kinase kinase 21 OS=Homo ...  62.0       1e-13
+Q99963 Endophilin-A3 OS=Homo sapiens OX=9606 GN=SH3GL3 PE=1 SV=1      61.7       1e-13
+O14936 Peripheral plasma membrane protein CASK OS=Homo sapiens OX...  61.7       2e-13
+Q13387 C-Jun-amino-terminal kinase-interacting protein 2 OS=Homo ...  61.3       2e-13
+Q02779 Mitogen-activated protein kinase kinase kinase 10 OS=Homo ...  61.3       2e-13
+O43150 Arf-GAP with SH3 domain, ANK repeat and PH domain-containi...  61.3       3e-13
+Q96DR7 Rho guanine nucleotide exchange factor 26 OS=Homo sapiens ...  60.9       3e-13
+Q8N3R9 MAGUK p55 subfamily member 5 OS=Homo sapiens OX=9606 GN=MP...  60.5       4e-13
+P52735 Guanine nucleotide exchange factor VAV2 OS=Homo sapiens OX...  60.5       4e-13
+Q00013 55 kDa erythrocyte membrane protein OS=Homo sapiens OX=960...  60.5       5e-13
+Q9NQ75 Cas scaffolding protein family member 4 OS=Homo sapiens OX...  60.1       5e-13
+Q12774 Rho guanine nucleotide exchange factor 5 OS=Homo sapiens O...  60.1       6e-13
+Q14168 MAGUK p55 subfamily member 2 OS=Homo sapiens OX=9606 GN=MP...  60.1       7e-13
+Q9UKW4 Guanine nucleotide exchange factor VAV3 OS=Homo sapiens OX...  59.7       8e-13
+Q16584 Mitogen-activated protein kinase kinase kinase 11 OS=Homo ...  59.4       1e-12
+Q8WXE0 Caskin-2 OS=Homo sapiens OX=9606 GN=CASKIN2 PE=1 SV=2          59.4       1e-12
+Q9UQF2 C-Jun-amino-terminal kinase-interacting protein 1 OS=Homo ...  59.0       2e-12
+Q14511 Enhancer of filamentation 1 OS=Homo sapiens OX=9606 GN=NED...  58.6       2e-12
+P80192 Mitogen-activated protein kinase kinase kinase 9 OS=Homo s...  58.6       2e-12
+Q9BY11 Protein kinase C and casein kinase substrate in neurons pr...  58.6       2e-12
+Q8WXD9 Caskin-1 OS=Homo sapiens OX=9606 GN=CASKIN1 PE=1 SV=1          58.2       2e-12
+Q96JB8 MAGUK p55 subfamily member 4 OS=Homo sapiens OX=9606 GN=MP...  57.8       4e-12
+O43281 Embryonal Fyn-associated substrate OS=Homo sapiens OX=9606...  57.4       5e-12
+O15034 RIMS-binding protein 2 OS=Homo sapiens OX=9606 GN=RIMBP2 P...  57.0       7e-12
+O95153 Peripheral-type benzodiazepine receptor-associated protein...  56.7       1e-11
+Q9UQB8 Brain-specific angiogenesis inhibitor 1-associated protein...  56.3       1e-11
+Q9NZW5 MAGUK p55 subfamily member 6 OS=Homo sapiens OX=9606 GN=MP...  56.3       1e-11
+Q9UHR4 Brain-specific angiogenesis inhibitor 1-associated protein...  55.9       2e-11
+Q15700 Disks large homolog 2 OS=Homo sapiens OX=9606 GN=DLG2 PE=1...  55.9       2e-11
+Q96RF0 Sorting nexin-18 OS=Homo sapiens OX=9606 GN=SNX18 PE=1 SV=2    55.5       3e-11
+Q9Y566 SH3 and multiple ankyrin repeat domains protein 1 OS=Homo ...  55.5       3e-11
+Q9UKS6 Protein kinase C and casein kinase substrate in neurons pr...  55.5       3e-11
+Q13368 MAGUK p55 subfamily member 3 OS=Homo sapiens OX=9606 GN=MP...  55.1       3e-11
+Q6ZMT1 SH3 and cysteine-rich domain-containing protein 2 OS=Homo ...  54.7       4e-11
+Q5VV41 Rho guanine nucleotide exchange factor 16 OS=Homo sapiens ...  54.7       4e-11
+Q9BVN2 RUN and SH3 domain-containing protein 1 OS=Homo sapiens OX...  54.7       5e-11
+Q8WV41 Sorting nexin-33 OS=Homo sapiens OX=9606 GN=SNX33 PE=1 SV=1    54.7       5e-11
+O14559 Rho GTPase-activating protein 33 OS=Homo sapiens OX=9606 G...  54.3       6e-11
+Q8IW93 Rho guanine nucleotide exchange factor 19 OS=Homo sapiens ...  54.3       7e-11
+Q9UPX8 SH3 and multiple ankyrin repeat domains protein 2 OS=Homo ...  54.0       8e-11
+O15068 Guanine nucleotide exchange factor DBS OS=Homo sapiens OX=...  53.6       1e-10
+Q8IWW6 Rho GTPase-activating protein 12 OS=Homo sapiens OX=9606 G...  52.4       3e-10
+Q14185 Dedicator of cytokinesis protein 1 OS=Homo sapiens OX=9606...  52.4       3e-10
+Q8WUF5 RelA-associated inhibitor OS=Homo sapiens OX=9606 GN=PPP1R...  52.4       3e-10
+Q07912 Activated CDC42 kinase 1 OS=Homo sapiens OX=9606 GN=TNK2 P...  51.6       6e-10
+Q9UFD9 RIMS-binding protein 3A OS=Homo sapiens OX=9606 GN=RIMBP3 ...  51.3       9e-10
+A6NJZ7 RIMS-binding protein 3C OS=Homo sapiens OX=9606 GN=RIMBP3C...  51.3       9e-10
+A6NNM3 RIMS-binding protein 3B OS=Homo sapiens OX=9606 GN=RIMBP3B...  51.3       9e-10
+Q86WN1 F-BAR and double SH3 domains protein 1 OS=Homo sapiens OX=...  50.9       1e-09
+P27986 Phosphatidylinositol 3-kinase regulatory subunit alpha OS=...  50.9       1e-09
+Q6PIF6 Unconventional myosin-VIIb OS=Homo sapiens OX=9606 GN=MYO7...  50.5       1e-09
+Q9P2A4 ABI gene family member 3 OS=Homo sapiens OX=9606 GN=ABI3 P...  50.5       1e-09
+Q9BYB0 SH3 and multiple ankyrin repeat domains protein 3 OS=Homo ...  50.5       1e-09
+Q9P0V3 SH3 domain-binding protein 4 OS=Homo sapiens OX=9606 GN=SH...  49.0       4e-09
+A7KAX9 Rho GTPase-activating protein 32 OS=Homo sapiens OX=9606 G...  48.6       8e-09
+O00499 Myc box-dependent-interacting protein 1 OS=Homo sapiens OX...  47.4       2e-08
+Q8TDM6 Disks large homolog 5 OS=Homo sapiens OX=9606 GN=DLG5 PE=1...  47.0       2e-08
+O75995 SAM and SH3 domain-containing protein 3 OS=Homo sapiens OX...  45.9       6e-08
+Q6UXY1 Brain-specific angiogenesis inhibitor 1-associated protein...  45.5       9e-08
+Q96RU3 Formin-binding protein 1 OS=Homo sapiens OX=9606 GN=FNBP1 ...  45.1       1e-07
+Q8N2Y8 Iporin OS=Homo sapiens OX=9606 GN=RUSC2 PE=1 SV=3              44.7       2e-07
+Q92968 Peroxisomal membrane protein PEX13 OS=Homo sapiens OX=9606...  43.6       4e-07
+Q6ZUM4 Rho GTPase-activating protein 27 OS=Homo sapiens OX=9606 G...  42.8       8e-07
+
+Sequences not found previously or not previously below threshold:
+
+P57075 Ubiquitin-associated and SH3 domain-containing protein A O...  50.1       2e-09
+Q8TF42 Ubiquitin-associated and SH3 domain-containing protein B O...  43.9       3e-07
+Q9Y371 Endophilin-B1 OS=Homo sapiens OX=9606 GN=SH3GLB1 PE=1 SV=1     42.0       1e-06
+Q9BYC5 Alpha-(1,6)-fucosyltransferase OS=Homo sapiens OX=9606 GN=...  40.1       7e-06
+O94885 SAM and SH3 domain-containing protein 1 OS=Homo sapiens OX...  40.1       8e-06
+P49418 Amphiphysin OS=Homo sapiens OX=9606 GN=AMPH PE=1 SV=1          39.7       9e-06
+O00305 Voltage-dependent L-type calcium channel subunit beta-4 OS...  38.2       3e-05
+Q08289 Voltage-dependent L-type calcium channel subunit beta-2 OS...  38.2       3e-05
+Q9H3Y6 Tyrosine-protein kinase Srms OS=Homo sapiens OX=9606 GN=SR...  38.2       4e-05
+Q9NR46 Endophilin-B2 OS=Homo sapiens OX=9606 GN=SH3GLB2 PE=1 SV=1     38.2       4e-05
+Q8N1I0 Dedicator of cytokinesis protein 4 OS=Homo sapiens OX=9606...  37.4       6e-05
+O00459 Phosphatidylinositol 3-kinase regulatory subunit beta OS=H...  36.6       1e-04
+Q02641 Voltage-dependent L-type calcium channel subunit beta-1 OS...  36.2       2e-04
+Q5JRA6 Transport and Golgi organization protein 1 homolog OS=Homo...  35.9       3e-04
+
+
+>O76041 Nebulette OS=Homo sapiens OX=9606 GN=NEBL PE=1 SV=1
+Length=1014
+
+ Score = 73.6 bits (180),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 10/49 (20%), Positives = 18/49 (37%), Gaps = 1/49 (2%)
+
+Query  1     EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+              A YD+       E+  + GD +   +    GW    +    + G +P
+Sbjct  960   RAMYDYSAQD-EDEVSFRDGDYIVNVQPIDDGWMYGTVQRTGRTGMLPA  1007
+
+
+>Q14847 LIM and SH3 domain protein 1 OS=Homo sapiens OX=9606 GN=LASP1
+PE=1 SV=2
+Length=261
+
+ Score = 71.7 bits (175),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 10/49 (20%), Positives = 18/49 (37%), Gaps = 1/49 (2%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+             A YD+  +    E+  + GD +   +    GW    +      G +P
+Sbjct  208  RAVYDYSAAD-EDEVSFQDGDTIVNVQQIDDGWMYGTVERTGDTGMLPA  255
+
+
+>Q14155 Rho guanine nucleotide exchange factor 7 OS=Homo sapiens OX=9606
+GN=ARHGEF7 PE=1 SV=2
+Length=803
+
+ Score = 72.1 bits (176),  Expect = 4e-17, Method: Composition-based stats.
+ Identities = 15/49 (31%), Positives = 24/49 (49%), Gaps = 3/49 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+             A ++F    +  EL   KGD++ ++R E  GW    L    + GW P+
+Sbjct  190  RAKFNFQ-QTNEDELSFSKGDVIHVTRVEEGGWWEGTL--NGRTGWFPS  235
+
+
+>O43586 Proline-serine-threonine phosphatase-interacting protein 1 OS=Homo
+sapiens OX=9606 GN=PSTPIP1 PE=1 SV=1
+Length=416
+
+ Score = 69.8 bits (170),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 14/48 (29%), Positives = 21/48 (44%), Gaps = 3/48 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+             A YD+       EL L  GDI+ +  +   GW    +    + G+VP
+Sbjct  365  RALYDYTAQN-PDELDLSAGDILEVILEGEDGWW--TVERNGQRGFVP  409
+
+
+>P20929 Nebulin OS=Homo sapiens OX=9606 GN=NEB PE=1 SV=5
+Length=6669
+
+ Score = 69.0 bits (168),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 11/49 (22%), Positives = 20/49 (41%), Gaps = 1/49 (2%)
+
+Query  1     EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+              A YD+  + +  E+  K GD +   +    GW    +    + G +P
+Sbjct  6616  RAMYDYMAADA-DEVSFKDGDAIINVQAIDEGWMYGTVQRTGRTGMLPA  6663
+
+
+>Q15052 Rho guanine nucleotide exchange factor 6 OS=Homo sapiens OX=9606
+GN=ARHGEF6 PE=1 SV=2
+Length=776
+
+ Score = 67.8 bits (165),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 16/49 (33%), Positives = 27/49 (55%), Gaps = 3/49 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+            +A ++F    +  EL + KGDI++++R E  GW    L    + GW P+
+Sbjct  166  KARFNFK-QTNEDELSVCKGDIIYVTRVEEGGWWEGTL--NGRTGWFPS  211
+
+
+>Q99962 Endophilin-A1 OS=Homo sapiens OX=9606 GN=SH3GL2 PE=1 SV=1
+Length=352
+
+ Score = 66.3 bits (161),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 14/48 (29%), Positives = 19/48 (40%), Gaps = 3/48 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+             A YDF       EL  K+GDI+ ++      W    L      G+ P
+Sbjct  296  RALYDFEPEN-EGELGFKEGDIITLTNQIDENWYEGML--HGHSGFFP  340
+
+
+>A4FU49 SH3 domain-containing protein 21 OS=Homo sapiens OX=9606 GN=SH3D21
+PE=2 SV=2
+Length=640
+
+ Score = 65.9 bits (160),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 12/50 (24%), Positives = 21/50 (42%), Gaps = 5/50 (10%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRD--EPSGWSLAKLLDGSKEGWVP  48
+               +D+    +  EL L++GD+V +     E  GW   +     + G  P
+Sbjct  71   RVLFDYQPE-APDELALRRGDVVKVLSKTTEDKGWWEGECQ--GRRGVFP  117
+
+
+>Q96B97 SH3 domain-containing kinase-binding protein 1 OS=Homo sapiens
+OX=9606 GN=SH3KBP1 PE=1 SV=2
+Length=665
+
+ Score = 65.1 bits (158),  Expect = 9e-15, Method: Composition-based stats.
+ Identities = 11/47 (23%), Positives = 19/47 (40%), Gaps = 3/47 (6%)
+
+Query  2   AAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+             +D+       EL +  G+I+   R E  GW   ++    + G  P
+Sbjct  6   VEFDYQAQ-HDDELTISVGEIITNIRKEDGGWWEGQI--NGRRGLFP  49
+
+
+ Score = 62.0 bits (150),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 14/49 (29%), Positives = 21/49 (43%), Gaps = 3/49 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+            + A+ +       EL LK GDI+ +  +   GW    L    K G  P+
+Sbjct  104  QVAFSYLPQN-DDELELKVGDIIEVVGEVEEGWWEGVL--NGKTGMFPS  149
+
+
+ Score = 60.9 bits (147),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 12/50 (24%), Positives = 21/50 (42%), Gaps = 5/50 (10%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDE--PSGWSLAKLLDGSKEGWVP  48
+            +  + +       EL +K+GDIV +   +    GW   +L    + G  P
+Sbjct  273  KVIFPYEAQN-DDELTIKEGDIVTLINKDCIDVGWWEGEL--NGRRGVFP  319
+
+
+>Q14247 Src substrate cortactin OS=Homo sapiens OX=9606 GN=CTTN PE=1
+SV=2
+Length=550
+
+ Score = 65.1 bits (158),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 11/48 (23%), Positives = 16/48 (33%), Gaps = 3/48 (6%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+            A YD+  +G   E+     DI+        GW         + G  P
+Sbjct  499  ALYDYQAAG-DDEISFDPDDIITNIEMIDDGWWRGVCK--GRYGLFPA  543
+
+
+>Q9NYB9 Abl interactor 2 OS=Homo sapiens OX=9606 GN=ABI2 PE=1 SV=1
+Length=513
+
+ Score = 65.1 bits (158),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 11/47 (23%), Positives = 19/47 (40%), Gaps = 3/47 (6%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+            A YD+       EL  ++G I+++ +    GW    +      G  P
+Sbjct  458  AIYDYT-KDKEDELSFQEGAIIYVIKKNDDGWYEGVM--NGVTGLFP  501
+
+
+>O00160 Unconventional myosin-If OS=Homo sapiens OX=9606 GN=MYO1F PE=1
+SV=3
+Length=1098
+
+ Score = 63.2 bits (153),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 14/48 (29%), Positives = 22/48 (46%), Gaps = 3/48 (6%)
+
+Query  1     EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+              A Y + G     EL     +++ I  ++PSGW   +L    +EG  P
+Sbjct  1047  RALYQYVGQDV-DELSFNVNEVIEILMEDPSGWWKGRL--HGQEGLFP  1091
+
+
+>Q8IVI9 Nostrin OS=Homo sapiens OX=9606 GN=NOSTRIN PE=1 SV=2
+Length=506
+
+ Score = 62.8 bits (152),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 18/49 (37%), Positives = 22/49 (45%), Gaps = 3/49 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+            +A Y F       EL L+KGDIV I   +  GW    L    K+G  P
+Sbjct  444  KALYSFQAR-QDDELNLEKGDIVIIHEKKEGGWWFGSL--NGKKGHFPA  489
+
+
+>O60861 Growth arrest-specific protein 7 OS=Homo sapiens OX=9606 GN=GAS7
+PE=1 SV=3
+Length=476
+
+ Score = 62.8 bits (152),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 10/49 (20%), Positives = 17/49 (35%), Gaps = 1/49 (2%)
+
+Query  1   EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+              Y F G      L    G+++ + +    GW   +  +    GW P
+Sbjct  7   RTLYPFSGERHGQGLRFAAGELITLLQVPDGGWWEGE-KEDGLRGWFPA  54
+
+
+>Q9UJU6 Drebrin-like protein OS=Homo sapiens OX=9606 GN=DBNL PE=1 SV=1
+Length=430
+
+ Score = 62.8 bits (152),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 8/49 (16%), Positives = 15/49 (31%), Gaps = 2/49 (4%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+             A YD+  +   +E+     +++        GW           G  P
+Sbjct  377  RALYDYQAAD-DTEISFDPENLITGIEVIDEGWWRGY-GPDGHFGMFPA  423
+
+
+>Q5T2T1 MAGUK p55 subfamily member 7 OS=Homo sapiens OX=9606 GN=MPP7
+PE=1 SV=1
+Length=576
+
+ Score = 62.8 bits (152),  Expect = 7e-14, Method: Composition-based stats.
+ Identities = 14/57 (25%), Positives = 25/57 (44%), Gaps = 8/57 (14%)
+
+Query  1    EAAYDFPGSGS------SSELPLKKGDIVFISRDEPSGWSLAKL--LDGSKEGWVPT  49
+            +A +D+  +         + L  KKGDI+ I   + + W  AK       + G +P+
+Sbjct  234  KALFDYNPNEDKAIPCKEAGLSFKKGDILQIMSQDDATWWQAKHEADANPRAGLIPS  290
+
+
+>Q5TCX8 Mitogen-activated protein kinase kinase kinase 21 OS=Homo sapiens
+OX=9606 GN=MAP3K21 PE=1 SV=3
+Length=1036
+
+ Score = 62.0 bits (150),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 13/53 (25%), Positives = 22/53 (42%), Gaps = 8/53 (15%)
+
+Query  2   AAYDFPGSGSSSELPLKKGDIVFISRDE-----PSGWSLAKLLDGSKEGWVPT  49
+           A YD+   G   EL L++G +V +   +       GW   ++    + G  P
+Sbjct  45  ALYDYEARG-EDELSLRRGQLVEVLSQDAAVSGDEGWWAGQVQR--RLGIFPA  94
+
+
+>Q99963 Endophilin-A3 OS=Homo sapiens OX=9606 GN=SH3GL3 PE=1 SV=1
+Length=347
+
+ Score = 61.7 bits (149),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 12/48 (25%), Positives = 19/48 (40%), Gaps = 3/48 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+               YDF       EL  K+GDI+ ++      W     +   + G+ P
+Sbjct  291  RGLYDFEPENQ-GELGFKEGDIITLTNQIDENWYEG--MIHGESGFFP  335
+
+
+>O14936 Peripheral plasma membrane protein CASK OS=Homo sapiens OX=9606
+GN=CASK PE=1 SV=3
+Length=926
+
+ Score = 61.7 bits (149),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 10/57 (18%), Positives = 21/57 (37%), Gaps = 8/57 (14%)
+
+Query  1    EAAYDFPGSGS------SSELPLKKGDIVFISRDEPSGWSLAKLL--DGSKEGWVPT  49
+             A +++  +         + +  + GDI+ I   +   W   KL        G +P+
+Sbjct  618  RAQFEYDPAKDDLIPCKEAGIRFRVGDIIQIISKDDHNWWQGKLENSKNGTAGLIPS  674
+
+
+>Q13387 C-Jun-amino-terminal kinase-interacting protein 2 OS=Homo sapiens
+OX=9606 GN=MAPK8IP2 PE=1 SV=2
+Length=824
+
+ Score = 61.3 bits (148),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 11/49 (22%), Positives = 16/49 (33%), Gaps = 1/49 (2%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+             A + F       EL L   D V +  +E   W     +   + G  P
+Sbjct  610  RAVFRFIPR-HPDELELDVDDPVLVEAEEDDFWFRGFNMRTGERGVFPA  657
+
+
+>Q02779 Mitogen-activated protein kinase kinase kinase 10 OS=Homo sapiens
+OX=9606 GN=MAP3K10 PE=1 SV=3
+Length=954
+
+ Score = 61.3 bits (148),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 14/53 (26%), Positives = 24/53 (45%), Gaps = 7/53 (13%)
+
+Query  2   AAYDFPGSGSSSELPLKKGDIVFISRDE-----PSGWSLAKLLDGSKEGWVPT  49
+           A +D+  +G   EL L++GD V +   +       GW   +L    + G  P+
+Sbjct  23  AVFDYEAAGDE-ELTLRRGDRVQVLSQDCAVSGDEGWWTGQL-PSGRVGVFPS  73
+
+
+>O43150 Arf-GAP with SH3 domain, ANK repeat and PH domain-containing
+protein 2 OS=Homo sapiens OX=9606 GN=ASAP2 PE=1 SV=3
+Length=1006
+
+ Score = 61.3 bits (148),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 10/49 (20%), Positives = 22/49 (45%), Gaps = 2/49 (4%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDG-SKEGWVP  48
+            +A Y+     +  EL   +GD++ +  +E   W +  +     ++G  P
+Sbjct  950  KALYNCVA-DNPDELTFSEGDVIIVDGEEDQEWWIGHIDGDPGRKGAFP  997
+
+
+>Q96DR7 Rho guanine nucleotide exchange factor 26 OS=Homo sapiens OX=9606
+GN=ARHGEF26 PE=1 SV=4
+Length=871
+
+ Score = 60.9 bits (147),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 13/43 (30%), Positives = 18/43 (42%), Gaps = 1/43 (2%)
+
+Query  6    FPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+            F       EL L+  D+V I +    GW   + L   + GW P
+Sbjct  800  FTAK-QPDELSLQVADVVLIYQRVSDGWYEGERLRDGERGWFP  841
+
+
+>Q8N3R9 MAGUK p55 subfamily member 5 OS=Homo sapiens OX=9606 GN=MPP5
+PE=1 SV=3
+Length=675
+
+ Score = 60.5 bits (146),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 14/58 (24%), Positives = 20/58 (34%), Gaps = 10/58 (17%)
+
+Query  1    EAAYDFPGSGSSS------ELPLKKGDIVFISRDEPSGWSLAKLLDGSK----EGWVP  48
+            +A +D+  S           L  +KGDI+ +   E   W  A            G VP
+Sbjct  351  KAHFDYDPSDDPYVPCRELGLSFQKGDILHVISQEDPNWWQAYREGDEDNQPLAGLVP  408
+
+
+>P52735 Guanine nucleotide exchange factor VAV2 OS=Homo sapiens OX=9606
+GN=VAV2 PE=1 SV=2
+Length=878
+
+ Score = 60.5 bits (146),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 15/50 (30%), Positives = 22/50 (44%), Gaps = 5/50 (10%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRD--EPSGWSLAKLLDGSKEGWVPT  49
+            A Y+F       EL L++GD+V I        GW   +     + GW P+
+Sbjct  823  ARYNFAARD-MRELSLREGDVVRIYSRIGGDQGWWKGE--TNGRIGWFPS  869
+
+
+ Score = 48.2 bits (114),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 12/52 (23%), Positives = 25/52 (48%), Gaps = 4/52 (8%)
+
+Query  2    AAYDFPGSGSSSE---LPLKKGDIVFISRDEPSG-WSLAKLLDGSKEGWVPT  49
+            A  ++ G+ +      L  + GD++ + R +P   W   +L+   K G+ P+
+Sbjct  593  AMQNYHGNPAPPGKPVLTFQTGDVLELLRGDPESPWWEGRLVQTRKSGYFPS  644
+
+
+>Q00013 55 kDa erythrocyte membrane protein OS=Homo sapiens OX=9606 GN=MPP1
+PE=1 SV=2
+Length=466
+
+ Score = 60.5 bits (146),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 14/57 (25%), Positives = 23/57 (40%), Gaps = 8/57 (14%)
+
+Query  1    EAAYDFPGSGS------SSELPLKKGDIVFISRDEPSGWSLAKLLDGSKE--GWVPT  49
+             A +D+            + L    GDI+ I   + S W   ++   SKE  G +P+
+Sbjct  164  RAQFDYDPKKDNLIPCKEAGLKFATGDIIQIINKDDSNWWQGRVEGSSKESAGLIPS  220
+
+
+>Q9NQ75 Cas scaffolding protein family member 4 OS=Homo sapiens OX=9606
+GN=CASS4 PE=1 SV=2
+Length=786
+
+ Score = 60.1 bits (145),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 17/52 (33%), Positives = 21/52 (40%), Gaps = 6/52 (12%)
+
+Query  1   EAAYDFPGSGSSSELPLKKGDIVFISRD---EPSGWSLAKLLDGSKEGWVPT  49
+            A YD      S EL   +GDI+ I      E  GW   K L   ++G  P
+Sbjct  17  RALYDNCP-DCSDELAFSRGDILTILEQHVPESEGWW--KCLLHGRQGLAPA  65
+
+
+>Q12774 Rho guanine nucleotide exchange factor 5 OS=Homo sapiens OX=9606
+GN=ARHGEF5 PE=1 SV=3
+Length=1597
+
+ Score = 60.1 bits (145),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 12/43 (28%), Positives = 20/43 (47%), Gaps = 1/43 (2%)
+
+Query  6     FPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+             +    +  EL L+K D+V +++    GW     L   + GW P
+Sbjct  1521  YKPREN-DELALEKADVVMVTQQSSDGWLEGVRLSDGERGWFP  1562
+
+
+>Q14168 MAGUK p55 subfamily member 2 OS=Homo sapiens OX=9606 GN=MPP2
+PE=1 SV=3
+Length=576
+
+ Score = 60.1 bits (145),  Expect = 7e-13, Method: Composition-based stats.
+ Identities = 10/55 (18%), Positives = 23/55 (42%), Gaps = 6/55 (11%)
+
+Query  1    EAAYDFPGSGS------SSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+            +  +D+  +         + L    GD++ I   + + W  A  ++G   G +P+
+Sbjct  255  KCHFDYDPARDSLIPCKEAGLRFNAGDLLQIVNQDDANWWQACHVEGGSAGLIPS  309
+
+
+>Q9UKW4 Guanine nucleotide exchange factor VAV3 OS=Homo sapiens OX=9606
+GN=VAV3 PE=1 SV=1
+Length=847
+
+ Score = 59.7 bits (144),  Expect = 8e-13, Method: Composition-based stats.
+ Identities = 17/49 (35%), Positives = 25/49 (51%), Gaps = 4/49 (8%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFI-SRDEPSGWSLAKLLDGSKEGWVPT  49
+            A YDF       EL L KGD+V I ++   +GW   ++    + GW P+
+Sbjct  795  ARYDFCARD-MRELSLLKGDVVKIYTKMSANGWWRGEV--NGRVGWFPS  840
+
+
+ Score = 38.2 bits (88),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 8/37 (22%), Positives = 16/37 (43%), Gaps = 3/37 (8%)
+
+Query  15   LPLKKGDIVFISRDEPSG--WSLAKLLDGSKEGWVPT  49
+            L L+ GD V +     +   +   + L   + G+ P+
+Sbjct  617  LQLQAGDTVELL-KGDAHSLFWQGRNLASGEVGFFPS  652
+
+
+>Q16584 Mitogen-activated protein kinase kinase kinase 11 OS=Homo sapiens
+OX=9606 GN=MAP3K11 PE=1 SV=1
+Length=847
+
+ Score = 59.4 bits (143),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 15/53 (28%), Positives = 24/53 (45%), Gaps = 8/53 (15%)
+
+Query  2   AAYDFPGSGSSSELPLKKGDIVFISRDE-----PSGWSLAKLLDGSKEGWVPT  49
+           A +D+  SG   EL L+KGD V +   +       GW   ++    + G  P+
+Sbjct  48  ALFDYEPSGQ-DELALRKGDRVEVLSRDAAISGDEGWWAGQVG--GQVGIFPS  97
+
+
+>Q8WXE0 Caskin-2 OS=Homo sapiens OX=9606 GN=CASKIN2 PE=1 SV=2
+Length=1202
+
+ Score = 59.4 bits (143),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 10/52 (19%), Positives = 20/52 (38%), Gaps = 4/52 (8%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLD----GSKEGWVP  48
+             A  DF      + L ++ GD++ +    P G     + +      + G+ P
+Sbjct  287  RALKDFWNLHDPTALNVRAGDVITVLEQHPDGRWKGHIHESQRGTDRIGYFP  338
+
+
+>Q9UQF2 C-Jun-amino-terminal kinase-interacting protein 1 OS=Homo sapiens
+OX=9606 GN=MAPK8IP1 PE=1 SV=1
+Length=711
+
+ Score = 59.0 bits (142),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 10/49 (20%), Positives = 15/49 (31%), Gaps = 1/49 (2%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+             A + F       EL L+  D + +       W  A  +     G  P
+Sbjct  494  RAIFRFVPR-HEDELELEVDDPLLVELQAEDYWYEAYNMRTGARGVFPA  541
+
+
+>Q14511 Enhancer of filamentation 1 OS=Homo sapiens OX=9606 GN=NEDD9
+PE=1 SV=1
+Length=834
+
+ Score = 58.6 bits (141),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 16/51 (31%), Positives = 22/51 (43%), Gaps = 6/51 (12%)
+
+Query  1   EAAYDFPGSGSSSELPLKKGDIVFISRDEP---SGWSLAKLLDGSKEGWVP  48
+            A YD     +  EL  +KGDI+ +         GW L  L    ++G VP
+Sbjct  9   RALYDNVPECAE-ELAFRKGDILTVIEQNTGGLEGWWLCSL--HGRQGIVP  56
+
+
+>P80192 Mitogen-activated protein kinase kinase kinase 9 OS=Homo sapiens
+OX=9606 GN=MAP3K9 PE=1 SV=3
+Length=1104
+
+ Score = 58.6 bits (141),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 13/53 (25%), Positives = 24/53 (45%), Gaps = 8/53 (15%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRDE-----PSGWSLAKLLDGSKEGWVPT  49
+            A +++  +G   EL L+ GD+V +   +       GW   +L    + G  P+
+Sbjct  59   AVFEYEAAG-EDELTLRLGDVVEVLSKDSQVSGDEGWWTGQL--NQRVGIFPS  108
+
+
+>Q9BY11 Protein kinase C and casein kinase substrate in neurons protein
+1 OS=Homo sapiens OX=9606 GN=PACSIN1 PE=1 SV=1
+Length=444
+
+ Score = 58.6 bits (141),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 15/50 (30%), Positives = 20/50 (40%), Gaps = 3/50 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPS-GWSLAKLLDGSKEGWVPT  49
+             A YD+ G     EL  K GD +    +E   GW   +L    + G  P
+Sbjct  391  RALYDYDGQEQ-DELSFKAGDELTKLGEEDEQGWCRGRLD-SGQLGLYPA  438
+
+
+>Q8WXD9 Caskin-1 OS=Homo sapiens OX=9606 GN=CASKIN1 PE=1 SV=1
+Length=1431
+
+ Score = 58.2 bits (140),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 11/53 (21%), Positives = 20/53 (38%), Gaps = 4/53 (8%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLA----KLLDGSKEGWVPT  49
+             A  D+  +   + L +K GDI+ +    P G              + G+ P+
+Sbjct  287  RATKDYCNNYDLTSLNVKAGDIITVLEQHPDGRWKGCIHDNRTGNDRVGYFPS  339
+
+
+>Q96JB8 MAGUK p55 subfamily member 4 OS=Homo sapiens OX=9606 GN=MPP4
+PE=1 SV=2
+Length=637
+
+ Score = 57.8 bits (139),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 13/57 (23%), Positives = 21/57 (37%), Gaps = 8/57 (14%)
+
+Query  1    EAAYDFPGSGSSS------ELPLKKGDIVFISRDEPSGWSLAKLLDGSKE--GWVPT  49
+             A  ++              LP +KGDI+ I     + W  A+ +       G VP+
+Sbjct  248  RAMTEYWPQEDPDIPCMDAGLPFQKGDILQIVDQNDALWWQARKISDPATCAGLVPS  304
+
+
+>O43281 Embryonal Fyn-associated substrate OS=Homo sapiens OX=9606 GN=EFS
+PE=1 SV=1
+Length=561
+
+ Score = 57.4 bits (138),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 16/53 (30%), Positives = 24/53 (45%), Gaps = 7/53 (13%)
+
+Query  1   EAAYDFPGSGSSSELPLKKGDIVFISRDEP----SGWSLAKLLDGSKEGWVPT  49
+            A YD     S  EL  ++GD++ + + E      GW L  L    ++G VP
+Sbjct  11  RALYDNTAE-SPQELSFRRGDVLRVLQREGAGGLDGWCLCSL--HGQQGIVPA  60
+
+
+>O15034 RIMS-binding protein 2 OS=Homo sapiens OX=9606 GN=RIMBP2 PE=1
+SV=3
+Length=1052
+
+ Score = 57.0 bits (137),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 13/55 (24%), Positives = 23/55 (42%), Gaps = 9/55 (16%)
+
+Query  2     AAYDFPGS------GSSSELPLKKGDIVFISRDEP-SGWSLAKLLDGSKEGWVPT  49
+             A YD+            +EL    GDI+ +  +    G+   +L    ++G VP+
+Sbjct  959   ALYDYDPRESSPNVDVEAELTFCTGDIITVFGEIDEDGFYYGEL--NGQKGLVPS  1011
+
+
+ Score = 44.7 bits (105),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 13/54 (24%), Positives = 23/54 (43%), Gaps = 7/54 (13%)
+
+Query  2    AAYDFPGSGSS-----SELPLKKGDIVFIS-RDEPSGWSLAKLLDGSKEGWVPT  49
+            A Y +           +ELPL  G  +++    +  G+   +LL   + G VP+
+Sbjct  174  ARYSYNPFDGPNENPEAELPLTAGKYLYVYGDMDEDGFYEGELL-DGQRGLVPS  226
+
+
+ Score = 41.2 bits (96),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 11/55 (20%), Positives = 23/55 (42%), Gaps = 10/55 (18%)
+
+Query  2    AAYDFPG-------SGSSSELPLKKGDIVFIS-RDEPSGWSLAKLLDGSKEGWVP  48
+            A +D+           +  ELP K+G I+ +    +  G+   +    ++ G +P
+Sbjct  855  ALFDYDPLTMSPNPDAAEEELPFKEGQIIKVYGDKDADGFYRGE--TCARLGLIP  907
+
+
+>O95153 Peripheral-type benzodiazepine receptor-associated protein 1
+OS=Homo sapiens OX=9606 GN=TSPOAP1 PE=1 SV=2
+Length=1857
+
+ Score = 56.7 bits (136),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 13/55 (24%), Positives = 25/55 (45%), Gaps = 9/55 (16%)
+
+Query  2     AAYDFPGS------GSSSELPLKKGDIVFIS-RDEPSGWSLAKLLDGSKEGWVPT  49
+             AA+D+            +ELP + GD++ +    +  G+   +L    + G VP+
+Sbjct  1771  AAFDYNPQESSPNMDVEAELPFRAGDVITVFGGMDDDGFYYGEL--NGQRGLVPS  1823
+
+
+ Score = 46.6 bits (110),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 11/55 (20%), Positives = 23/55 (42%), Gaps = 10/55 (18%)
+
+Query  2     AAYDFPG-------SGSSSELPLKKGDIVFIS-RDEPSGWSLAKLLDGSKEGWVP  48
+             A +D+              ELP ++G I+ +    +  G+   +   G + G++P
+Sbjct  1632  ALFDYDPVSMSPNPDAGEEELPFREGQILKVFGDKDADGFYQGE--GGGRTGYIP  1684
+
+
+ Score = 45.5 bits (107),  Expect = 8e-08, Method: Composition-based stats.
+ Identities = 13/54 (24%), Positives = 24/54 (44%), Gaps = 7/54 (13%)
+
+Query  2    AAYDFPG-----SGSSSELPLKKGDIVFIS-RDEPSGWSLAKLLDGSKEGWVPT  49
+            A Y +           +ELPL  G+ ++I    +  G+   +L+   + G VP+
+Sbjct  660  ARYSYNPFEGPNENPEAELPLTAGEYIYIYGNMDEDGFFEGELM-DGRRGLVPS  712
+
+
+>Q9UQB8 Brain-specific angiogenesis inhibitor 1-associated protein 2
+OS=Homo sapiens OX=9606 GN=BAIAP2 PE=1 SV=1
+Length=552
+
+ Score = 56.3 bits (135),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 12/49 (24%), Positives = 21/49 (43%), Gaps = 1/49 (2%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEP-SGWSLAKLLDGSKEGWVP  48
+            +A +      +S+ L  K+GD++ +   E   GW   +       GW P
+Sbjct  380  KAIFSHAAGDNSTLLSFKEGDLITLLVPEARDGWHYGESEKTKMRGWFP  428
+
+
+>Q9NZW5 MAGUK p55 subfamily member 6 OS=Homo sapiens OX=9606 GN=MPP6
+PE=1 SV=2
+Length=540
+
+ Score = 56.3 bits (135),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 12/56 (21%), Positives = 22/56 (39%), Gaps = 7/56 (13%)
+
+Query  1    EAAYDFPGSGS------SSELPLKKGDIVFISRDEPSGWSLA-KLLDGSKEGWVPT  49
+            +  +D+            + L   KG+I+ I   E   W  A  + +G   G +P+
+Sbjct  221  KCHFDYNPYNDNLIPCKEAGLKFSKGEILQIVNREDPNWWQASHVKEGGSAGLIPS  276
+
+
+>Q9UHR4 Brain-specific angiogenesis inhibitor 1-associated protein 2-like
+protein 1 OS=Homo sapiens OX=9606 GN=BAIAP2L1 PE=1 SV=2
+Length=511
+
+ Score = 55.9 bits (134),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 9/50 (18%), Positives = 19/50 (38%), Gaps = 1/50 (2%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEP-SGWSLAKLLDGSKEGWVPT  49
+            +  +      + + L   +GD++ +   E   GW   +       GW P+
+Sbjct  345  KTIFPHTAGSNKTLLSFAQGDVITLLIPEEKDGWLYGEHDVSKARGWFPS  394
+
+
+>Q15700 Disks large homolog 2 OS=Homo sapiens OX=9606 GN=DLG2 PE=1 SV=3
+Length=870
+
+ Score = 55.9 bits (134),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 14/57 (25%), Positives = 22/57 (39%), Gaps = 8/57 (14%)
+
+Query  1    EAAYDFPGSGSSS----ELPLKKGDIVFISRDEPSGWSLAKL----LDGSKEGWVPT  49
+             A +D+  S  S      L  K GDI+ +       W  A+      D  + G +P+
+Sbjct  542  RAMFDYDKSKDSGLPSQGLSFKYGDILHVINASDDEWWQARRVMLEGDSEEMGVIPS  598
+
+
+>Q96RF0 Sorting nexin-18 OS=Homo sapiens OX=9606 GN=SNX18 PE=1 SV=2
+Length=628
+
+ Score = 55.5 bits (133),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 10/50 (20%), Positives = 19/50 (38%), Gaps = 3/50 (6%)
+
+Query  1   EAAYDFPGSGSSSELPLKKGDIVFISRDEP-SGWSLAKLLDGSKEGWVPT  49
+            A YDF       E+ L++ +++ +  ++   GW           G  P
+Sbjct  6   RALYDFRSEN-PGEISLREHEVLSLCSEQDIEGWLEGVNSR-GDRGLFPA  53
+
+
+>Q9Y566 SH3 and multiple ankyrin repeat domains protein 1 OS=Homo sapiens
+OX=9606 GN=SHANK1 PE=1 SV=2
+Length=2161
+
+ Score = 55.5 bits (133),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 9/48 (19%), Positives = 20/48 (42%), Gaps = 3/48 (6%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+            A   +    +  E+ L KG+ + +      G+   ++    + GW P+
+Sbjct  561  AVKSYQAQ-AEGEISLSKGEKIKVLSIGEGGFWEGQVK--GRVGWFPS  605
+
+
+>Q9UKS6 Protein kinase C and casein kinase substrate in neurons protein
+3 OS=Homo sapiens OX=9606 GN=PACSIN3 PE=1 SV=2
+Length=424
+
+ Score = 55.5 bits (133),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 13/50 (26%), Positives = 24/50 (48%), Gaps = 3/50 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKG-DIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+             A YD+ G  +  EL  + G +++ +S ++  GW   +L    + G  P
+Sbjct  369  RALYDYAGQEA-DELSFRAGEELLKMSEEDEQGWCQGQLQ-SGRIGLYPA  416
+
+
+>Q13368 MAGUK p55 subfamily member 3 OS=Homo sapiens OX=9606 GN=MPP3
+PE=1 SV=2
+Length=585
+
+ Score = 55.1 bits (132),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 8/57 (14%), Positives = 20/57 (35%), Gaps = 8/57 (14%)
+
+Query  1    EAAYDFPGSGS------SSELPLKKGDIVFISRDEPSGWSLAKL--LDGSKEGWVPT  49
+             A + +            + LP ++  ++ +   +   W  AK       + G +P+
+Sbjct  232  RALFHYNPREDRAIPCQEAGLPFQRRQVLEVVSQDDPTWWQAKRVGDTNLRAGLIPS  288
+
+
+>Q6ZMT1 SH3 and cysteine-rich domain-containing protein 2 OS=Homo sapiens
+OX=9606 GN=STAC2 PE=1 SV=1
+Length=411
+
+ Score = 54.7 bits (131),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 13/48 (27%), Positives = 21/48 (44%), Gaps = 3/48 (6%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+            A Y F    ++  L L+ GD + +  D    W   K+ D  + G+ P
+Sbjct  299  ALYKFLPQENND-LALQPGDRIMLVDDSNEDWWKGKIGD--RVGFFPA  343
+
+
+>Q5VV41 Rho guanine nucleotide exchange factor 16 OS=Homo sapiens OX=9606
+GN=ARHGEF16 PE=1 SV=1
+Length=709
+
+ Score = 54.7 bits (131),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 12/49 (24%), Positives = 24/49 (49%), Gaps = 5/49 (10%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+            +A +    +  + E+ L++ D+V + + E  GW   + L   + GW P
+Sbjct  638  KAFF----AKQADEVTLQQADVVLVLQQED-GWLYGERLRDGETGWFPE  681
+
+
+>Q9BVN2 RUN and SH3 domain-containing protein 1 OS=Homo sapiens OX=9606
+GN=RUSC1 PE=1 SV=3
+Length=902
+
+ Score = 54.7 bits (131),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 9/48 (19%), Positives = 17/48 (35%), Gaps = 3/48 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+             A  D   +    +L  ++G+++ +       W          EG VP
+Sbjct  850  RALCDHTAAR-PDQLSFRRGEVLRVITTVDEDWLR--CGRDGMEGLVP  894
+
+
+>Q8WV41 Sorting nexin-33 OS=Homo sapiens OX=9606 GN=SNX33 PE=1 SV=1
+Length=574
+
+ Score = 54.7 bits (131),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 10/50 (20%), Positives = 19/50 (38%), Gaps = 3/50 (6%)
+
+Query  1   EAAYDFPGSGSSSELPLKKGDIVFISRDEP-SGWSLAKLLDGSKEGWVPT  49
+            A YDF       E+ +++ + + I  +    GW   +     + G  P
+Sbjct  6   RALYDFHSENKE-EISIQQDEDLVIFSETSLDGWLQGQNSR-GETGLFPA  53
+
+
+>O14559 Rho GTPase-activating protein 33 OS=Homo sapiens OX=9606 GN=ARHGAP33
+PE=1 SV=2
+Length=1287
+
+ Score = 54.3 bits (130),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 11/51 (22%), Positives = 18/51 (35%), Gaps = 6/51 (12%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRD---EPSGWSLAKLLDGSKEGWVPT  49
+                +    +  EL  + GDIV +      E   W   K     + G+ P+
+Sbjct  193  VIKRYTAQ-APDELSFEVGDIVSVIDMPPTEDRSWWRGKRGF--QVGFFPS  240
+
+
+>Q8IW93 Rho guanine nucleotide exchange factor 19 OS=Homo sapiens OX=9606
+GN=ARHGEF19 PE=1 SV=1
+Length=802
+
+ Score = 54.3 bits (130),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 13/38 (34%), Positives = 18/38 (47%), Gaps = 0/38 (0%)
+
+Query  11   SSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+               EL L+K DI+ +      GW     L   ++GWVP
+Sbjct  730  HPDELTLEKTDILSVRTWTSDGWLEGVRLADGEKGWVP  767
+
+
+>Q9UPX8 SH3 and multiple ankyrin repeat domains protein 2 OS=Homo sapiens
+OX=9606 GN=SHANK2 PE=1 SV=3
+Length=1470
+
+ Score = 54.0 bits (129),  Expect = 8e-11, Method: Composition-based stats.
+ Identities = 11/48 (23%), Positives = 16/48 (33%), Gaps = 3/48 (6%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+            A   +       E+PL +GD V +      G+           GW P
+Sbjct  154  AVKPYQPQ-VDGEIPLHRGDRVKVLSIGEGGFWEGS--ARGHIGWFPA  198
+
+
+>O15068 Guanine nucleotide exchange factor DBS OS=Homo sapiens OX=9606
+GN=MCF2L PE=1 SV=2
+Length=1137
+
+ Score = 53.6 bits (128),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 12/41 (29%), Positives = 19/41 (46%), Gaps = 0/41 (0%)
+
+Query  9     SGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+              G    L ++ GD+V + ++   G    +     KEGWVP
+Sbjct  1068  KGGPDALRVRSGDVVELVQEGDEGLWYVRDPTTGKEGWVPA  1108
+
+
+>Q8IWW6 Rho GTPase-activating protein 12 OS=Homo sapiens OX=9606 GN=ARHGAP12
+PE=1 SV=1
+Length=846
+
+ Score = 52.4 bits (125),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 11/49 (22%), Positives = 21/49 (43%), Gaps = 0/49 (0%)
+
+Query  1   EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+           E  YD+       ++ +K+G+   + +     W   K  + SK  +VP
+Sbjct  18  EVEYDYEYEAKDRKIVIKQGERYILVKKTNDDWWQVKPDENSKAFYVPA  66
+
+
+>Q14185 Dedicator of cytokinesis protein 1 OS=Homo sapiens OX=9606 GN=DOCK1
+PE=1 SV=2
+Length=1865
+
+ Score = 52.4 bits (125),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 17/49 (35%), Positives = 23/49 (47%), Gaps = 3/49 (6%)
+
+Query  2   AAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLA-KLLDGSKEGWVPT  49
+           A Y++   G+  EL L+ GD V I  +   GW     L   SK+G  P
+Sbjct  16  AFYNYDARGA-DELSLQIGDTVHIL-ETYEGWYRGYTLRKKSKKGIFPA  62
+
+
+>Q8WUF5 RelA-associated inhibitor OS=Homo sapiens OX=9606 GN=PPP1R13L
+PE=1 SV=4
+Length=828
+
+ Score = 52.4 bits (125),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 15/50 (30%), Positives = 24/50 (48%), Gaps = 6/50 (12%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRD---EPSGWSLAKLLDGSKEGWVP  48
+            A +D+       EL  ++G+ V + R    E + W  A L    +EG+VP
+Sbjct  765  ALWDYSAEFG-DELSFREGESVTVLRRDGPEETDWWWAAL--HGQEGYVP  811
+
+
+>Q07912 Activated CDC42 kinase 1 OS=Homo sapiens OX=9606 GN=TNK2 PE=1
+SV=3
+Length=1038
+
+ Score = 51.6 bits (123),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 8/49 (16%), Positives = 16/49 (33%), Gaps = 4/49 (8%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISR-DEPSGWSLAKLLDGSKEGWVP  48
+             A  DF       +L ++  D++ +      + W   +       G  P
+Sbjct  394  RALQDF---EEPDKLHIQMNDVITVIEGRAENYWWRGQNTRTLCVGPFP  439
+
+
+>Q9UFD9 RIMS-binding protein 3A OS=Homo sapiens OX=9606 GN=RIMBP3 PE=1
+SV=4
+Length=1639
+
+ Score = 51.3 bits (122),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 14/54 (26%), Positives = 23/54 (43%), Gaps = 7/54 (13%)
+
+Query  2    AAYDFPGSGSS-----SELPLKKGDIVFIS-RDEPSGWSLAKLLDGSKEGWVPT  49
+            A Y++            ELPL  GD ++I    +  G+   +L    + G VP+
+Sbjct  839  AQYNYNPFEGPNDHPEGELPLTAGDYIYIFGDMDEDGFYEGELE-DGRRGLVPS  891
+
+
+ Score = 42.8 bits (100),  Expect = 7e-07, Method: Composition-based stats.
+ Identities = 13/55 (24%), Positives = 20/55 (36%), Gaps = 9/55 (16%)
+
+Query  2     AAYDFPGSGS------SSELPLKKGDIVFISR-DEPSGWSLAKLLDGSKEGWVPT  49
+             AA D+              L L+ GD+V +    +  G+   +L      G VP
+Sbjct  1576  AALDYDPGDGQMGGQGKGRLALRAGDVVMVYGPMDDQGFYYGELG--GHRGLVPA  1628
+
+
+>A6NJZ7 RIMS-binding protein 3C OS=Homo sapiens OX=9606 GN=RIMBP3C PE=1
+SV=3
+Length=1639
+
+ Score = 51.3 bits (122),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 14/54 (26%), Positives = 23/54 (43%), Gaps = 7/54 (13%)
+
+Query  2    AAYDFPGSGSS-----SELPLKKGDIVFIS-RDEPSGWSLAKLLDGSKEGWVPT  49
+            A Y++            ELPL  GD ++I    +  G+   +L    + G VP+
+Sbjct  839  AQYNYNPFEGPNDHPEGELPLTAGDYIYIFGDMDEDGFYEGELD-DGRRGLVPS  891
+
+
+ Score = 42.8 bits (100),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 13/55 (24%), Positives = 20/55 (36%), Gaps = 9/55 (16%)
+
+Query  2     AAYDFPGSGS------SSELPLKKGDIVFISR-DEPSGWSLAKLLDGSKEGWVPT  49
+             AA D+              L L+ GD+V +    +  G+   +L      G VP
+Sbjct  1576  AALDYDPGDGQMGGQGKGRLALRAGDVVMVYGPMDDQGFYYGELG--GHRGLVPA  1628
+
+
+>A6NNM3 RIMS-binding protein 3B OS=Homo sapiens OX=9606 GN=RIMBP3B PE=3
+SV=3
+Length=1639
+
+ Score = 51.3 bits (122),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 14/54 (26%), Positives = 23/54 (43%), Gaps = 7/54 (13%)
+
+Query  2    AAYDFPGSGSS-----SELPLKKGDIVFIS-RDEPSGWSLAKLLDGSKEGWVPT  49
+            A Y++            ELPL  GD ++I    +  G+   +L    + G VP+
+Sbjct  839  AQYNYNPFEGPNDHPEGELPLTAGDYIYIFGDMDEDGFYEGELD-DGRRGLVPS  891
+
+
+ Score = 42.8 bits (100),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 13/55 (24%), Positives = 20/55 (36%), Gaps = 9/55 (16%)
+
+Query  2     AAYDFPGSGS------SSELPLKKGDIVFISR-DEPSGWSLAKLLDGSKEGWVPT  49
+             AA D+              L L+ GD+V +    +  G+   +L      G VP
+Sbjct  1576  AALDYDPGDGQMGGQGKGRLALRAGDVVMVYGPMDDQGFYYGELG--GHRGLVPA  1628
+
+
+>Q86WN1 F-BAR and double SH3 domains protein 1 OS=Homo sapiens OX=9606
+GN=FCHSD1 PE=1 SV=1
+Length=690
+
+ Score = 50.9 bits (121),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 7/48 (15%), Positives = 19/48 (40%), Gaps = 1/48 (2%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+              + +   G   EL + +G+ + +  +  +   +       + G+VP
+Sbjct  475  VVFRYQA-GREDELTITEGEWLEVIEEGDADEWVKARNQHGEVGFVPE  521
+
+
+>P27986 Phosphatidylinositol 3-kinase regulatory subunit alpha OS=Homo
+sapiens OX=9606 GN=PIK3R1 PE=1 SV=2
+Length=724
+
+ Score = 50.9 bits (121),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 13/63 (21%), Positives = 19/63 (30%), Gaps = 16/63 (25%)
+
+Query  1   EAAYDFPGSGSSSELPLKKGDIVFI---------------SRDEPSGWSLAKLLDGSKEG  45
+            A YD+        + L  GDI+ +               +R E  GW         + G
+Sbjct  9   RALYDYKKEREED-IDLHLGDILTVNKGSLVALGFSDGQEARPEEIGWLNGYNETTGERG  67
+
+Query  46  WVP  48
+             P
+Sbjct  68  DFP  70
+
+
+>Q6PIF6 Unconventional myosin-VIIb OS=Homo sapiens OX=9606 GN=MYO7B PE=1
+SV=2
+Length=2116
+
+ Score = 50.5 bits (120),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 13/51 (25%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  2     AAYDFPGSGSSSELPLKKGDIVFISRDE----PSGWSLAKLLDGSKEGWVP  48
+             A  D   +  ++ L  KKGD++ +++ +       W+L +     K G VP
+Sbjct  1508  ALQDRKATDDTTLLAFKKGDLLVLTKKQGLLASENWTLGQNDRTGKTGLVP  1558
+
+
+>Q9P2A4 ABI gene family member 3 OS=Homo sapiens OX=9606 GN=ABI3 PE=1
+SV=2
+Length=366
+
+ Score = 50.5 bits (120),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 10/47 (21%), Positives = 19/47 (40%), Gaps = 3/47 (6%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+              Y +      +EL   +G ++ ++R    GW      +G   G+ P
+Sbjct  315  TLYPYTSQ-KDNELSFSEGTVICVTRRYSDGWCEGVSSEG--TGFFP  358
+
+
+>Q9BYB0 SH3 and multiple ankyrin repeat domains protein 3 OS=Homo sapiens
+OX=9606 GN=SHANK3 PE=1 SV=3
+Length=1731
+
+ Score = 50.5 bits (120),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 11/48 (23%), Positives = 18/48 (38%), Gaps = 3/48 (6%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+            A       G   E+PL +G+ V +      G+    +    + GW P
+Sbjct  478  AVKAHSPQG-EGEIPLHRGEAVKVLSIGEGGFWEGTVK--GRTGWFPA  522
+
+
+>P57075 Ubiquitin-associated and SH3 domain-containing protein A OS=Homo
+sapiens OX=9606 GN=UBASH3A PE=1 SV=1
+Length=661
+
+ Score = 50.1 bits (119),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 11/53 (21%), Positives = 19/53 (36%), Gaps = 5/53 (9%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFIS----RDEPSGWSLAKLLDGSKEGWVPT  49
+             A + +       EL L  GD +F+      +   GW +         G++P
+Sbjct  282  RALFQYKPQNV-DELTLSPGDYIFVDPTQQDEASEGWVIGISQRTGCRGFLPE  333
+
+
+>Q9P0V3 SH3 domain-binding protein 4 OS=Homo sapiens OX=9606 GN=SH3BP4
+PE=1 SV=1
+Length=963
+
+ Score = 49.0 bits (116),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 10/48 (21%), Positives = 22/48 (46%), Gaps = 3/48 (6%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+            A  D+  +  ++ L   KGD +++       W  A     ++ G++P+
+Sbjct  62   AIKDYCPTNFTT-LKFSKGDHLYVLDTSGGEWWYAHN--TTEMGYIPS  106
+
+
+>A7KAX9 Rho GTPase-activating protein 32 OS=Homo sapiens OX=9606 GN=ARHGAP32
+PE=1 SV=1
+Length=2087
+
+ Score = 48.6 bits (115),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 13/50 (26%), Positives = 18/50 (36%), Gaps = 6/50 (12%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRDEP---SGWSLAKLLDGSKEGWVP  48
+                +    +  EL L+ GDIV +    P   S W   K     + G  P
+Sbjct  266  VIKRYTAR-APDELTLEVGDIVSVIDMPPKVLSTWWRGKHGF--QVGLFP  312
+
+
+>O00499 Myc box-dependent-interacting protein 1 OS=Homo sapiens OX=9606
+GN=BIN1 PE=1 SV=1
+Length=593
+
+ Score = 47.4 bits (112),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 13/62 (21%), Positives = 23/62 (37%), Gaps = 14/62 (23%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFIS-----RDEPSGWSLAKLLDG--------SKEGWV  47
+            +A +D+  +  + EL LK GD+V +       ++  GW +                 G
+Sbjct  526  QAQHDYTATD-TDELQLKAGDVVLVIPFQNPEEQDEGWLMGVKESDWNQHKELEKCRGVF  584
+
+Query  48   PT  49
+            P
+Sbjct  585  PE  586
+
+
+>Q8TDM6 Disks large homolog 5 OS=Homo sapiens OX=9606 GN=DLG5 PE=1 SV=4
+Length=1919
+
+ Score = 47.0 bits (111),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 15/56 (27%), Positives = 24/56 (43%), Gaps = 8/56 (14%)
+
+Query  1     EAAYDFPGSGSSSELPLKKGDIVFISRDEPSG----WSLAKLLDGS---KEGWVPT  49
+              A YD        EL  KK DI+++    P G    W   +L + +   + G +P+
+Sbjct  1599  RALYDRLA-DVEQELSFKKDDILYVDDTLPQGTFGSWMAWQLDENAQKIQRGQIPS  1653
+
+
+>O75995 SAM and SH3 domain-containing protein 3 OS=Homo sapiens OX=9606
+GN=SASH3 PE=1 SV=2
+Length=380
+
+ Score = 45.9 bits (108),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 15/48 (31%), Positives = 18/48 (38%), Gaps = 3/48 (6%)
+
+Query  1    EAAYDFPGSGSS-SELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWV  47
+                DF  S      L L+KGD++ I    P G  L  L    K G
+Sbjct  179  RVHTDFTPSPYDHDSLKLQKGDVIQIIEKPPVGTWLGLL--NGKVGSF  224
+
+
+>Q6UXY1 Brain-specific angiogenesis inhibitor 1-associated protein 2-like
+protein 2 OS=Homo sapiens OX=9606 GN=BAIAP2L2 PE=1 SV=1
+Length=529
+
+ Score = 45.5 bits (107),  Expect = 9e-08, Method: Composition-based stats.
+ Identities = 14/49 (29%), Positives = 18/49 (37%), Gaps = 1/49 (2%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRDEPS-GWSLAKLLDGSKEGWVPT  49
+            A        + + L    GD+V +   E   GW   KL   S  GW P
+Sbjct  331  ALVSHSEGANHTLLRFSAGDVVEVLVPEAQNGWLYGKLEGSSASGWFPE  379
+
+
+>Q96RU3 Formin-binding protein 1 OS=Homo sapiens OX=9606 GN=FNBP1 PE=1
+SV=2
+Length=617
+
+ Score = 45.1 bits (106),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 12/50 (24%), Positives = 27/50 (54%), Gaps = 3/50 (6%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDE-PSGWSLAKLLDGSKEGWVPT  49
+            +A Y F G      + + +G+ +++  ++   GW+  +  +  +EG+VPT
+Sbjct  556  KALYTFEGQN-EGTISVVEGETLYVIEEDKGDGWTRIRRNED-EEGYVPT  603
+
+
+>Q8N2Y8 Iporin OS=Homo sapiens OX=9606 GN=RUSC2 PE=1 SV=3
+Length=1516
+
+ Score = 44.7 bits (105),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 12/48 (25%), Positives = 17/48 (35%), Gaps = 3/48 (6%)
+
+Query  1     EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+             +A      +G   +L   KGDI+ +       W        S  G VP
+Sbjct  1453  QALCHHLATG-PGQLSFHKGDILRVLGRAGGDWLRCSRGPDS--GLVP  1497
+
+
+>Q8TF42 Ubiquitin-associated and SH3 domain-containing protein B OS=Homo
+sapiens OX=9606 GN=UBASH3B PE=1 SV=2
+Length=649
+
+ Score = 43.9 bits (103),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 14/53 (26%), Positives = 19/53 (36%), Gaps = 5/53 (9%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDE----PSGWSLAKLLDGSKEGWVPT  49
+            +  Y +       EL L  GD +F+S  E      GW     L     G +P
+Sbjct  260  QVIYPYTPQN-DDELELVPGDFIFMSPMEQTSTSEGWIYGTSLTTGCSGLLPE  311
+
+
+>Q92968 Peroxisomal membrane protein PEX13 OS=Homo sapiens OX=9606 GN=PEX13
+PE=1 SV=2
+Length=403
+
+ Score = 43.6 bits (102),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 16/54 (30%), Positives = 25/54 (46%), Gaps = 8/54 (15%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDEPS----GWSLAKLLDGSK-EGWVPT  49
+             A YDF  + S  E+  + GD++ ++  E      GW LA L    +  G +P
+Sbjct  278  RAEYDF-AAVSEEEISFRAGDMLNLALKEQQPKVRGWLLASL--DGQTTGLIPA  328
+
+
+>Q6ZUM4 Rho GTPase-activating protein 27 OS=Homo sapiens OX=9606 GN=ARHGAP27
+PE=1 SV=3
+Length=889
+
+ Score = 42.8 bits (100),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 5/46 (11%), Positives = 17/46 (37%), Gaps = 1/46 (2%)
+
+Query  4   YDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+           +++ G      + ++  +   + R     W   +   G +  ++P
+Sbjct  17  FEYTGKDG-RRVAIRPNERYRLLRRSTEHWWHVRREPGGRPFYLPA  61
+
+
+>Q9Y371 Endophilin-B1 OS=Homo sapiens OX=9606 GN=SH3GLB1 PE=1 SV=1
+Length=365
+
+ Score = 42.0 bits (98),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 11/50 (22%), Positives = 23/50 (46%), Gaps = 5/50 (10%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDE--PSGWSLAKLLDGSKEGWVP  48
+               YD+  +  S+EL L   +++ +       S W + +  +  ++G VP
+Sbjct  311  RVLYDYDAAN-STELSLLADEVITVFSVVGMDSDWLMGERGN--QKGKVP  357
+
+
+>Q9BYC5 Alpha-(1,6)-fucosyltransferase OS=Homo sapiens OX=9606 GN=FUT8
+PE=1 SV=2
+Length=575
+
+ Score = 40.1 bits (93),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 11/48 (23%), Positives = 22/48 (46%), Gaps = 1/48 (2%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVPT  49
+            A Y      +  E+P++ GDI+ ++ +   G+S        + G  P+
+Sbjct  509  AIYAHQPRTA-DEIPMEPGDIIGVAGNHWDGYSKGVNRKLGRTGLYPS  555
+
+
+>O94885 SAM and SH3 domain-containing protein 1 OS=Homo sapiens OX=9606
+GN=SASH1 PE=1 SV=3
+Length=1247
+
+ Score = 40.1 bits (93),  Expect = 8e-06, Method: Composition-based stats.
+ Identities = 16/48 (33%), Positives = 19/48 (40%), Gaps = 3/48 (6%)
+
+Query  1    EAAYDFPGSGSS-SELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWV  47
+                DF  S      L LKKGDI+ I    P G  +  L   +K G
+Sbjct  560  RVHTDFTPSPYDTDSLKLKKGDIIDIISKPPMGTWMGLL--NNKVGTF  605
+
+
+>P49418 Amphiphysin OS=Homo sapiens OX=9606 GN=AMPH PE=1 SV=1
+Length=695
+
+ Score = 39.7 bits (92),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 15/62 (24%), Positives = 26/62 (42%), Gaps = 14/62 (23%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFIS-----RDEPSGWSLAKLLDG--------SKEGWV  47
+            E  +DF  + S  EL L++GD+V +       D+ +GW +              + +G
+Sbjct  628  ETLHDFEAANS-DELTLQRGDVVLVVPSDSEADQDAGWLVGVKESDWLQYRDLATYKGLF  686
+
+Query  48   PT  49
+            P
+Sbjct  687  PE  688
+
+
+>O00305 Voltage-dependent L-type calcium channel subunit beta-4 OS=Homo
+sapiens OX=9606 GN=CACNB4 PE=1 SV=2
+Length=520
+
+ Score = 38.2 bits (88),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 7/51 (14%), Positives = 19/51 (37%), Gaps = 7/51 (14%)
+
+Query  6    FPGSGSSS------ELPLKKGDIVFISRDEPSGWSLAKLLDGS-KEGWVPT  49
+            + G+           +     D + I     + W + +L+    + G++P+
+Sbjct  103  YCGALDEDVPVPSTAISFDAKDFLHIKEKYNNDWWIGRLVKEGCEIGFIPS  153
+
+
+>Q08289 Voltage-dependent L-type calcium channel subunit beta-2 OS=Homo
+sapiens OX=9606 GN=CACNB2 PE=1 SV=3
+Length=660
+
+ Score = 38.2 bits (88),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 5/51 (10%), Positives = 19/51 (37%), Gaps = 7/51 (14%)
+
+Query  6    FPGSGSSS------ELPLKKGDIVFISRDEPSGWSLAKLLDGS-KEGWVPT  49
+            +  +           +  +  D + +     + W + +L+    + G++P+
+Sbjct  125  YSAAHEDDVPVPGMAISFEAKDFLHVKEKFNNDWWIGRLVKEGCEIGFIPS  175
+
+
+>Q9H3Y6 Tyrosine-protein kinase Srms OS=Homo sapiens OX=9606 GN=SRMS
+PE=1 SV=1
+Length=488
+
+ Score = 38.2 bits (88),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 12/47 (26%), Positives = 18/47 (38%), Gaps = 1/47 (2%)
+
+Query  2    AAYDFPGSGSSSELPLKKGDIVFISRDEPSGWSLAKLLDGSKEGWVP  48
+            A YDF       EL +++GD +    +        +L      G VP
+Sbjct  58   ALYDFTARCG-GELSVRRGDRLCALEEGGGYIFARRLSGQPSAGLVP  103
+
+
+>Q9NR46 Endophilin-B2 OS=Homo sapiens OX=9606 GN=SH3GLB2 PE=1 SV=1
+Length=395
+
+ Score = 38.2 bits (88),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 12/50 (24%), Positives = 22/50 (44%), Gaps = 5/50 (10%)
+
+Query  1    EAAYDFPGSGSSSELPLKKGDIVFISRDE--PSGWSLAKLLDGSKEGWVP  48
+               YD+  + SS EL L   +++ +         W + +  +  K+G VP
+Sbjct  341  RVLYDYEAADSS-ELALLADELITVYSLPGMDPDWLIGERGN--KKGKVP  387
+
+
+>Q8N1I0 Dedicator of cytokinesis protein 4 OS=Homo sapiens OX=9606 GN=DOCK4
+PE=1 SV=3
+Length=1966
+
+ Score = 37.4 bits (86),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 11/39 (28%), Positives = 14/39 (36%), Gaps = 2/39 (5%)
+
+Query  12  SSELPLKKGDIVFISRDEPSGWSLAKLLDGSK-EGWVPT  49
+              L L+ GD V I      GW     L     +G  P+
+Sbjct  22  PYGLSLEIGDTVQILEKCD-GWYRGFALKNPNIKGIFPS  59
+
+
+>O00459 Phosphatidylinositol 3-kinase regulatory subunit beta OS=Homo
+sapiens OX=9606 GN=PIK3R2 PE=1 SV=2
+Length=728
+
+ Score = 36.6 bits (84),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 13/63 (21%), Positives = 18/63 (29%), Gaps = 16/63 (25%)
+
+Query  1   EAAYDFPGSGSSSELPLKKGDIVFISR---------------DEPSGWSLAKLLDGSKEG  45
+            A Y F        L L  GD++ +SR                +  GW         + G
+Sbjct  10  RALYPFRRERPED-LELLPGDVLVVSRAALQALGVAEGGERCPQSVGWMPGLNERTRQRG  68
+
+Query  46  WVP  48
+             P
+Sbjct  69  DFP  71
+
+
+>Q02641 Voltage-dependent L-type calcium channel subunit beta-1 OS=Homo
+sapiens OX=9606 GN=CACNB1 PE=1 SV=3
+Length=598
+
+ Score = 36.2 bits (83),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 6/36 (17%), Positives = 17/36 (47%), Gaps = 1/36 (3%)
+
+Query  15   LPLKKGDIVFISRDEPSGWSLAKLLDGS-KEGWVPT  49
+            +  +  D + I     + W + +L+    + G++P+
+Sbjct  126  ITFEPKDFLHIKEKYNNDWWIGRLVKEGCEVGFIPS  161
+
+
+>Q5JRA6 Transport and Golgi organization protein 1 homolog OS=Homo sapiens
+OX=9606 GN=MIA3 PE=1 SV=1
+Length=1907
+
+ Score = 35.9 bits (82),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 14/51 (27%), Positives = 19/51 (37%), Gaps = 6/51 (12%)
+
+Query  1   EAAYDFPGSGSSSELPLKKGDIVFISRDEPSGW---SLAKLLDGSKEGWVP  48
+           EA  DF G      +  KKGD V++      GW       +      G+ P
+Sbjct  51  EALEDFTGPDC-RFVNFKKGDPVYVYYKLARGWPEVWAGSVGRT--FGYFP  98
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.172    0.575    0.792     4.96
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0525    0.140     1.90     42.6     43.6
+
+Effective search space used: 281155784
+
+
+  Database: ./uniprotNOT_PF00018proteins.fasta
+    Posted date:  Jan 21, 2020  5:02 PM
+  Number of letters in database: 11,279,802
+  Number of sequences in database:  20,266
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
