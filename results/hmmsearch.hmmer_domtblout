@@ -274,9 +274,9 @@ sp|Q5JRA6|TGO1_HUMAN  -           1907 MSA_uniprot_edited   -             91    
 # Program:         hmmsearch
 # Version:         3.2.1 (June 2018)
 # Pipeline mode:   SEARCH
-# Query file:      MSA_uniprot_model.hmm
-# Target file:     Point5/Swiss_human.fasta
-# Option settings: hmmsearch --domtblout hmmsearch.hmmer_domtblout MSA_uniprot_model.hmm Point5/Swiss_human.fasta 
+# Query file:      models/MSA_uniprot_model.hmm
+# Target file:     Swiss_Human/Swiss_human.fasta
+# Option settings: hmmsearch --domtblout results/hmmsearch.hmmer_domtblout models/MSA_uniprot_model.hmm Swiss_Human/Swiss_human.fasta 
 # Current dir:     /Users/paolofantuz/BiologicalData
-# Date:            Tue Jan 21 16:19:14 2020
+# Date:            Wed Jan 22 00:42:10 2020
 # [ok]

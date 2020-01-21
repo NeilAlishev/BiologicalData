@@ -26,7 +26,7 @@ I've used the following command:
 
 ```
 # Create a PSSM from a Fasta MSA (the content of the file in the -subject option is irrelevant)
-psiblast -subject BLAST_uniprot.fasta -in_msa MSA_uniprot_edited.fasta -out_pssm MSA_uniprot_model.pssm
+psiblast -subject BLAST_uniprot.fasta -in_msa MSA_uniprot_edited.fasta -out_pssm models/MSA_uniprot_model.pssm
 ```
 
 **OUTPUT:** MSA_uniprot_model.pssm
@@ -38,7 +38,7 @@ I've use the following command:
 
 ```
 # Build a HMM from the MSA with hmmbuild
-hmmbuild MSA_uniprot_model.hmm MSA_uniprot_edited.fasta
+hmmbuild models/MSA_uniprot_model.hmm MSA_uniprot_edited.fasta
 ```
 
 **OUTPUT:** MSA_uniprot_model.hmm
@@ -53,29 +53,29 @@ pf00018 AND reviewed:yes AND organism:"Homo sapiens (Human) [9606]"
 ```
 and found out that there are 101 proteins.
 
-**OUTPUT:** Point5/PF00018_human.fasta
+**OUTPUT:** Swiss_Human/PF00018_human.fasta
 
 We then downloaded all human protein from SwissProt:
 ```
 reviewed:yes AND organism:"Homo sapiens (Human) [9606]"
 ```
-**OUTPUT:** Point5/Swiss_human.fasta
+**OUTPUT:** Swiss_Human/Swiss_human.fasta
 
 ##### b) "Find significant hits using HMM-SEARCH and PSI-BLAST respectively for the HMM and PSSM model"
 
 We have then created the database with the following command
 ```
-makeblastdb -dbtype prot -in Point5/Swiss_human.fasta -parse_seqids
+makeblastdb -dbtype prot -in Swiss_Human/Swiss_human.fasta -parse_seqids
 ```
 
 Search with psiblast using the previously generated PSSM
 ```
-psiblast -in_pssm MSA_uniprot_model.pssm -db Point5/Swiss_human.fasta  -num_iterations 3 -evalue 0.001 > psiblast_out.txt
+psiblast -in_pssm MSA_uniprot_model.pssm -db Swiss_Human/Swiss_human.fasta  -num_iterations 3 -evalue 0.001 > results/psiblast_out.txt
 ```
 
 Search with hmmsearch using the previously generated HMM
 ```
-hmmsearch --domtblout hmmsearch.hmmer_domtblout MSA_uniprot_model.hmm Point5/Swiss_human.fasta > hmmsearch_out.hmmer_align
+hmmsearch --domtblout results/hmmsearch.hmmer_domtblout MSA_uniprot_model.hmm Swiss_Human/Swiss_human.fasta > results/hmmsearch_out.hmmer_align
 ```
 
 ##### c) "Evaluate the ability of retrieving proteins with that domain"

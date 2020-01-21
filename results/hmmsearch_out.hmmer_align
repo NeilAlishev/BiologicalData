@@ -3,9 +3,9 @@
 # Copyright (C) 2018 Howard Hughes Medical Institute.
 # Freely distributed under the BSD open source license.
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-# query HMM file:                  MSA_uniprot_model.hmm
-# target sequence database:        Point5/Swiss_human.fasta
-# per-dom hits tabular output:     hmmsearch.hmmer_domtblout
+# query HMM file:                  models/MSA_uniprot_model.hmm
+# target sequence database:        Swiss_Human/Swiss_human.fasta
+# per-dom hits tabular output:     results/hmmsearch.hmmer_domtblout
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Query:       MSA_uniprot_edited  [M=91]
@@ -3051,7 +3051,7 @@ Passed Vit filter:                       243  (0.0119311); expected 20.4 (0.001)
 Passed Fwd filter:                       189  (0.00927972); expected 0.2 (1e-05)
 Initial search space (Z):              20367  [actual number of targets]
 Domain search space  (domZ):             189  [number of targets reported over threshold]
-# CPU time: 0.42u 0.01s 00:00:00.43 Elapsed: 00:00:00.18
-# Mc/sec: 5628.58
+# CPU time: 0.41u 0.02s 00:00:00.43 Elapsed: 00:00:00.18
+# Mc/sec: 5540.71
 //
 [ok]
