@@ -70,7 +70,7 @@ makeblastdb -dbtype prot -in Swiss_Human/Swiss_human.fasta -parse_seqids
 
 Search with psiblast using the previously generated PSSM
 ```
-psiblast -in_pssm models/MSA_uniprot_model.pssm -db Swiss_Human/Swiss_human.fasta  -num_iterations 3 -evalue 0.001 > results/psiblast_out.txt
+psiblast -in_pssm models/MSA_uniprot_model.pssm -db Swiss_Human/Swiss_human.fasta  -num_iterations 1 -evalue 0.001 > results/psiblast_out.txt
 ```
 
 Search with hmmsearch using the previously generated HMM
