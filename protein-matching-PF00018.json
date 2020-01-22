@@ -1,1 +1,4628 @@
-[{"metadata":{"accession":"A1IGU5","name":"Rho guanine nucleotide exchange factor 37","source_database":"reviewed","length":675,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":608,"end":657,"dc-status":"CONTINUOUS"}]}],"protein_length":675,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"A1X283","name":"SH3 and PX domain-containing protein 2B","source_database":"reviewed","length":911,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":161,"end":203,"dc-status":"CONTINUOUS"}]},{"model_acc":null,"fragments":[{"start":228,"end":272,"dc-status":"CONTINUOUS"}]},{"model_acc":null,"fragments":[{"start":377,"end":419,"dc-status":"CONTINUOUS"}]}],"protein_length":911,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"A6NI72","name":"Putative neutrophil cytosol factor 1B","source_database":"reviewed","length":391,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":163,"end":208,"dc-status":"CONTINUOUS"}]},{"model_acc":null,"fragments":[{"start":233,"end":278,"dc-status":"CONTINUOUS"}]}],"protein_length":391,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"A8MVU1","name":"Putative neutrophil cytosol factor 1C","source_database":"reviewed","length":366,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":138,"end":183,"dc-status":"CONTINUOUS"}]},{"model_acc":null,"fragments":[{"start":208,"end":253,"dc-status":"CONTINUOUS"}]}],"protein_length":366,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"O15259","name":"Nephrocystin-1","source_database":"reviewed","length":732,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":158,"end":203,"dc-status":"CONTINUOUS"}]}],"protein_length":732,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":1,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"O43295","name":"SLIT-ROBO Rho GTPase-activating protein 3","source_database":"reviewed","length":1099,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":750,"end":795,"dc-status":"CONTINUOUS"}]}],"protein_length":1099,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"O43307","name":"Rho guanine nucleotide exchange factor 9","source_database":"reviewed","length":516,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":18,"end":59,"dc-status":"CONTINUOUS"}]}],"protein_length":516,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":1,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"O43639","name":"Cytoplasmic protein NCK2","source_database":"reviewed","length":380,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":8,"end":53,"dc-status":"CONTINUOUS"}]},{"model_acc":null,"fragments":[{"start":203,"end":249,"dc-status":"CONTINUOUS"}]}],"protein_length":380,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":5,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"O60504","name":"Vinexin","source_database":"reviewed","length":671,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":460,"end":507,"dc-status":"CONTINUOUS"}]}],"protein_length":671,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":1,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"O75044","name":"SLIT-ROBO Rho GTPase-activating protein 2","source_database":"reviewed","length":1071,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":734,"end":779,"dc-status":"CONTINUOUS"}]}],"protein_length":1071,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":3,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"O75563","name":"Src kinase-associated phosphoprotein 2","source_database":"reviewed","length":359,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":313,"end":349,"dc-status":"CONTINUOUS"}]}],"protein_length":359,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"O75791","name":"GRB2-related adapter protein 2","source_database":"reviewed","length":330,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":4,"end":48,"dc-status":"CONTINUOUS"}]},{"model_acc":null,"fragments":[{"start":277,"end":322,"dc-status":"CONTINUOUS"}]}],"protein_length":330,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"O75886","name":"Signal transducing adapter molecule 2","source_database":"reviewed","length":525,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":208,"end":253,"dc-status":"CONTINUOUS"}]}],"protein_length":525,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":2,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"O75962","name":"Triple functional domain protein","source_database":"reviewed","length":3097,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":1662,"end":1713,"dc-status":"CONTINUOUS"}]}],"protein_length":3097,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"O94868","name":"F-BAR and double SH3 domains protein 2","source_database":"reviewed","length":740,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":476,"end":521,"dc-status":"CONTINUOUS"}]}],"protein_length":740,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":1,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"O94875","name":"Sorbin and SH3 domain-containing protein 2","source_database":"reviewed","length":1100,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":869,"end":913,"dc-status":"CONTINUOUS"}]},{"model_acc":null,"fragments":[{"start":944,"end":991,"dc-status":"CONTINUOUS"}]}],"protein_length":1100,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":1,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P00519","name":"Tyrosine-protein kinase ABL1","source_database":"reviewed","length":1130,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":67,"end":113,"dc-status":"CONTINUOUS"}]}],"protein_length":1130,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":33,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P02549","name":"Spectrin alpha chain, erythrocytic 1","source_database":"reviewed","length":2419,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":984,"end":1028,"dc-status":"CONTINUOUS"}]}],"protein_length":2419,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P06239","name":"Tyrosine-protein kinase Lck","source_database":"reviewed","length":509,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":67,"end":112,"dc-status":"CONTINUOUS"}]}],"protein_length":509,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":6,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P06241","name":"Tyrosine-protein kinase Fyn","source_database":"reviewed","length":537,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":88,"end":135,"dc-status":"CONTINUOUS"}]}],"protein_length":537,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":23,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P07947","name":"Tyrosine-protein kinase Yes","source_database":"reviewed","length":543,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":97,"end":144,"dc-status":"CONTINUOUS"}]}],"protein_length":543,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":1,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P07948","name":"Tyrosine-protein kinase Lyn","source_database":"reviewed","length":512,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":69,"end":115,"dc-status":"CONTINUOUS"}]}],"protein_length":512,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":3,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P08631","name":"Tyrosine-protein kinase HCK","source_database":"reviewed","length":526,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":84,"end":130,"dc-status":"CONTINUOUS"}]}],"protein_length":526,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":35,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P09769","name":"Tyrosine-protein kinase Fgr","source_database":"reviewed","length":529,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":83,"end":130,"dc-status":"CONTINUOUS"}]}],"protein_length":529,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P12931","name":"Proto-oncogene tyrosine-protein kinase Src","source_database":"reviewed","length":536,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":90,"end":137,"dc-status":"CONTINUOUS"}]}],"protein_length":536,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":8,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P14317","name":"Hematopoietic lineage cell-specific protein","source_database":"reviewed","length":486,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":434,"end":479,"dc-status":"CONTINUOUS"}]}],"protein_length":486,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P14598","name":"Neutrophil cytosol factor 1","source_database":"reviewed","length":390,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":162,"end":207,"dc-status":"CONTINUOUS"}]},{"model_acc":null,"fragments":[{"start":232,"end":277,"dc-status":"CONTINUOUS"}]}],"protein_length":390,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":4,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P15498","name":"Proto-oncogene vav","source_database":"reviewed","length":845,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":617,"end":652,"dc-status":"CONTINUOUS"}]},{"model_acc":null,"fragments":[{"start":788,"end":834,"dc-status":"CONTINUOUS"}]}],"protein_length":845,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":2,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P16333","name":"Cytoplasmic protein NCK1","source_database":"reviewed","length":377,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":8,"end":53,"dc-status":"CONTINUOUS"}]},{"model_acc":null,"fragments":[{"start":196,"end":244,"dc-status":"CONTINUOUS"}]}],"protein_length":377,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":2,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P16885","name":"1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-2","source_database":"reviewed","length":1265,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":775,"end":821,"dc-status":"CONTINUOUS"}]}],"protein_length":1265,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":3,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P19174","name":"1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-1","source_database":"reviewed","length":1290,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":797,"end":843,"dc-status":"CONTINUOUS"}]}],"protein_length":1290,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":2,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P19878","name":"Neutrophil cytosol factor 2","source_database":"reviewed","length":526,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":246,"end":291,"dc-status":"CONTINUOUS"}]},{"model_acc":null,"fragments":[{"start":464,"end":508,"dc-status":"CONTINUOUS"}]}],"protein_length":526,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":2,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P20936","name":"Ras GTPase-activating protein 1","source_database":"reviewed","length":1047,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":285,"end":331,"dc-status":"CONTINUOUS"}]}],"protein_length":1047,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":5,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P41240","name":"Tyrosine-protein kinase CSK","source_database":"reviewed","length":450,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":15,"end":62,"dc-status":"CONTINUOUS"}]}],"protein_length":450,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":1,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P42679","name":"Megakaryocyte-associated tyrosine-protein kinase","source_database":"reviewed","length":507,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":64,"end":99,"dc-status":"CONTINUOUS"}]}],"protein_length":507,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":1,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P42680","name":"Tyrosine-protein kinase Tec","source_database":"reviewed","length":631,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":185,"end":231,"dc-status":"CONTINUOUS"}]}],"protein_length":631,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P42681","name":"Tyrosine-protein kinase TXK","source_database":"reviewed","length":527,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":88,"end":134,"dc-status":"CONTINUOUS"}]}],"protein_length":527,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P42684","name":"Tyrosine-protein kinase ABL2","source_database":"reviewed","length":1182,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":113,"end":159,"dc-status":"CONTINUOUS"}]}],"protein_length":1182,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":2,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P42685","name":"Tyrosine-protein kinase FRK","source_database":"reviewed","length":505,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":48,"end":88,"dc-status":"CONTINUOUS"}]}],"protein_length":505,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P46108","name":"Adapter molecule crk","source_database":"reviewed","length":304,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":138,"end":184,"dc-status":"CONTINUOUS"}]}],"protein_length":304,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":6,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P46109","name":"Crk-like protein","source_database":"reviewed","length":303,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":130,"end":175,"dc-status":"CONTINUOUS"}]}],"protein_length":303,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":2,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P51451","name":"Tyrosine-protein kinase Blk","source_database":"reviewed","length":505,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":64,"end":110,"dc-status":"CONTINUOUS"}]}],"protein_length":505,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P55345","name":"Protein arginine N-methyltransferase 2","source_database":"reviewed","length":433,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":36,"end":81,"dc-status":"CONTINUOUS"}]}],"protein_length":433,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":1,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P56945","name":"Breast cancer anti-estrogen resistance protein 1","source_database":"reviewed","length":870,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":9,"end":56,"dc-status":"CONTINUOUS"}]}],"protein_length":870,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":4,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P62993","name":"Growth factor receptor-bound protein 2","source_database":"reviewed","length":217,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":4,"end":50,"dc-status":"CONTINUOUS"}]},{"model_acc":null,"fragments":[{"start":162,"end":206,"dc-status":"CONTINUOUS"}]}],"protein_length":217,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":31,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P78352","name":"Disks large homolog 4","source_database":"reviewed","length":724,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":434,"end":490,"dc-status":"CONTINUOUS"}]}],"protein_length":724,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"P98171","name":"Rho GTPase-activating protein 4","source_database":"reviewed","length":946,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":752,"end":797,"dc-status":"CONTINUOUS"}]}],"protein_length":946,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":1,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q06187","name":"Tyrosine-protein kinase BTK","source_database":"reviewed","length":659,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":220,"end":266,"dc-status":"CONTINUOUS"}]}],"protein_length":659,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":3,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q08881","name":"Tyrosine-protein kinase ITK/TSK","source_database":"reviewed","length":620,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":177,"end":223,"dc-status":"CONTINUOUS"}]}],"protein_length":620,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":2,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q12929","name":"Epidermal growth factor receptor kinase substrate 8","source_database":"reviewed","length":822,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":539,"end":581,"dc-status":"CONTINUOUS"}]}],"protein_length":822,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q12959","name":"Disks large homolog 1","source_database":"reviewed","length":904,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":587,"end":643,"dc-status":"CONTINUOUS"}]}],"protein_length":904,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q12965","name":"Unconventional myosin-Ie","source_database":"reviewed","length":1108,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":1057,"end":1101,"dc-status":"CONTINUOUS"}]}],"protein_length":1108,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q13239","name":"Src-like-adapter","source_database":"reviewed","length":276,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":43,"end":73,"dc-status":"CONTINUOUS"}]}],"protein_length":276,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":1,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q13588","name":"GRB2-related adapter protein","source_database":"reviewed","length":217,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":4,"end":50,"dc-status":"CONTINUOUS"}]},{"model_acc":null,"fragments":[{"start":164,"end":208,"dc-status":"CONTINUOUS"}]}],"protein_length":217,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q13625","name":"Apoptosis-stimulating of p53 protein 2","source_database":"reviewed","length":1128,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":1064,"end":1110,"dc-status":"CONTINUOUS"}]}],"protein_length":1128,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":3,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q13813","name":"Spectrin alpha chain, non-erythrocytic 1","source_database":"reviewed","length":2472,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":974,"end":1018,"dc-status":"CONTINUOUS"}]}],"protein_length":2472,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":3,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q13882","name":"Protein-tyrosine kinase 6","source_database":"reviewed","length":451,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":16,"end":63,"dc-status":"CONTINUOUS"}]}],"protein_length":451,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":1,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q15080","name":"Neutrophil cytosol factor 4","source_database":"reviewed","length":339,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":177,"end":220,"dc-status":"CONTINUOUS"}]}],"protein_length":339,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":4,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q15642","name":"Cdc42-interacting protein 4","source_database":"reviewed","length":601,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":546,"end":593,"dc-status":"CONTINUOUS"}]}],"protein_length":601,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":1,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q15811","name":"Intersectin-1","source_database":"reviewed","length":1721,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":919,"end":963,"dc-status":"CONTINUOUS"}]},{"model_acc":null,"fragments":[{"start":1008,"end":1052,"dc-status":"CONTINUOUS"}]},{"model_acc":null,"fragments":[{"start":1163,"end":1206,"dc-status":"CONTINUOUS"}]}],"protein_length":1721,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":1,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q5HYK7","name":"SH3 domain-containing protein 19","source_database":"reviewed","length":790,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":501,"end":546,"dc-status":"CONTINUOUS"}]},{"model_acc":null,"fragments":[{"start":668,"end":712,"dc-status":"CONTINUOUS"}]}],"protein_length":790,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q5T0N5","name":"Formin-binding protein 1-like","source_database":"reviewed","length":605,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":544,"end":591,"dc-status":"CONTINUOUS"}]}],"protein_length":605,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q5TCZ1","name":"SH3 and PX domain-containing protein 2A","source_database":"reviewed","length":1133,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":175,"end":217,"dc-status":"CONTINUOUS"}]},{"model_acc":null,"fragments":[{"start":276,"end":317,"dc-status":"CONTINUOUS"}]},{"model_acc":null,"fragments":[{"start":463,"end":499,"dc-status":"CONTINUOUS"}]},{"model_acc":null,"fragments":[{"start":850,"end":891,"dc-status":"CONTINUOUS"}]}],"protein_length":1133,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":3,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q6XZF7","name":"Dynamin-binding protein","source_database":"reviewed","length":1577,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":8,"end":53,"dc-status":"CONTINUOUS"}]},{"model_acc":null,"fragments":[{"start":249,"end":293,"dc-status":"CONTINUOUS"}]},{"model_acc":null,"fragments":[{"start":1520,"end":1568,"dc-status":"CONTINUOUS"}]}],"protein_length":1577,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":6,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q7Z6B7","name":"SLIT-ROBO Rho GTPase-activating protein 1","source_database":"reviewed","length":1085,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":749,"end":794,"dc-status":"CONTINUOUS"}]}],"protein_length":1085,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q7Z6J0","name":"E3 ubiquitin-protein ligase SH3RF1","source_database":"reviewed","length":888,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":140,"end":185,"dc-status":"CONTINUOUS"}]},{"model_acc":null,"fragments":[{"start":202,"end":250,"dc-status":"CONTINUOUS"}]}],"protein_length":888,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q86UR1","name":"NADPH oxidase activator 1","source_database":"reviewed","length":476,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":405,"end":450,"dc-status":"CONTINUOUS"}]}],"protein_length":476,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q86WV1","name":"Src kinase-associated phosphoprotein 1","source_database":"reviewed","length":359,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":307,"end":346,"dc-status":"CONTINUOUS"}]}],"protein_length":359,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q8IZP0","name":"Abl interactor 1","source_database":"reviewed","length":508,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":452,"end":496,"dc-status":"CONTINUOUS"}]}],"protein_length":508,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q8N157","name":"Jouberin","source_database":"reviewed","length":1196,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":1057,"end":1103,"dc-status":"CONTINUOUS"}]}],"protein_length":1196,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":1,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q8N5V2","name":"Ephexin-1","source_database":"reviewed","length":710,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":621,"end":665,"dc-status":"CONTINUOUS"}]}],"protein_length":710,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q8NFA2","name":"NADPH oxidase organizer 1","source_database":"reviewed","length":376,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":247,"end":288,"dc-status":"CONTINUOUS"}]}],"protein_length":376,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q8TC17","name":"GRB2-related adapter protein-like","source_database":"reviewed","length":118,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":4,"end":50,"dc-status":"CONTINUOUS"}]}],"protein_length":118,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q8TE67","name":"Epidermal growth factor receptor kinase substrate 8-like protein 3","source_database":"reviewed","length":593,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":457,"end":501,"dc-status":"CONTINUOUS"}]}],"protein_length":593,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":1,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q8TE68","name":"Epidermal growth factor receptor kinase substrate 8-like protein 1","source_database":"reviewed","length":723,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":487,"end":528,"dc-status":"CONTINUOUS"}]}],"protein_length":723,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":2,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q8TE82","name":"SH3 domain and tetratricopeptide repeat-containing protein 1","source_database":"reviewed","length":1336,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":312,"end":358,"dc-status":"CONTINUOUS"}]}],"protein_length":1336,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q8TEC5","name":"E3 ubiquitin-protein ligase SH3RF2","source_database":"reviewed","length":729,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":206,"end":243,"dc-status":"CONTINUOUS"}]}],"protein_length":729,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q8TEJ3","name":"E3 ubiquitin-protein ligase SH3RF3","source_database":"reviewed","length":882,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":200,"end":245,"dc-status":"CONTINUOUS"}]},{"model_acc":null,"fragments":[{"start":262,"end":310,"dc-status":"CONTINUOUS"}]}],"protein_length":882,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q8TF17","name":"SH3 domain and tetratricopeptide repeat-containing protein 2","source_database":"reviewed","length":1288,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":274,"end":323,"dc-status":"CONTINUOUS"}]}],"protein_length":1288,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q92783","name":"Signal transducing adapter molecule 1","source_database":"reviewed","length":540,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":216,"end":261,"dc-status":"CONTINUOUS"}]}],"protein_length":540,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":1,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q92796","name":"Disks large homolog 3","source_database":"reviewed","length":817,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":507,"end":563,"dc-status":"CONTINUOUS"}]}],"protein_length":817,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q92882","name":"Osteoclast-stimulating factor 1","source_database":"reviewed","length":214,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":18,"end":63,"dc-status":"CONTINUOUS"}]}],"protein_length":214,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":4,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q96HL8","name":"SH3 domain-containing YSC84-like protein 1","source_database":"reviewed","length":342,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":289,"end":336,"dc-status":"CONTINUOUS"}]}],"protein_length":342,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":1,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q96HU1","name":"Small G protein signaling modulator 3","source_database":"reviewed","length":749,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":486,"end":531,"dc-status":"CONTINUOUS"}]}],"protein_length":749,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q96KQ4","name":"Apoptosis-stimulating of p53 protein 1","source_database":"reviewed","length":1090,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":1026,"end":1073,"dc-status":"CONTINUOUS"}]}],"protein_length":1090,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q96MF2","name":"SH3 and cysteine-rich domain-containing protein 3","source_database":"reviewed","length":364,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":253,"end":297,"dc-status":"CONTINUOUS"}]}],"protein_length":364,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q96N96","name":"Spermatogenesis-associated protein 13","source_database":"reviewed","length":652,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":154,"end":198,"dc-status":"CONTINUOUS"}]}],"protein_length":652,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q99469","name":"SH3 and cysteine-rich domain-containing protein","source_database":"reviewed","length":402,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":291,"end":336,"dc-status":"CONTINUOUS"}]}],"protein_length":402,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":2,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q99961","name":"Endophilin-A2","source_database":"reviewed","length":368,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":312,"end":356,"dc-status":"CONTINUOUS"}]}],"protein_length":368,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q9BRR9","name":"Rho GTPase-activating protein 9","source_database":"reviewed","length":750,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":29,"end":67,"dc-status":"CONTINUOUS"}]}],"protein_length":750,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q9BX66","name":"Sorbin and SH3 domain-containing protein 1","source_database":"reviewed","length":1292,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":873,"end":919,"dc-status":"CONTINUOUS"}]}],"protein_length":1292,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":7,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q9H6Q3","name":"Src-like-adapter 2","source_database":"reviewed","length":261,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":38,"end":83,"dc-status":"CONTINUOUS"}]}],"protein_length":261,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":1,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q9H6S3","name":"Epidermal growth factor receptor kinase substrate 8-like protein 2","source_database":"reviewed","length":715,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":500,"end":543,"dc-status":"CONTINUOUS"}]}],"protein_length":715,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":1,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q9H7D0","name":"Dedicator of cytokinesis protein 5","source_database":"reviewed","length":1870,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":14,"end":60,"dc-status":"CONTINUOUS"}]}],"protein_length":1870,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q9NR80","name":"Rho guanine nucleotide exchange factor 4","source_database":"reviewed","length":690,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":201,"end":245,"dc-status":"CONTINUOUS"}]}],"protein_length":690,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":3,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q9NZM3","name":"Intersectin-2","source_database":"reviewed","length":1697,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":987,"end":1031,"dc-status":"CONTINUOUS"}]},{"model_acc":null,"fragments":[{"start":1063,"end":1109,"dc-status":"CONTINUOUS"}]}],"protein_length":1697,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":3,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q9NZQ3","name":"NCK-interacting protein with SH3 domain","source_database":"reviewed","length":722,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":3,"end":49,"dc-status":"CONTINUOUS"}]}],"protein_length":722,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q9ULH1","name":"Arf-GAP with SH3 domain, ANK repeat and PH domain-containing protein 1","source_database":"reviewed","length":1129,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":1074,"end":1121,"dc-status":"CONTINUOUS"}]}],"protein_length":1129,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":3,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q9UNF0","name":"Protein kinase C and casein kinase substrate in neurons protein 2","source_database":"reviewed","length":486,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":432,"end":479,"dc-status":"CONTINUOUS"}]}],"protein_length":486,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":1,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q9XYM0","name":"Adapter molecule Crk","source_database":"reviewed","length":271,"source_organism":{"taxId":"7227","scientificName":"Drosophila melanogaster","fullName":"Drosophila melanogaster (Fruit fly)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":114,"end":158,"dc-status":"CONTINUOUS"}]}],"protein_length":271,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q9Y5K6","name":"CD2-associated protein","source_database":"reviewed","length":639,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":276,"end":321,"dc-status":"CONTINUOUS"}]}],"protein_length":639,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}},{"metadata":{"accession":"Q9Y5X1","name":"Sorting nexin-9","source_database":"reviewed","length":595,"source_organism":{"taxId":"9606","scientificName":"Homo sapiens","fullName":"Homo sapiens (Human)"}},"entries":[{"accession":"PF00018","entry_protein_locations":[{"model_acc":null,"fragments":[{"start":6,"end":54,"dc-status":"CONTINUOUS"}]}],"protein_length":595,"source_database":"pfam","entry_type":"domain","entry_integrated":"ipr001452"}],"extra_fields":{"counters":{"entries":1,"structures":0,"taxonomy":1,"proteome":1,"sets":1}}}]
+[
+  {
+    "metadata": {
+      "accession": "A1IGU5",
+      "name": "Rho guanine nucleotide exchange factor 37",
+      "source_database": "reviewed",
+      "length": 675,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 608,
+                "end": 657,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 675,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "A1X283",
+      "name": "SH3 and PX domain-containing protein 2B",
+      "source_database": "reviewed",
+      "length": 911,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 161,
+                "end": 203,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          },
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 228,
+                "end": 272,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          },
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 377,
+                "end": 419,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 911,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "A6NI72",
+      "name": "Putative neutrophil cytosol factor 1B",
+      "source_database": "reviewed",
+      "length": 391,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 163,
+                "end": 208,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          },
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 233,
+                "end": 278,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 391,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "A8MVU1",
+      "name": "Putative neutrophil cytosol factor 1C",
+      "source_database": "reviewed",
+      "length": 366,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 138,
+                "end": 183,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          },
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 208,
+                "end": 253,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 366,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "O15259",
+      "name": "Nephrocystin-1",
+      "source_database": "reviewed",
+      "length": 732,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 158,
+                "end": 203,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 732,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 1,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "O43295",
+      "name": "SLIT-ROBO Rho GTPase-activating protein 3",
+      "source_database": "reviewed",
+      "length": 1099,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 750,
+                "end": 795,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 1099,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "O43307",
+      "name": "Rho guanine nucleotide exchange factor 9",
+      "source_database": "reviewed",
+      "length": 516,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 18,
+                "end": 59,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 516,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 1,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "O43639",
+      "name": "Cytoplasmic protein NCK2",
+      "source_database": "reviewed",
+      "length": 380,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 8,
+                "end": 53,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          },
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 203,
+                "end": 249,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 380,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 5,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "O60504",
+      "name": "Vinexin",
+      "source_database": "reviewed",
+      "length": 671,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 460,
+                "end": 507,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 671,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 1,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "O75044",
+      "name": "SLIT-ROBO Rho GTPase-activating protein 2",
+      "source_database": "reviewed",
+      "length": 1071,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 734,
+                "end": 779,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 1071,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 3,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "O75563",
+      "name": "Src kinase-associated phosphoprotein 2",
+      "source_database": "reviewed",
+      "length": 359,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 313,
+                "end": 349,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 359,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "O75791",
+      "name": "GRB2-related adapter protein 2",
+      "source_database": "reviewed",
+      "length": 330,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 4,
+                "end": 48,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          },
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 277,
+                "end": 322,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 330,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "O75886",
+      "name": "Signal transducing adapter molecule 2",
+      "source_database": "reviewed",
+      "length": 525,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 208,
+                "end": 253,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 525,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 2,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "O75962",
+      "name": "Triple functional domain protein",
+      "source_database": "reviewed",
+      "length": 3097,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 1662,
+                "end": 1713,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 3097,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "O94868",
+      "name": "F-BAR and double SH3 domains protein 2",
+      "source_database": "reviewed",
+      "length": 740,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 476,
+                "end": 521,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 740,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 1,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "O94875",
+      "name": "Sorbin and SH3 domain-containing protein 2",
+      "source_database": "reviewed",
+      "length": 1100,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 869,
+                "end": 913,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          },
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 944,
+                "end": 991,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 1100,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 1,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P00519",
+      "name": "Tyrosine-protein kinase ABL1",
+      "source_database": "reviewed",
+      "length": 1130,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 67,
+                "end": 113,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 1130,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 33,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P02549",
+      "name": "Spectrin alpha chain, erythrocytic 1",
+      "source_database": "reviewed",
+      "length": 2419,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 984,
+                "end": 1028,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 2419,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P06239",
+      "name": "Tyrosine-protein kinase Lck",
+      "source_database": "reviewed",
+      "length": 509,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 67,
+                "end": 112,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 509,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 6,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P06241",
+      "name": "Tyrosine-protein kinase Fyn",
+      "source_database": "reviewed",
+      "length": 537,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 88,
+                "end": 135,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 537,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 23,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P07947",
+      "name": "Tyrosine-protein kinase Yes",
+      "source_database": "reviewed",
+      "length": 543,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 97,
+                "end": 144,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 543,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 1,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P07948",
+      "name": "Tyrosine-protein kinase Lyn",
+      "source_database": "reviewed",
+      "length": 512,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 69,
+                "end": 115,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 512,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 3,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P08631",
+      "name": "Tyrosine-protein kinase HCK",
+      "source_database": "reviewed",
+      "length": 526,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 84,
+                "end": 130,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 526,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 35,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P09769",
+      "name": "Tyrosine-protein kinase Fgr",
+      "source_database": "reviewed",
+      "length": 529,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 83,
+                "end": 130,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 529,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P12931",
+      "name": "Proto-oncogene tyrosine-protein kinase Src",
+      "source_database": "reviewed",
+      "length": 536,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 90,
+                "end": 137,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 536,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 8,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P14317",
+      "name": "Hematopoietic lineage cell-specific protein",
+      "source_database": "reviewed",
+      "length": 486,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 434,
+                "end": 479,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 486,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P14598",
+      "name": "Neutrophil cytosol factor 1",
+      "source_database": "reviewed",
+      "length": 390,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 162,
+                "end": 207,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          },
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 232,
+                "end": 277,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 390,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 4,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P15498",
+      "name": "Proto-oncogene vav",
+      "source_database": "reviewed",
+      "length": 845,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 617,
+                "end": 652,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          },
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 788,
+                "end": 834,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 845,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 2,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P16333",
+      "name": "Cytoplasmic protein NCK1",
+      "source_database": "reviewed",
+      "length": 377,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 8,
+                "end": 53,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          },
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 196,
+                "end": 244,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 377,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 2,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P16885",
+      "name": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-2",
+      "source_database": "reviewed",
+      "length": 1265,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 775,
+                "end": 821,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 1265,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 3,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P19174",
+      "name": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-1",
+      "source_database": "reviewed",
+      "length": 1290,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 797,
+                "end": 843,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 1290,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 2,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P19878",
+      "name": "Neutrophil cytosol factor 2",
+      "source_database": "reviewed",
+      "length": 526,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 246,
+                "end": 291,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          },
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 464,
+                "end": 508,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 526,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 2,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P20936",
+      "name": "Ras GTPase-activating protein 1",
+      "source_database": "reviewed",
+      "length": 1047,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 285,
+                "end": 331,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 1047,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 5,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P41240",
+      "name": "Tyrosine-protein kinase CSK",
+      "source_database": "reviewed",
+      "length": 450,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 15,
+                "end": 62,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 450,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 1,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P42679",
+      "name": "Megakaryocyte-associated tyrosine-protein kinase",
+      "source_database": "reviewed",
+      "length": 507,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 64,
+                "end": 99,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 507,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 1,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P42680",
+      "name": "Tyrosine-protein kinase Tec",
+      "source_database": "reviewed",
+      "length": 631,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 185,
+                "end": 231,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 631,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P42681",
+      "name": "Tyrosine-protein kinase TXK",
+      "source_database": "reviewed",
+      "length": 527,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 88,
+                "end": 134,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 527,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P42684",
+      "name": "Tyrosine-protein kinase ABL2",
+      "source_database": "reviewed",
+      "length": 1182,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 113,
+                "end": 159,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 1182,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 2,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P42685",
+      "name": "Tyrosine-protein kinase FRK",
+      "source_database": "reviewed",
+      "length": 505,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 48,
+                "end": 88,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 505,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P46108",
+      "name": "Adapter molecule crk",
+      "source_database": "reviewed",
+      "length": 304,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 138,
+                "end": 184,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 304,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 6,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P46109",
+      "name": "Crk-like protein",
+      "source_database": "reviewed",
+      "length": 303,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 130,
+                "end": 175,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 303,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 2,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P51451",
+      "name": "Tyrosine-protein kinase Blk",
+      "source_database": "reviewed",
+      "length": 505,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 64,
+                "end": 110,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 505,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P55345",
+      "name": "Protein arginine N-methyltransferase 2",
+      "source_database": "reviewed",
+      "length": 433,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 36,
+                "end": 81,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 433,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 1,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P56945",
+      "name": "Breast cancer anti-estrogen resistance protein 1",
+      "source_database": "reviewed",
+      "length": 870,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 9,
+                "end": 56,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 870,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 4,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P62993",
+      "name": "Growth factor receptor-bound protein 2",
+      "source_database": "reviewed",
+      "length": 217,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 4,
+                "end": 50,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          },
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 162,
+                "end": 206,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 217,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 31,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P78352",
+      "name": "Disks large homolog 4",
+      "source_database": "reviewed",
+      "length": 724,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 434,
+                "end": 490,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 724,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "P98171",
+      "name": "Rho GTPase-activating protein 4",
+      "source_database": "reviewed",
+      "length": 946,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 752,
+                "end": 797,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 946,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 1,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q06187",
+      "name": "Tyrosine-protein kinase BTK",
+      "source_database": "reviewed",
+      "length": 659,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 220,
+                "end": 266,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 659,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 3,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q08881",
+      "name": "Tyrosine-protein kinase ITK/TSK",
+      "source_database": "reviewed",
+      "length": 620,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 177,
+                "end": 223,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 620,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 2,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q12929",
+      "name": "Epidermal growth factor receptor kinase substrate 8",
+      "source_database": "reviewed",
+      "length": 822,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 539,
+                "end": 581,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 822,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q12959",
+      "name": "Disks large homolog 1",
+      "source_database": "reviewed",
+      "length": 904,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 587,
+                "end": 643,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 904,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q12965",
+      "name": "Unconventional myosin-Ie",
+      "source_database": "reviewed",
+      "length": 1108,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 1057,
+                "end": 1101,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 1108,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q13239",
+      "name": "Src-like-adapter",
+      "source_database": "reviewed",
+      "length": 276,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 43,
+                "end": 73,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 276,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 1,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q13588",
+      "name": "GRB2-related adapter protein",
+      "source_database": "reviewed",
+      "length": 217,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 4,
+                "end": 50,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          },
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 164,
+                "end": 208,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 217,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q13625",
+      "name": "Apoptosis-stimulating of p53 protein 2",
+      "source_database": "reviewed",
+      "length": 1128,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 1064,
+                "end": 1110,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 1128,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 3,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q13813",
+      "name": "Spectrin alpha chain, non-erythrocytic 1",
+      "source_database": "reviewed",
+      "length": 2472,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 974,
+                "end": 1018,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 2472,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 3,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q13882",
+      "name": "Protein-tyrosine kinase 6",
+      "source_database": "reviewed",
+      "length": 451,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 16,
+                "end": 63,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 451,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 1,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q15080",
+      "name": "Neutrophil cytosol factor 4",
+      "source_database": "reviewed",
+      "length": 339,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 177,
+                "end": 220,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 339,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 4,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q15642",
+      "name": "Cdc42-interacting protein 4",
+      "source_database": "reviewed",
+      "length": 601,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 546,
+                "end": 593,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 601,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 1,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q15811",
+      "name": "Intersectin-1",
+      "source_database": "reviewed",
+      "length": 1721,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 919,
+                "end": 963,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          },
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 1008,
+                "end": 1052,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          },
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 1163,
+                "end": 1206,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 1721,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 1,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q5HYK7",
+      "name": "SH3 domain-containing protein 19",
+      "source_database": "reviewed",
+      "length": 790,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 501,
+                "end": 546,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          },
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 668,
+                "end": 712,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 790,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q5T0N5",
+      "name": "Formin-binding protein 1-like",
+      "source_database": "reviewed",
+      "length": 605,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 544,
+                "end": 591,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 605,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q5TCZ1",
+      "name": "SH3 and PX domain-containing protein 2A",
+      "source_database": "reviewed",
+      "length": 1133,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 175,
+                "end": 217,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          },
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 276,
+                "end": 317,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          },
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 463,
+                "end": 499,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          },
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 850,
+                "end": 891,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 1133,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 3,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q6XZF7",
+      "name": "Dynamin-binding protein",
+      "source_database": "reviewed",
+      "length": 1577,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 8,
+                "end": 53,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          },
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 249,
+                "end": 293,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          },
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 1520,
+                "end": 1568,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 1577,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 6,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q7Z6B7",
+      "name": "SLIT-ROBO Rho GTPase-activating protein 1",
+      "source_database": "reviewed",
+      "length": 1085,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 749,
+                "end": 794,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 1085,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q7Z6J0",
+      "name": "E3 ubiquitin-protein ligase SH3RF1",
+      "source_database": "reviewed",
+      "length": 888,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 140,
+                "end": 185,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          },
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 202,
+                "end": 250,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 888,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q86UR1",
+      "name": "NADPH oxidase activator 1",
+      "source_database": "reviewed",
+      "length": 476,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 405,
+                "end": 450,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 476,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q86WV1",
+      "name": "Src kinase-associated phosphoprotein 1",
+      "source_database": "reviewed",
+      "length": 359,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 307,
+                "end": 346,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 359,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q8IZP0",
+      "name": "Abl interactor 1",
+      "source_database": "reviewed",
+      "length": 508,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 452,
+                "end": 496,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 508,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q8N157",
+      "name": "Jouberin",
+      "source_database": "reviewed",
+      "length": 1196,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 1057,
+                "end": 1103,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 1196,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 1,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q8N5V2",
+      "name": "Ephexin-1",
+      "source_database": "reviewed",
+      "length": 710,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 621,
+                "end": 665,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 710,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q8NFA2",
+      "name": "NADPH oxidase organizer 1",
+      "source_database": "reviewed",
+      "length": 376,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 247,
+                "end": 288,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 376,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q8TC17",
+      "name": "GRB2-related adapter protein-like",
+      "source_database": "reviewed",
+      "length": 118,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 4,
+                "end": 50,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 118,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q8TE67",
+      "name": "Epidermal growth factor receptor kinase substrate 8-like protein 3",
+      "source_database": "reviewed",
+      "length": 593,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 457,
+                "end": 501,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 593,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 1,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q8TE68",
+      "name": "Epidermal growth factor receptor kinase substrate 8-like protein 1",
+      "source_database": "reviewed",
+      "length": 723,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 487,
+                "end": 528,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 723,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 2,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q8TE82",
+      "name": "SH3 domain and tetratricopeptide repeat-containing protein 1",
+      "source_database": "reviewed",
+      "length": 1336,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 312,
+                "end": 358,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 1336,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q8TEC5",
+      "name": "E3 ubiquitin-protein ligase SH3RF2",
+      "source_database": "reviewed",
+      "length": 729,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 206,
+                "end": 243,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 729,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q8TEJ3",
+      "name": "E3 ubiquitin-protein ligase SH3RF3",
+      "source_database": "reviewed",
+      "length": 882,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 200,
+                "end": 245,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          },
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 262,
+                "end": 310,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 882,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q8TF17",
+      "name": "SH3 domain and tetratricopeptide repeat-containing protein 2",
+      "source_database": "reviewed",
+      "length": 1288,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 274,
+                "end": 323,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 1288,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q92783",
+      "name": "Signal transducing adapter molecule 1",
+      "source_database": "reviewed",
+      "length": 540,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 216,
+                "end": 261,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 540,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 1,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q92796",
+      "name": "Disks large homolog 3",
+      "source_database": "reviewed",
+      "length": 817,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 507,
+                "end": 563,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 817,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q92882",
+      "name": "Osteoclast-stimulating factor 1",
+      "source_database": "reviewed",
+      "length": 214,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 18,
+                "end": 63,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 214,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 4,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q96HL8",
+      "name": "SH3 domain-containing YSC84-like protein 1",
+      "source_database": "reviewed",
+      "length": 342,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 289,
+                "end": 336,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 342,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 1,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q96HU1",
+      "name": "Small G protein signaling modulator 3",
+      "source_database": "reviewed",
+      "length": 749,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 486,
+                "end": 531,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 749,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q96KQ4",
+      "name": "Apoptosis-stimulating of p53 protein 1",
+      "source_database": "reviewed",
+      "length": 1090,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 1026,
+                "end": 1073,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 1090,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q96MF2",
+      "name": "SH3 and cysteine-rich domain-containing protein 3",
+      "source_database": "reviewed",
+      "length": 364,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 253,
+                "end": 297,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 364,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q96N96",
+      "name": "Spermatogenesis-associated protein 13",
+      "source_database": "reviewed",
+      "length": 652,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 154,
+                "end": 198,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 652,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q99469",
+      "name": "SH3 and cysteine-rich domain-containing protein",
+      "source_database": "reviewed",
+      "length": 402,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 291,
+                "end": 336,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 402,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 2,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q99961",
+      "name": "Endophilin-A2",
+      "source_database": "reviewed",
+      "length": 368,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 312,
+                "end": 356,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 368,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q9BRR9",
+      "name": "Rho GTPase-activating protein 9",
+      "source_database": "reviewed",
+      "length": 750,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 29,
+                "end": 67,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 750,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q9BX66",
+      "name": "Sorbin and SH3 domain-containing protein 1",
+      "source_database": "reviewed",
+      "length": 1292,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 873,
+                "end": 919,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 1292,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 7,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q9H6Q3",
+      "name": "Src-like-adapter 2",
+      "source_database": "reviewed",
+      "length": 261,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 38,
+                "end": 83,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 261,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 1,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q9H6S3",
+      "name": "Epidermal growth factor receptor kinase substrate 8-like protein 2",
+      "source_database": "reviewed",
+      "length": 715,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 500,
+                "end": 543,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 715,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 1,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q9H7D0",
+      "name": "Dedicator of cytokinesis protein 5",
+      "source_database": "reviewed",
+      "length": 1870,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 14,
+                "end": 60,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 1870,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q9NR80",
+      "name": "Rho guanine nucleotide exchange factor 4",
+      "source_database": "reviewed",
+      "length": 690,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 201,
+                "end": 245,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 690,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 3,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q9NZM3",
+      "name": "Intersectin-2",
+      "source_database": "reviewed",
+      "length": 1697,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 987,
+                "end": 1031,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          },
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 1063,
+                "end": 1109,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 1697,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 3,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q9NZQ3",
+      "name": "NCK-interacting protein with SH3 domain",
+      "source_database": "reviewed",
+      "length": 722,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 3,
+                "end": 49,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 722,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q9ULH1",
+      "name": "Arf-GAP with SH3 domain, ANK repeat and PH domain-containing protein 1",
+      "source_database": "reviewed",
+      "length": 1129,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 1074,
+                "end": 1121,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 1129,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 3,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q9UNF0",
+      "name": "Protein kinase C and casein kinase substrate in neurons protein 2",
+      "source_database": "reviewed",
+      "length": 486,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 432,
+                "end": 479,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 486,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 1,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q9XYM0",
+      "name": "Adapter molecule Crk",
+      "source_database": "reviewed",
+      "length": 271,
+      "source_organism": {
+        "taxId": "7227",
+        "scientificName": "Drosophila melanogaster",
+        "fullName": "Drosophila melanogaster (Fruit fly)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 114,
+                "end": 158,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 271,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q9Y5K6",
+      "name": "CD2-associated protein",
+      "source_database": "reviewed",
+      "length": 639,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 276,
+                "end": 321,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 639,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  },
+  {
+    "metadata": {
+      "accession": "Q9Y5X1",
+      "name": "Sorting nexin-9",
+      "source_database": "reviewed",
+      "length": 595,
+      "source_organism": {
+        "taxId": "9606",
+        "scientificName": "Homo sapiens",
+        "fullName": "Homo sapiens (Human)"
+      }
+    },
+    "entries": [
+      {
+        "accession": "PF00018",
+        "entry_protein_locations": [
+          {
+            "model_acc": null,
+            "fragments": [
+              {
+                "start": 6,
+                "end": 54,
+                "dc-status": "CONTINUOUS"
+              }
+            ]
+          }
+        ],
+        "protein_length": 595,
+        "source_database": "pfam",
+        "entry_type": "domain",
+        "entry_integrated": "ipr001452"
+      }
+    ],
+    "extra_fields": {
+      "counters": {
+        "entries": 1,
+        "structures": 0,
+        "taxonomy": 1,
+        "proteome": 1,
+        "sets": 1
+      }
+    }
+  }
+]
