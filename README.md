@@ -79,3 +79,35 @@ hmmsearch --domtblout results/hmmsearch.hmmer_domtblout models/MSA_uniprot_model
 ```
 
 ##### c) "Evaluate the ability of retrieving proteins with that domain"
+
+
+## Domain family characterization
+
+### Dataset definitions
+
+The results are in the folder `Dataset`
+
+#### Original dataset
+
+We used the HMM to retrieve the proteins from the SwissProt human database
+
+#### Architecture dataset
+
+
+#### PDB network
+
+Starting from the original dataset we retrieved the PDB entries for each protein, we did the same thing for
+all the proteins present in the SwissProt database. Not all the human proteins in uniprot, because its rare to find
+a protein which has a PDB entry and it's not in SwissProt.
+
+We then added all the proteins not present in the original database which are found as other chains in the same PDB.
+
+The code is in `PDB_dataset.ipynb`
+
+#### STRING network
+
+From **string-db.org** we chosen the multiple sequences mode, then copied all the Uniprot id of the proteins in the original dataset in the form.
+Then we downloaded it in fasta format (`string_protein_sequences.fasta`), and then with `string_dataset.ipynb` we retrieved all the STRING ids and with `uniprot.org` we translated it into Uniprot ids.
+
+From uniprot we downloaded the proteins in fasta format `string_converted.fasta`. Finally with python we added all the new proteins not
+present in the original dataset that interact with one of the proteins in the original dataset.
