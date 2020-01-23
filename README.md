@@ -92,12 +92,14 @@ The results are in the folder `Dataset`
 We used the HMM to retrieve the proteins from the SwissProt human database
 
 #### Architecture dataset
+We retrieved Pfam domains of all human proteins in SwissProt from Uniprot, we then filtered the proteins matching the ones in our original dataset and created, for each possible domains combination, a new dataset containing the proteins made up by that combination.
 
+The code is in  `Architecture_datasets.ipynb`
 
 #### PDB network
 
 Starting from the original dataset we retrieved the PDB entries for each protein, we did the same thing for
-all the proteins present in the SwissProt database. Not all the human proteins in uniprot, because its rare to find
+all the proteins present in the SwissProt database. Not all the human proteins in Uniprot, because its rare to find
 a protein which has a PDB entry and it's not in SwissProt.
 
 We then added all the proteins not present in the original database which are found as other chains in the same PDB.
