@@ -1,0 +1,27 @@
+
+ **************************************************************************
+ *                        TM-align (Version 20190822)                     *
+ * An algorithm for protein structure alignment and comparison            *
+ * Based on statistics:                                                   *
+ *       0.0 < TM-score < 0.30, random structural similarity              *
+ *       0.5 < TM-score < 1.00, in about the same fold                    *
+ * Reference: Y Zhang and J Skolnick, Nucl Acids Res 33, 2302-9 (2005)    *
+ * Please email your comments and suggestions to: zhng@umich.edu          *
+ **************************************************************************
+
+Name of Chain_1: ./pdbPF00018/3nmz.pdb                             
+Name of Chain_2: ./pdbPF00018/2oj2.pdb                             
+Length of Chain_1:  406 residues
+Length of Chain_2:   86 residues
+
+Aligned length=   49, RMSD=   4.42, Seq_ID=n_identical/n_aligned= 0.041
+TM-score= 0.09255 (if normalized by length of Chain_1)
+TM-score= 0.28481 (if normalized by length of Chain_2)
+TM-score= 0.13818 (if normalized by average length of chains = 246.0)
+(You should use TM-score normalized by length of the reference protein)
+
+(":" denotes aligned residue pairs of d < 5.0 A, "." denotes other aligned residues)
+DKDDM-------SRTLLAMSSSQDSCISMRQSGCLPLLIQLLHGNDKDSVLSRGSKEARARASAALHNIIHSQPDDKRGRREIRVLHLLEQIRAYCETCWEWQEAHEPGMDQDKNPAPVEHQICPAVCVLMKLSFDEEHRHAMNELGGLQAIAELLQVDCEMYGLTNDHYSITLRRYAGMALTNLTFGDVANKATLCSMKGCMRALVAQLKSESEDLQQVIASVLRNLSWRADVNSKKTLREVGSVKALMECALE-----------VKKESTLKSV----LSALWNLSAHCTENKAD-ICAVDGALA--------------FLVGTLTYRSQTNTLAIIESGGGILRNVSSLIATNEDHRQILRENNCLQTLLQHLKSHSLTIVSNACGTLWNLSARNPKDQEALWDMGAVSMLKNLIHSKHKMIAMGSAAALRNLMANRPAK
+            .:  .                    .  : ::::                                                                                                                                                    :  .                                    :: ::::   ..                    .:::: ..      .:::  .           .  ..:.                :: ::               ::  ::: :                                       :::                                                   
+-----GPLGSPGPN--S--------------------H--N-SNTP----------------------------------------------------------------------------------------------------------------------------------------------------G--I------------------------------------RE-AGSE---DI---------IVVALYDYEAIHHEDL-SF--QKGDQMVV--L----------EE--SGEW--WKARSLATRKEGYIPS-NY---------------VA--RVD-S---------------------------------------LET---------------------------------------------------
+

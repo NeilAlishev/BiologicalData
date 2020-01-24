@@ -113,3 +113,8 @@ Then we downloaded it in fasta format (`string_protein_sequences.fasta`), and th
 
 From uniprot we downloaded the proteins in fasta format `string_converted.fasta`. Finally with python we added all the new proteins not
 present in the original dataset that interact with one of the proteins in the original dataset.
+
+
+#### Structural classification
+
+TODO
