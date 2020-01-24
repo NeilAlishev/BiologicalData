@@ -115,6 +115,6 @@ From uniprot we downloaded the proteins in fasta format `string_converted.fasta`
 present in the original dataset that interact with one of the proteins in the original dataset.
 
 
-#### Structural classification
+## Structural classification
 
 TODO
