@@ -17,11 +17,15 @@ if __name__ == '__main__':
     with open('datasets/do_files/do_depth.json', 'r') as f:
         do_depth = json.load(f)
 
-    with open('datasets/pdb.txt', 'r') as f:
+    with open('datasets/string.txt', 'r') as f:
         dataset = []
         for line in f:
             dataset.append(line[:-1])
 
+    with open('res/string_human/string_reference.txt', 'r') as f:
+        reference = []
+        for line in f:
+            reference.append(line[:-1])
 
     def DO_counts(dataset):
         term_counts = {}
@@ -33,29 +37,10 @@ if __name__ == '__main__':
         return term_counts
 
 
-    def pdb_in_swiss(annotated_humans):
-        pdb_human = pd.read_csv("res/pdb_chain_uniprot.csv")
-
-        pdb_human_swiss = set()
-        for uniprot_id in pdb_human['SP_PRIMARY']:
-            if uniprot_id in annotated_humans:
-                pdb_human_swiss.add(uniprot_id)
-        return pdb_human_swiss
-
-
-    fasta_sequences = SeqIO.parse(open('Swiss_Human/Swiss_human.fasta'), 'fasta')
-    human_proteins_swiss = []
-    for fasta in fasta_sequences:
-        name = fasta.id
-        proteins = name.split("|")[1]
-        human_proteins_swiss.append(proteins)
-
-    pdb_human_swiss = pdb_in_swiss(human_proteins_swiss)
-
     term_counts_dataset = DO_counts(dataset)
     num_do_dataset = sum(term_counts_dataset.values())
 
-    term_counts_reference = DO_counts(pdb_human_swiss)
+    term_counts_reference = DO_counts(reference)
     num_do_reference = sum(term_counts_reference.values())
 
     key_intersection = set(term_counts_dataset.keys()).intersection(term_counts_reference.keys())
@@ -100,6 +85,6 @@ if __name__ == '__main__':
     plt.imshow(wordcloud, interpolation="bilinear")
     plt.xticks([], [])
     plt.yticks([], [])
-    plt.savefig('plot/do/wordcloud_pdb.pdf')
+    plt.savefig('plot/do/wordcloud_STRING.pdf')
     plt.axis("off")
     plt.close()
