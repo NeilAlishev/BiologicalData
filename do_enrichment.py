@@ -6,27 +6,22 @@ from scipy.stats import fisher_exact
 from matplotlib import pyplot as plt
 from wordcloud import WordCloud
 
-if __name__ == '__main__':
+with open('datasets/do_files/enriched_do.json', 'r') as f:
+    enriched_do = json.load(f)
 
-    with open('datasets/do_files/enriched_do.json', 'r') as f:
-        enriched_do = json.load(f)
+with open('datasets/do_files/do_name.json', 'r') as f:
+    do_name = json.load(f)
 
-    with open('datasets/do_files/do_name.json', 'r') as f:
-        do_name = json.load(f)
+with open('datasets/do_files/do_depth.json', 'r') as f:
+    do_depth = json.load(f)
 
-    with open('datasets/do_files/do_depth.json', 'r') as f:
-        do_depth = json.load(f)
+with open('datasets/original.txt', 'r') as f:
+    dataset = []
+    for line in f:
+        dataset.append(line[:-1])
 
-    with open('datasets/string.txt', 'r') as f:
-        dataset = []
-        for line in f:
-            dataset.append(line[:-1])
 
-    with open('res/string_human/string_reference.txt', 'r') as f:
-        reference = []
-        for line in f:
-            reference.append(line[:-1])
-
+def enrichment(domain, uniprot_ids):
     def DO_counts(dataset):
         term_counts = {}
         for uniprot_id, do_ids in enriched_do.items():
@@ -36,15 +31,13 @@ if __name__ == '__main__':
                     term_counts[id] += 1
         return term_counts
 
-
-    term_counts_dataset = DO_counts(dataset)
+    term_counts_dataset = DO_counts(uniprot_ids)
     num_do_dataset = sum(term_counts_dataset.values())
 
-    term_counts_reference = DO_counts(reference)
+    term_counts_reference = DO_counts(dataset)
     num_do_reference = sum(term_counts_reference.values())
 
     key_intersection = set(term_counts_dataset.keys()).intersection(term_counts_reference.keys())
-
 
     # Measure enrichment performing a Fisher’s exact test (hypergeometric test).
     def p_value(do_terms_counter_dataset, num_do_dataset, do_terms_counter_human, num_do_human):
@@ -58,10 +51,9 @@ if __name__ == '__main__':
             p_values.setdefault(key, p_value)
         return p_values
 
-
     do_p_values = p_value(term_counts_dataset, num_do_dataset, term_counts_reference, num_do_reference)
     do_p_values = {k: v for k, v in sorted(do_p_values.items(), key=lambda item: item[1], reverse=False)}
-    do_p_values = dict(filter(lambda v: v[1] < 0.05, do_p_values.items()))
+    do_p_values = dict(filter(lambda v: v[1] < 0.1, do_p_values.items()))
 
     import numpy as np
 
@@ -73,11 +65,14 @@ if __name__ == '__main__':
 
     mean = np.mean([v[1] for v in do_p_values.values()])
 
-    do_p_values = dict(filter(lambda v: v[1][1] <= 5, do_p_values.items()))
+    # do_p_values = dict(filter(lambda v: v[1][1] <= mean, do_p_values.items()))
 
     do_labeled_enriched = {}
     for k, v in do_p_values.items():
         do_labeled_enriched.setdefault(do_name[k], int(np.log(1 / v[0])))
+
+    if len(do_labeled_enriched) == 0:
+        do_labeled_enriched.setdefault("None", 1)
 
     wordcloud = WordCloud(max_font_size=200, max_words=289, width=3000, height=3000, background_color="white", scale=4)
     wordcloud.generate_from_frequencies(do_labeled_enriched)
@@ -85,6 +80,16 @@ if __name__ == '__main__':
     plt.imshow(wordcloud, interpolation="bilinear")
     plt.xticks([], [])
     plt.yticks([], [])
-    plt.savefig('plot/do/wordcloud_STRING.pdf')
+    plt.savefig('plot/do/wordcloud_architecture_{}.pdf'.format(domain))
     plt.axis("off")
     plt.close()
+
+
+# some JSON:
+with open('datasets/architecture_datasets.json') as json_file:
+    data: dict = json.loads(json_file.read())
+
+for k, v in data.items():
+    k = k.replace(', ', '\\')
+    k = k.replace(' ', '_')
+    enrichment(k, v)
