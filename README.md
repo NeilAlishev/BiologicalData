@@ -117,4 +117,14 @@ present in the original dataset that interact with one of the proteins in the or
 
 ## Structural classification
 
-TODO
+"Provide a statistics about the CATH architectures mapping to your domain."
+
+We went to CATH db and searched for our domain - PF00018. We found out that our domain is formed by one architecture - Roll (CATH ID: 2.30). Apart from our domain, this acrhiteture is also present in 9827 other domains.
+
+"Retrieve all PDBs covering your domain (if any) and evaluate their structural similarity."
+
+We retrieved from PDB all structures that cover our domain (PF00018) and that belong to Homo Sapiens organism. 128 such structures were found and downloaded as .pdb files.
+Then we've created a script which performs all-vs-all structural alignment using TM-align command line software.
+This resulted in 8128 alignment files. Then, we retrieved TM-score (normalized by average length of chains) from each of these files and constructed 2D distance matrix for all pairs of structures.
+From this 2D matrix we created 2 dendograms using 2 methods - Nearest point algorithm and UPGMA.
+All results can be found in folder pdb_structural_similarity (file TMAlign.ipynb).
